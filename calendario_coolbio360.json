@@ -1,1 +1,97 @@
-[]
+[
+  {
+    "id": "cb001",
+    "data": "2026-10-12",
+    "ora": "21:30",
+    "tipo": "carosello",
+    "tema": "Chef",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/chef01/coolbio360_chef01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/chef01/coolbio360_chef01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/chef01/coolbio360_chef01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/chef01/coolbio360_chef01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/chef01/coolbio360_chef01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/chef01/coolbio360_chef01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/chef01/coolbio360_chef01_07.jpg"
+    ],
+    "didascalia": "The 5 best chef bios on Instagram right now 👨‍🍳\n\nSmall accounts, big personality. All under 600 followers, ranked by our editors.\n\nNo.1 @emiliamadedinner\nNo.2 @lenaleonardchef\nNo.3 @doliveirachef_\nNo.4 @privatechefberlin\nNo.5 @private_chef_london_\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #privatechef #personalchef #chefsofinstagram #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best chef bios on Instagram right now 👨‍🍳",
+    "nota": "pubblicazione manuale stasera dopo ok di Matteo"
+  },
+  {
+    "id": "cb002",
+    "data": "2026-10-13",
+    "ora": "06:00",
+    "tipo": "carosello",
+    "tema": "Microbakeries",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/microbakery01/coolbio360_microbakery01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/microbakery01/coolbio360_microbakery01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/microbakery01/coolbio360_microbakery01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/microbakery01/coolbio360_microbakery01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/microbakery01/coolbio360_microbakery01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/microbakery01/coolbio360_microbakery01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/microbakery01/coolbio360_microbakery01_07.jpg"
+    ],
+    "didascalia": "The 5 best micro bakery bios on Instagram right now 🥖\n\nSourdough, small batches and a lot of heart. All under 600 followers, ranked by our editors.\n\nNo.1 @thesourdoughsubscription\nNo.2 @breadstory.club\nNo.3 @cinnamonandsourdough\nNo.4 @bmb.microbakery\nNo.5 @mandymakesthat\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #microbakery #sourdough #homebakery #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best micro bakery bios on Instagram right now 🥖",
+    "nota": ""
+  },
+  {
+    "id": "cb003",
+    "data": "2026-10-13",
+    "ora": "12:00",
+    "tipo": "carosello",
+    "tema": "Fine line tattoo",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/tattoo01/coolbio360_tattoo01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/tattoo01/coolbio360_tattoo01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/tattoo01/coolbio360_tattoo01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/tattoo01/coolbio360_tattoo01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/tattoo01/coolbio360_tattoo01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/tattoo01/coolbio360_tattoo01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/tattoo01/coolbio360_tattoo01_07.jpg"
+    ],
+    "didascalia": "The 5 best fine line tattoo bios on Instagram right now ✒️\n\nDelicate work, sharp bios. All under 600 followers, ranked by our editors.\n\nNo.1 @sokyo_ink\nNo.2 @sigitastattoo\nNo.3 @inkby.melxp\nNo.4 @star_ink28\nNo.5 @shb_fineline_tattoo_artist_\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #finelinetattoo #tattooartist #botanicaltattoo #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best fine line tattoo bios on Instagram right now ✒️",
+    "nota": ""
+  },
+  {
+    "id": "cb004",
+    "data": "2026-10-13",
+    "ora": "18:00",
+    "tipo": "carosello",
+    "tema": "Ceramics",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_07.jpg"
+    ],
+    "didascalia": "The 5 best pottery bios on Instagram right now 🏺\n\nHandmade pots, handmade words. All under 600 followers, ranked by our editors.\n\nNo.1 @wonkypots__\nNo.2 @kiln_studio_\nNo.3 @thrownbyhill\nNo.4 @oddball_ceramics\nNo.5 @keab.clay\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #ceramics #pottery #handmadepottery #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best pottery bios on Instagram right now 🏺",
+    "nota": ""
+  },
+  {
+    "id": "cb005",
+    "data": "2026-10-14",
+    "ora": "06:00",
+    "tipo": "carosello",
+    "tema": "Dog groomers",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_07.jpg"
+    ],
+    "didascalia": "The 5 best dog groomer bios on Instagram right now 🐩\n\nFresh cuts and clever lines. All under 600 followers, ranked by our editors.\n\nNo.1 @groomingvango\nNo.2 @pawshgroomingandstay\nNo.3 @fur.real.grooming\nNo.4 @thepamperpuphouse\nNo.5 @groomwithaviewelgin\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #doggrooming #doggroomer #petgrooming #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best dog groomer bios on Instagram right now 🐩",
+    "nota": ""
+  }
+]
