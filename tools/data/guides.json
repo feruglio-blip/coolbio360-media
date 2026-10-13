@@ -1,0 +1,12 @@
+[{"slug":"score01","tag":"COOL SCORE","kicker":"THE GUIDE · 01","accent":"#F5C542","emoji":"📏",
+ "t1":"How We","t2":"Score Bios","t3":"the Cool Score, explained",
+ "sub":"Four criteria, ten points. The exact rubric behind every list we publish.",
+ "criteria":[["3","Personality","Does it sound like a person?"],["3","Clarity","Do we get it in 3 seconds?"],["2","Call to action","Do we know what to do next?"],["2","Details","Emoji, links, line breaks, no typos."]],
+ "overview_line":"A 9+ is rare. Most great bios lose points on one thing only.",
+ "criteria_detail":[
+  {"name":"Personality","pts":3,"h":"honeybeecrochetstudio","question":"Does it sound like a real person wrote it?","rules":[["+","A line only you could have written"],["+","Humour, attitude or a tiny story"],["−","Generic adjectives: passionate, quality, best"]],"why":"SELF IRONY, INSTANT CHARM"},
+  {"name":"Clarity","pts":3,"h":"curlsbyeightysixed","question":"Do we know what you do in three seconds?","rules":[["+","Say what you do in the first line"],["+","One niche beats five services"],["−","Vague taglines with no job in them"]],"why":"THREE WORDS, TOTAL CLARITY"},
+  {"name":"Call to action","pts":2,"h":"rabbottinteriors","question":"Do we know exactly what to do next?","rules":[["+","One clear action: book, shop, DM"],["+","A keyword DM makes it effortless"],["−","Three links and no instruction"]],"why":"DM “DESIGN”. DONE."},
+  {"name":"Details","pts":2,"h":"thesoapbubblehaus","question":"Is it clean, scannable and typo free?","rules":[["+","Short lines, one idea per line"],["+","Emoji as signposts, not decoration"],["−","Typos, walls of text, personal email"]],"why":"FOUR CLEAN LINES"}],
+ "end_line":"Run your bio through the checklist.",
+ "checklist":["Would a friend recognise your voice?","Is your job in the first line?","Is there one clear next step?","Short lines, zero typos?"]}]

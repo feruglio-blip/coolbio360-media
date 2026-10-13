@@ -81,4 +81,4 @@ async def main(only=None):
                 os.makedirs(T+"/out",exist_ok=True); out=f"{T}/out/coolbio360_{c['slug']}_{i:02d}.jpg"
                 await pg.screenshot(path=out,type='jpeg',quality=92,clip={'x':0,'y':0,'width':1080,'height':1350}); print(out)
         await b.close()
-asyncio.run(main(sys.argv[1:] or None))
+if __name__=="__main__": asyncio.run(main(sys.argv[1:] or None))
