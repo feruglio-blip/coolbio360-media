@@ -1,31 +1,260 @@
 [
-{"slug":"chef01","tag":"CHEFS","accent":"#FF7A3D","next":["Bakery Bios","🥖","#FF7DB4"]},
-{"slug":"microbakery01","vol":"02","tag":"MICROBAKERIES","accent":"#FF7DB4","emoji":"🥖","title":"Bakery Bios","single":"Bakery Bio","sub":"Micro bakeries under 600 followers.","next":["Tattoo Bios","✒️","#A06BFF"],
- "people":[
- {"rank":5,"h":"mandymakesthat","score":"7.9","emoji":"🥘","cat":"Family meals, Sherwood Park","str":"Track record, clear menu cue","v":"Founded in 2010 and still feeding the town."},
- {"rank":4,"h":"bmb.microbakery","score":"8.3","emoji":"🎂","cat":"Micro bakery, Turin","str":"Bilingual, poetic hook","v":"Two languages, one story. Short and sweet."},
- {"rank":3,"h":"cinnamonandsourdough","score":"8.6","emoji":"🌾","cat":"Micro bakery, Park Village","str":"Slow-food tone, pre-order cue","v":"Small batches, slow ferment. You can smell it."},
- {"rank":2,"h":"breadstory.club","score":"8.9","emoji":"🧺","cat":"Home sourdough, Vaughan","str":"Three ingredients, order link","v":"Wheat, water and salt. Honesty as a brand."},
- {"rank":1,"h":"thesourdoughsubscription","score":"9.3","cat":"Sourdough subscriptions, Alberta","str":"Warm persona, clear offer","v":"“Your neighbourhood bread lady.” Instantly human.","congrats":"CONGRATULATIONS, BRIGITTA"}]},
-{"slug":"tattoo01","vol":"03","tag":"FINE LINE","accent":"#A06BFF","emoji":"✒️","title":"Tattoo Bios","single":"Tattoo Bio","sub":"Fine line artists under 600 followers.","next":["Pottery Bios","🏺","#FFC233"],
- "people":[
- {"rank":5,"h":"shb_fineline_tattoo_artist_","score":"7.7","emoji":"🌸","cat":"Fine line and SPMU, Clogher","str":"Clear niche, full service","v":"Everything under one roof, said plainly."},
- {"rank":4,"h":"star_ink28","score":"8.0","emoji":"✨","cat":"Fine line, Milton Keynes","str":"Craft, place, name in one line","v":"One line does all the work."},
- {"rank":3,"h":"inkby.melxp","score":"8.5","emoji":"😈","cat":"Illustrative apprentice, California","str":"Honest stage, personality","v":"An apprentice who owns the journey."},
- {"rank":2,"h":"sigitastattoo","score":"8.8","emoji":"🌿","cat":"Fine line, London","str":"Keyword DM, reply time","v":"DM “BOOK”, reply in 2h. Booking made easy."},
- {"rank":1,"h":"sokyo_ink","score":"9.3","cat":"Botanical fine line, UK","str":"Credentials, story, booking","v":"From a botanic garden to your skin.","congrats":"CONGRATULATIONS, @SOKYO_INK"}]},
-{"slug":"ceramics01","vol":"04","tag":"CERAMICS","accent":"#FFC233","emoji":"🏺","title":"Pottery Bios","single":"Pottery Bio","sub":"Independent potters under 600 followers.","next":["Groomer Bios","🐩","#33CCFF"],
- "people":[
- {"rank":5,"h":"keab.clay","score":"8.0","emoji":"☕","cat":"Wheel thrown mugs, UK","str":"One product, custom offer","v":"One product, done right. Custom glaze by DM."},
- {"rank":4,"h":"oddball_ceramics","score":"8.4","emoji":"🎨","cat":"Hand painted, Byron Hinterland","str":"Clear promise, maker credit","v":"No molds, no repeats. A promise in four words."},
- {"rank":3,"h":"thrownbyhill","score":"8.7","emoji":"🌀","cat":"Wheel thrown pottery, Wirral","str":"Honest progress story","v":"One Monday class at a time. Easy to root for."},
- {"rank":2,"h":"kiln_studio_","score":"9.0","emoji":"🕯️","cat":"Small batch ceramics, Australia","str":"Positioning, calm tone","v":"Objects for everyday rituals. Pure positioning."},
- {"rank":1,"h":"wonkypots__","score":"9.4","cat":"Handmade pottery, UK","str":"Self irony, catalogue cue","v":"“Because I can’t do normal.” A brand in one joke.","congrats":"CONGRATULATIONS, WONKY POTS"}]},
-{"slug":"dogs01","vol":"05","tag":"DOG GROOMERS","accent":"#33CCFF","emoji":"🐩","title":"Groomer Bios","single":"Groomer Bio","sub":"Dog groomers under 600 followers.","next":["Barber Bios","💈","#4D86FF"],
- "people":[
- {"rank":5,"h":"groomwithaviewelgin","score":"7.9","emoji":"🐶","cat":"Dog groomer, Elgin","str":"Qualified, all breeds, DM cue","v":"Every essential, nothing extra."},
- {"rank":4,"h":"thepamperpuphouse","score":"8.2","emoji":"🛁","cat":"Grooming, Southern Highlands","str":"Warm tagline, local areas","v":"Every pup deserves it. So does this bio."},
- {"rank":3,"h":"fur.real.grooming","score":"8.5","emoji":"✂️","cat":"Dog and cat stylist, Missouri","str":"20 years, pun handle","v":"Fur real: a pun with 20 years behind it."},
- {"rank":2,"h":"pawshgroomingandstay","score":"8.9","emoji":"🐾","cat":"Brazilian grooming, Jarrow","str":"Unique angle, tidy list","v":"Brazilian grooming in Jarrow. Nobody else says that."},
- {"rank":1,"h":"groomingvango","score":"9.5","cat":"Mobile pet spa, West Virginia","str":"Wordplay, clear service","v":"“Sit. Stay. We’ll roll over to you.”","congrats":"CONGRATULATIONS, VAN-GO"}]}
+ {
+  "slug": "chef01",
+  "tag": "CHEFS",
+  "accent": "#FF7A3D",
+  "next": [
+   "Bakery Bios",
+   "🥖",
+   "#FF7DB4"
+  ]
+ },
+ {
+  "slug": "microbakery01",
+  "vol": "02",
+  "tag": "MICROBAKERIES",
+  "accent": "#FF7DB4",
+  "emoji": "🥖",
+  "title": "Bakery Bios",
+  "single": "Bakery Bio",
+  "sub": "Micro bakeries under 600 followers.",
+  "next": [
+   "Tattoo Bios",
+   "✒️",
+   "#A06BFF"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "mandymakesthat",
+    "score": "7.9",
+    "emoji": "🥘",
+    "cat": "Family meals, Sherwood Park",
+    "str": "Track record, clear menu cue",
+    "v": "Founded in 2010 and still feeding the town."
+   },
+   {
+    "rank": 4,
+    "h": "bmb.microbakery",
+    "score": "8.3",
+    "emoji": "🎂",
+    "cat": "Micro bakery, Turin",
+    "str": "Bilingual, poetic hook",
+    "v": "Two languages, one story. Short and sweet."
+   },
+   {
+    "rank": 3,
+    "h": "cinnamonandsourdough",
+    "score": "8.6",
+    "emoji": "🌾",
+    "cat": "Micro bakery, Park Village",
+    "str": "Slow-food tone, pre-order cue",
+    "v": "Small batches, slow ferment. You can smell it."
+   },
+   {
+    "rank": 2,
+    "h": "breadstory.club",
+    "score": "8.9",
+    "emoji": "🧺",
+    "cat": "Home sourdough, Vaughan",
+    "str": "Three ingredients, order link",
+    "v": "Wheat, water and salt. Honesty as a brand."
+   },
+   {
+    "rank": 1,
+    "h": "thesourdoughsubscription",
+    "score": "9.3",
+    "cat": "Sourdough subscriptions, Alberta",
+    "str": "Warm persona, clear offer",
+    "v": "“Your neighbourhood bread lady.” Instantly human.",
+    "congrats": "CONGRATULATIONS, BRIGITTA"
+   }
+  ]
+ },
+ {
+  "slug": "tattoo01",
+  "vol": "03",
+  "tag": "FINE LINE",
+  "accent": "#A06BFF",
+  "emoji": "✒️",
+  "title": "Tattoo Bios",
+  "single": "Tattoo Bio",
+  "sub": "Fine line artists under 600 followers.",
+  "next": [
+   "Pottery Bios",
+   "🏺",
+   "#FFC233"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "shb_fineline_tattoo_artist_",
+    "score": "7.7",
+    "emoji": "🌸",
+    "cat": "Fine line and SPMU, Clogher",
+    "str": "Clear niche, full service",
+    "v": "Everything under one roof, said plainly."
+   },
+   {
+    "rank": 4,
+    "h": "star_ink28",
+    "score": "8.0",
+    "emoji": "✨",
+    "cat": "Fine line, Milton Keynes",
+    "str": "Craft, place, name in one line",
+    "v": "One line does all the work."
+   },
+   {
+    "rank": 3,
+    "h": "inkby.melxp",
+    "score": "8.5",
+    "emoji": "😈",
+    "cat": "Illustrative apprentice, California",
+    "str": "Honest stage, personality",
+    "v": "An apprentice who owns the journey."
+   },
+   {
+    "rank": 2,
+    "h": "sigitastattoo",
+    "score": "8.8",
+    "emoji": "🌿",
+    "cat": "Fine line, London",
+    "str": "Keyword DM, reply time",
+    "v": "DM “BOOK”, reply in 2h. Booking made easy."
+   },
+   {
+    "rank": 1,
+    "h": "sokyo_ink",
+    "score": "9.3",
+    "cat": "Botanical fine line, UK",
+    "str": "Credentials, story, booking",
+    "v": "From a botanic garden to your skin.",
+    "congrats": "CONGRATULATIONS, @SOKYO_INK"
+   }
+  ]
+ },
+ {
+  "slug": "ceramics01",
+  "vol": "04",
+  "tag": "CERAMICS",
+  "accent": "#FFC233",
+  "emoji": "🏺",
+  "title": "Pottery Bios",
+  "single": "Pottery Bio",
+  "sub": "Independent potters under 600 followers.",
+  "next": [
+   "Plant Bios",
+   "🪴",
+   "#3DDC84"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "keab.clay",
+    "score": "8.0",
+    "emoji": "☕",
+    "cat": "Wheel thrown mugs, UK",
+    "str": "One product, custom offer",
+    "v": "One product, done right. Custom glaze by DM."
+   },
+   {
+    "rank": 4,
+    "h": "oddball_ceramics",
+    "score": "8.4",
+    "emoji": "🎨",
+    "cat": "Hand painted, Byron Hinterland",
+    "str": "Clear promise, maker credit",
+    "v": "No molds, no repeats. A promise in four words."
+   },
+   {
+    "rank": 3,
+    "h": "thrownbyhill",
+    "score": "8.7",
+    "emoji": "🌀",
+    "cat": "Wheel thrown pottery, Wirral",
+    "str": "Honest progress story",
+    "v": "One Monday class at a time. Easy to root for."
+   },
+   {
+    "rank": 2,
+    "h": "kiln_studio_",
+    "score": "9.0",
+    "emoji": "🕯️",
+    "cat": "Small batch ceramics, Australia",
+    "str": "Positioning, calm tone",
+    "v": "Objects for everyday rituals. Pure positioning."
+   },
+   {
+    "rank": 1,
+    "h": "wonkypots__",
+    "score": "9.4",
+    "cat": "Handmade pottery, UK",
+    "str": "Self irony, catalogue cue",
+    "v": "“Because I can’t do normal.” A brand in one joke.",
+    "congrats": "CONGRATULATIONS, WONKY POTS"
+   }
+  ]
+ },
+ {
+  "slug": "dogs01",
+  "vol": "05",
+  "tag": "DOG GROOMERS",
+  "accent": "#33CCFF",
+  "emoji": "🐩",
+  "title": "Groomer Bios",
+  "single": "Groomer Bio",
+  "sub": "Dog groomers under 600 followers.",
+  "next": [
+   "Pet Sitter Bios",
+   "🐕",
+   "#33CCFF"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "groomwithaviewelgin",
+    "score": "7.9",
+    "emoji": "🐶",
+    "cat": "Dog groomer, Elgin",
+    "str": "Qualified, all breeds, DM cue",
+    "v": "Every essential, nothing extra."
+   },
+   {
+    "rank": 4,
+    "h": "thepamperpuphouse",
+    "score": "8.2",
+    "emoji": "🛁",
+    "cat": "Grooming, Southern Highlands",
+    "str": "Warm tagline, local areas",
+    "v": "Every pup deserves it. So does this bio."
+   },
+   {
+    "rank": 3,
+    "h": "fur.real.grooming",
+    "score": "8.5",
+    "emoji": "✂️",
+    "cat": "Dog and cat stylist, Missouri",
+    "str": "20 years, pun handle",
+    "v": "Fur real: a pun with 20 years behind it."
+   },
+   {
+    "rank": 2,
+    "h": "pawshgroomingandstay",
+    "score": "8.9",
+    "emoji": "🐾",
+    "cat": "Brazilian grooming, Jarrow",
+    "str": "Unique angle, tidy list",
+    "v": "Brazilian grooming in Jarrow. Nobody else says that."
+   },
+   {
+    "rank": 1,
+    "h": "groomingvango",
+    "score": "9.5",
+    "cat": "Mobile pet spa, West Virginia",
+    "str": "Wordplay, clear service",
+    "v": "“Sit. Stay. We’ll roll over to you.”",
+    "congrats": "CONGRATULATIONS, VAN-GO"
+   }
+  ]
+ }
 ]

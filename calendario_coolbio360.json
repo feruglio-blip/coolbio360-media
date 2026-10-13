@@ -99,131 +99,9 @@
     ]
   },
   {
-    "id": "cb004",
+    "id": "cb006",
     "data": "2026-10-13",
     "ora": "18:00",
-    "tipo": "carosello",
-    "tema": "Ceramics",
-    "immagini": [
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_01.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_02.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_03.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_04.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_05.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_06.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_07.jpg"
-    ],
-    "didascalia": "The 5 best pottery bios on Instagram right now 🏺\n\nHandmade pots, handmade words. All under 600 followers, ranked by our editors.\n\nNo.1 @wonkypots__\nNo.2 @kiln_studio_\nNo.3 @thrownbyhill\nNo.4 @oddball_ceramics\nNo.5 @keab.clay\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #ceramics #pottery #handmadepottery #smallbusiness #branding #coolbio360",
-    "prima_riga": "The 5 best pottery bios on Instagram right now 🏺",
-    "nota": "",
-    "user_tags": [
-      [],
-      [
-        {
-          "username": "keab.clay",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "oddball_ceramics",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "thrownbyhill",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "kiln_studio_",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "wonkypots__",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      []
-    ],
-    "collaboratori": [
-      "wonkypots__"
-    ]
-  },
-  {
-    "id": "cb005",
-    "data": "2026-10-14",
-    "ora": "06:00",
-    "tipo": "carosello",
-    "tema": "Dog groomers",
-    "immagini": [
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_01.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_02.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_03.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_04.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_05.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_06.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_07.jpg"
-    ],
-    "didascalia": "The 5 best dog groomer bios on Instagram right now 🐩\n\nFresh cuts and clever lines. All under 600 followers, ranked by our editors.\n\nNo.1 @groomingvango\nNo.2 @pawshgroomingandstay\nNo.3 @fur.real.grooming\nNo.4 @thepamperpuphouse\nNo.5 @groomwithaviewelgin\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #doggrooming #doggroomer #petgrooming #smallbusiness #branding #coolbio360",
-    "prima_riga": "The 5 best dog groomer bios on Instagram right now 🐩",
-    "nota": "",
-    "user_tags": [
-      [],
-      [
-        {
-          "username": "groomwithaviewelgin",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "thepamperpuphouse",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "fur.real.grooming",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "pawshgroomingandstay",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "groomingvango",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      []
-    ],
-    "collaboratori": [
-      "groomingvango"
-    ]
-  },
-  {
-    "id": "cb006",
-    "data": "2026-10-14",
-    "ora": "12:00",
     "tipo": "carosello",
     "tema": "Barbers",
     "immagini": [
@@ -284,7 +162,7 @@
   {
     "id": "cb007",
     "data": "2026-10-14",
-    "ora": "18:00",
+    "ora": "06:00",
     "tipo": "carosello",
     "tema": "Florists",
     "immagini": [
@@ -344,8 +222,8 @@
   },
   {
     "id": "cb008",
-    "data": "2026-10-15",
-    "ora": "06:00",
+    "data": "2026-10-14",
+    "ora": "12:00",
     "tipo": "carosello",
     "tema": "Candle Makers",
     "immagini": [
@@ -405,8 +283,8 @@
   },
   {
     "id": "cb009",
-    "data": "2026-10-15",
-    "ora": "12:00",
+    "data": "2026-10-14",
+    "ora": "18:00",
     "tipo": "carosello",
     "tema": "Nail Artists",
     "immagini": [
@@ -467,7 +345,7 @@
   {
     "id": "cb010",
     "data": "2026-10-15",
-    "ora": "18:00",
+    "ora": "06:00",
     "tipo": "carosello",
     "tema": "Coffee Roasters",
     "immagini": [
@@ -526,61 +404,9 @@
     ]
   },
   {
-    "id": "cb026",
-    "data": "2026-10-15",
-    "ora": "21:00",
-    "tipo": "carosello",
-    "tema": "Guide: Cool Score",
-    "immagini": [
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_01.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_02.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_03.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_04.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_05.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_06.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_07.jpg"
-    ],
-    "didascalia": "How we score your Instagram bio 📏\n\nEvery list we publish uses the same rubric: the Cool Score. Four criteria, ten points.\n\nPersonality, 3 pts: does it sound like a person?\nClarity, 3 pts: do we get what you do in 3 seconds?\nCall to action, 2 pts: do we know what to do next?\nDetails, 2 pts: short lines, smart emoji, zero typos.\n\nFull marks examples from our lists: @honeybeecrochetstudio @curlsbyeightysixed @rabbottinteriors @thesoapbubblehaus\n\nSave this and score your own bio. Want our verdict? DM us your @.\n\n#instagrambio #biotips #instagramtips #bioideas #personalbranding #smallbusiness #branding #coolbio360",
-    "prima_riga": "How we score your Instagram bio 📏",
-    "nota": "",
-    "user_tags": [
-      [],
-      [],
-      [
-        {
-          "username": "honeybeecrochetstudio",
-          "x": 0.5,
-          "y": 0.62
-        }
-      ],
-      [
-        {
-          "username": "curlsbyeightysixed",
-          "x": 0.5,
-          "y": 0.62
-        }
-      ],
-      [
-        {
-          "username": "rabbottinteriors",
-          "x": 0.5,
-          "y": 0.62
-        }
-      ],
-      [
-        {
-          "username": "thesoapbubblehaus",
-          "x": 0.5,
-          "y": 0.62
-        }
-      ],
-      []
-    ]
-  },
-  {
     "id": "cb011",
-    "data": "2026-10-16",
-    "ora": "06:00",
+    "data": "2026-10-15",
+    "ora": "12:00",
     "tipo": "carosello",
     "tema": "Yoga Teachers",
     "immagini": [
@@ -640,8 +466,8 @@
   },
   {
     "id": "cb012",
-    "data": "2026-10-16",
-    "ora": "12:00",
+    "data": "2026-10-15",
+    "ora": "18:00",
     "tipo": "carosello",
     "tema": "Personal Trainers",
     "immagini": [
@@ -700,69 +526,60 @@
     ]
   },
   {
-    "id": "cb013",
-    "data": "2026-10-16",
-    "ora": "18:00",
+    "id": "cb026",
+    "data": "2026-10-15",
+    "ora": "21:00",
     "tipo": "carosello",
-    "tema": "Plant Shops",
+    "tema": "Guide: Cool Score",
     "immagini": [
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_01.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_02.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_03.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_04.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_05.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_06.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_07.jpg"
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_07.jpg"
     ],
-    "didascalia": "The 5 best plant shop bios on Instagram right now 🪴\n\nGreen thumbs, great lines. All under 600 followers, ranked by our editors.\n\nNo.1 @catnipandcactus\nNo.2 @sassysproutnampa\nNo.3 @bees.cr3ations\nNo.4 @crzyplntladybailey_ml\nNo.5 @stump_plants\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #plantshop #houseplants #plantlover #smallbusiness #branding #coolbio360",
-    "prima_riga": "The 5 best plant shop bios on Instagram right now 🪴",
+    "didascalia": "How we score your Instagram bio 📏\n\nEvery list we publish uses the same rubric: the Cool Score. Four criteria, ten points.\n\nPersonality, 3 pts: does it sound like a person?\nClarity, 3 pts: do we get what you do in 3 seconds?\nCall to action, 2 pts: do we know what to do next?\nDetails, 2 pts: short lines, smart emoji, zero typos.\n\nFull marks examples from our lists: @honeybeecrochetstudio @curlsbyeightysixed @rabbottinteriors @thesoapbubblehaus\n\nSave this and score your own bio. Want our verdict? DM us your @.\n\n#instagrambio #biotips #instagramtips #bioideas #personalbranding #smallbusiness #branding #coolbio360",
+    "prima_riga": "How we score your Instagram bio 📏",
     "nota": "",
     "user_tags": [
       [],
+      [],
       [
         {
-          "username": "stump_plants",
+          "username": "honeybeecrochetstudio",
           "x": 0.5,
-          "y": 0.42
+          "y": 0.62
         }
       ],
       [
         {
-          "username": "crzyplntladybailey_ml",
+          "username": "curlsbyeightysixed",
           "x": 0.5,
-          "y": 0.42
+          "y": 0.62
         }
       ],
       [
         {
-          "username": "bees.cr3ations",
+          "username": "rabbottinteriors",
           "x": 0.5,
-          "y": 0.42
+          "y": 0.62
         }
       ],
       [
         {
-          "username": "sassysproutnampa",
+          "username": "thesoapbubblehaus",
           "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "catnipandcactus",
-          "x": 0.5,
-          "y": 0.42
+          "y": 0.62
         }
       ],
       []
-    ],
-    "collaboratori": [
-      "catnipandcactus"
     ]
   },
   {
     "id": "cb014",
-    "data": "2026-10-17",
+    "data": "2026-10-16",
     "ora": "06:00",
     "tipo": "carosello",
     "tema": "Vintage Sellers",
@@ -823,7 +640,7 @@
   },
   {
     "id": "cb015",
-    "data": "2026-10-17",
+    "data": "2026-10-16",
     "ora": "12:00",
     "tipo": "carosello",
     "tema": "Cake Designers",
@@ -884,7 +701,7 @@
   },
   {
     "id": "cb016",
-    "data": "2026-10-17",
+    "data": "2026-10-16",
     "ora": "18:00",
     "tipo": "carosello",
     "tema": "Hairstylists",
@@ -945,7 +762,7 @@
   },
   {
     "id": "cb017",
-    "data": "2026-10-18",
+    "data": "2026-10-17",
     "ora": "06:00",
     "tipo": "carosello",
     "tema": "Makeup Artists",
@@ -1006,7 +823,7 @@
   },
   {
     "id": "cb018",
-    "data": "2026-10-18",
+    "data": "2026-10-17",
     "ora": "12:00",
     "tipo": "carosello",
     "tema": "Jewellery Makers",
@@ -1066,131 +883,9 @@
     ]
   },
   {
-    "id": "cb019",
-    "data": "2026-10-18",
-    "ora": "18:00",
-    "tipo": "carosello",
-    "tema": "Calligraphers",
-    "immagini": [
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_01.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_02.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_03.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_04.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_05.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_06.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_07.jpg"
-    ],
-    "didascalia": "The 5 best calligrapher bios on Instagram right now ✒️\n\nBeautiful letters, beautiful bios. All under 600 followers, ranked by our editors.\n\nNo.1 @staciescripts\nNo.2 @cynosure__calli\nNo.3 @thecalligraphyedit_\nNo.4 @fionascreativejoy\nNo.5 @the_introvertwrites_\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #calligraphy #handlettering #moderncalligraphy #smallbusiness #branding #coolbio360",
-    "prima_riga": "The 5 best calligrapher bios on Instagram right now ✒️",
-    "nota": "",
-    "user_tags": [
-      [],
-      [
-        {
-          "username": "the_introvertwrites_",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "fionascreativejoy",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "thecalligraphyedit_",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "cynosure__calli",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "staciescripts",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      []
-    ],
-    "collaboratori": [
-      "staciescripts"
-    ]
-  },
-  {
-    "id": "cb020",
-    "data": "2026-10-19",
-    "ora": "06:00",
-    "tipo": "carosello",
-    "tema": "Estheticians",
-    "immagini": [
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_01.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_02.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_03.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_04.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_05.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_06.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_07.jpg"
-    ],
-    "didascalia": "The 5 best esthetician bios on Instagram right now 🧴\n\nGlowing skin, glowing copy. All under 600 followers, ranked by our editors.\n\nNo.1 @skinwithmica_\nNo.2 @skinberryfields\nNo.3 @themirrandaedit\nNo.4 @reimagineskinspa\nNo.5 @esti.emy\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #esthetician #skincare #facials #smallbusiness #branding #coolbio360",
-    "prima_riga": "The 5 best esthetician bios on Instagram right now 🧴",
-    "nota": "",
-    "user_tags": [
-      [],
-      [
-        {
-          "username": "esti.emy",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "reimagineskinspa",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "themirrandaedit",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "skinberryfields",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "skinwithmica_",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      []
-    ],
-    "collaboratori": [
-      "skinwithmica_"
-    ]
-  },
-  {
     "id": "cb021",
-    "data": "2026-10-19",
-    "ora": "12:00",
+    "data": "2026-10-17",
+    "ora": "18:00",
     "tipo": "carosello",
     "tema": "Soap Makers",
     "immagini": [
@@ -1250,8 +945,8 @@
   },
   {
     "id": "cb022",
-    "data": "2026-10-19",
-    "ora": "18:00",
+    "data": "2026-10-18",
+    "ora": "06:00",
     "tipo": "carosello",
     "tema": "Woodworkers",
     "immagini": [
@@ -1311,8 +1006,8 @@
   },
   {
     "id": "cb023",
-    "data": "2026-10-20",
-    "ora": "06:00",
+    "data": "2026-10-18",
+    "ora": "12:00",
     "tipo": "carosello",
     "tema": "Wedding Photographers",
     "immagini": [
@@ -1371,9 +1066,253 @@
     ]
   },
   {
+    "id": "cb004",
+    "data": "2026-10-18",
+    "ora": "18:00",
+    "tipo": "carosello",
+    "tema": "Ceramics",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/ceramics01/coolbio360_ceramics01_07.jpg"
+    ],
+    "didascalia": "The 5 best pottery bios on Instagram right now 🏺\n\nHandmade pots, handmade words. All under 600 followers, ranked by our editors.\n\nNo.1 @wonkypots__\nNo.2 @kiln_studio_\nNo.3 @thrownbyhill\nNo.4 @oddball_ceramics\nNo.5 @keab.clay\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #ceramics #pottery #handmadepottery #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best pottery bios on Instagram right now 🏺",
+    "nota": "IN REVISIONE 13/10: profili inattivi da sostituire (oddball_ceramics, thrownbyhill)",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "keab.clay",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "oddball_ceramics",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "thrownbyhill",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "kiln_studio_",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "wonkypots__",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "wonkypots__"
+    ]
+  },
+  {
+    "id": "cb013",
+    "data": "2026-10-19",
+    "ora": "06:00",
+    "tipo": "carosello",
+    "tema": "Plant Shops",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/plants01/coolbio360_plants01_07.jpg"
+    ],
+    "didascalia": "The 5 best plant shop bios on Instagram right now 🪴\n\nGreen thumbs, great lines. All under 600 followers, ranked by our editors.\n\nNo.1 @catnipandcactus\nNo.2 @sassysproutnampa\nNo.3 @bees.cr3ations\nNo.4 @crzyplntladybailey_ml\nNo.5 @stump_plants\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #plantshop #houseplants #plantlover #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best plant shop bios on Instagram right now 🪴",
+    "nota": "IN REVISIONE 13/10: profili inattivi da sostituire (stump_plants)",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "stump_plants",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "crzyplntladybailey_ml",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "bees.cr3ations",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "sassysproutnampa",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "catnipandcactus",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "catnipandcactus"
+    ]
+  },
+  {
+    "id": "cb019",
+    "data": "2026-10-19",
+    "ora": "12:00",
+    "tipo": "carosello",
+    "tema": "Calligraphers",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/calli01/coolbio360_calli01_07.jpg"
+    ],
+    "didascalia": "The 5 best calligrapher bios on Instagram right now ✒️\n\nBeautiful letters, beautiful bios. All under 600 followers, ranked by our editors.\n\nNo.1 @staciescripts\nNo.2 @cynosure__calli\nNo.3 @thecalligraphyedit_\nNo.4 @fionascreativejoy\nNo.5 @the_introvertwrites_\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #calligraphy #handlettering #moderncalligraphy #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best calligrapher bios on Instagram right now ✒️",
+    "nota": "IN REVISIONE 13/10: profili inattivi da sostituire (the_introvertwrites_, cynosure__calli)",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "the_introvertwrites_",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "fionascreativejoy",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "thecalligraphyedit_",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "cynosure__calli",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "staciescripts",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "staciescripts"
+    ]
+  },
+  {
+    "id": "cb020",
+    "data": "2026-10-19",
+    "ora": "18:00",
+    "tipo": "carosello",
+    "tema": "Estheticians",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/skin01/coolbio360_skin01_07.jpg"
+    ],
+    "didascalia": "The 5 best esthetician bios on Instagram right now 🧴\n\nGlowing skin, glowing copy. All under 600 followers, ranked by our editors.\n\nNo.1 @skinwithmica_\nNo.2 @skinberryfields\nNo.3 @themirrandaedit\nNo.4 @reimagineskinspa\nNo.5 @esti.emy\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #esthetician #skincare #facials #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best esthetician bios on Instagram right now 🧴",
+    "nota": "IN REVISIONE 13/10: profili inattivi da sostituire (skinberryfields)",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "esti.emy",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "reimagineskinspa",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "themirrandaedit",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "skinberryfields",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "skinwithmica_",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "skinwithmica_"
+    ]
+  },
+  {
     "id": "cb024",
     "data": "2026-10-20",
-    "ora": "12:00",
+    "ora": "06:00",
     "tipo": "carosello",
     "tema": "Knit And Crochet",
     "immagini": [
@@ -1387,7 +1326,7 @@
     ],
     "didascalia": "The 5 best knit and crochet bios on Instagram right now 🧶\n\nCosy stitches, cosy bios. All under 600 followers, ranked by our editors.\n\nNo.1 @honeybeecrochetstudio\nNo.2 @timberridgeknits\nNo.3 @_coonieknits_\nNo.4 @crochet_byadri\nNo.5 @the_yarn_basket2026\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #crochet #knitting #handmade #smallbusiness #branding #coolbio360",
     "prima_riga": "The 5 best knit and crochet bios on Instagram right now 🧶",
-    "nota": "",
+    "nota": "IN REVISIONE 13/10: profili inattivi da sostituire (the_yarn_basket2026)",
     "user_tags": [
       [],
       [
@@ -1434,7 +1373,7 @@
   {
     "id": "cb025",
     "data": "2026-10-20",
-    "ora": "18:00",
+    "ora": "12:00",
     "tipo": "carosello",
     "tema": "Interior Designers",
     "immagini": [
@@ -1448,7 +1387,7 @@
     ],
     "didascalia": "The 5 best interior designer bios on Instagram right now 🛋️\n\nBeautiful rooms, beautiful words. All under 600 followers, ranked by our editors.\n\nNo.1 @ingoodproportion.london\nNo.2 @rabbottinteriors\nNo.3 @_studioremi\nNo.4 @connolly.interiors\nNo.5 @sedelli_store\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #interiordesigner #interiordesign #homestyling #smallbusiness #branding #coolbio360",
     "prima_riga": "The 5 best interior designer bios on Instagram right now 🛋️",
-    "nota": "",
+    "nota": "IN REVISIONE 13/10: profili inattivi da sostituire (connolly.interiors)",
     "user_tags": [
       [],
       [
@@ -1490,6 +1429,67 @@
     ],
     "collaboratori": [
       "ingoodproportion.london"
+    ]
+  },
+  {
+    "id": "cb005",
+    "data": "2026-10-20",
+    "ora": "18:00",
+    "tipo": "carosello",
+    "tema": "Dog groomers",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/dogs01/coolbio360_dogs01_07.jpg"
+    ],
+    "didascalia": "The 5 best dog groomer bios on Instagram right now 🐩\n\nFresh cuts and clever lines. All under 600 followers, ranked by our editors.\n\nNo.1 @groomingvango\nNo.2 @pawshgroomingandstay\nNo.3 @fur.real.grooming\nNo.4 @thepamperpuphouse\nNo.5 @groomwithaviewelgin\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #doggrooming #doggroomer #petgrooming #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best dog groomer bios on Instagram right now 🐩",
+    "nota": "IN REVISIONE 13/10: profili inattivi da sostituire (groomingvango, groomwithaviewelgin, thepamperpuphouse, fur.real.grooming)",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "groomwithaviewelgin",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "thepamperpuphouse",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "fur.real.grooming",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "pawshgroomingandstay",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "groomingvango",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "groomingvango"
     ]
   }
 ]

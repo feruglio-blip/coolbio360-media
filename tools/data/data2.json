@@ -1,72 +1,622 @@
 [
-{"slug":"barber01","vol":"06","tag":"BARBERS","accent":"#4D86FF","emoji":"💈","title":"Barber Bios","single":"Barber Bio","sub":"Barbers under 600 followers.","next":["Florist Bios","💐","#FF5A5A"],
- "people":[
- {"rank":5,"h":"luisxblends","score":"7.9","emoji":"✂️","cat":"Barber, Irving, Texas","str":"Clear offer, VIP home service","v":"Opens with the booking. Zero guesswork."},
- {"rank":4,"h":"barberrcruz","score":"8.2","emoji":"💵","cat":"Barber, Melbourne","str":"Honest details, booking link","v":"“Cash preferred.” Honesty is a style too."},
- {"rank":3,"h":"fob_mobilebarber","score":"8.6","emoji":"🚐","cat":"Mobile barber, Brisbane","str":"Clear promise, great name","v":"Fresh off the bus, straight to your door."},
- {"rank":2,"h":"j_barber.pro","score":"8.9","emoji":"🥈","cat":"Barber, London","str":"Award up front, booking cue","v":"A competition medal does the selling."},
- {"rank":1,"h":"artofperfectionnyc","score":"9.3","cat":"Barbershop, Manhattan","str":"Services, face, track record","v":"“Danny, 12 years serving NYC.” Instant trust.","congrats":"CONGRATULATIONS, DANNY"}]},
-{"slug":"florist01","vol":"07","tag":"FLORISTS","accent":"#FF5A5A","emoji":"💐","title":"Florist Bios","single":"Florist Bio","sub":"Independent florists under 600 followers.","next":["Candle Bios","🕯️","#FF9F43"],
- "people":[
- {"rank":5,"h":"thepivoinebouquet","score":"7.8","emoji":"🌷","cat":"Event florist, Sacramento","str":"Warm tagline, clear contact","v":"“Every story deserves a perfect bloom.”"},
- {"rank":4,"h":"flowersbygess","score":"8.2","emoji":"🌹","cat":"Florist, Buckinghamshire","str":"Local reach, last minute orders","v":"Covers every way to order, even last minute."},
- {"rank":3,"h":"withlouisemichael","score":"8.6","emoji":"🌸","cat":"Event florals, Massachusetts","str":"Booking 2027, clear inquiry","v":"Already booking 2027. Demand says it all."},
- {"rank":2,"h":"faithblooms._","score":"8.9","emoji":"🛒","cat":"Wedding florist, Philadelphia","str":"Flower cart, clear service area","v":"A flower cart experience. Instantly memorable."},
- {"rank":1,"h":"vandaflorals","score":"9.2","cat":"Bespoke florist, Scotland","str":"Concept-led, calm confidence","v":"“Curated to your concept.” Two lines, pure class.","congrats":"CONGRATULATIONS, GEORGINA"}]},
-{"slug":"candles01","vol":"08","tag":"CANDLE MAKERS","accent":"#FF9F43","emoji":"🕯️","title":"Candle Bios","single":"Candle Bio","sub":"Candle makers under 600 followers.","next":["Nail Bios","💅","#FF4FD8"],
- "people":[
- {"rank":5,"h":"houseofranni","score":"7.9","emoji":"🌈","cat":"Coconut-soy candles, US","str":"Values up front, small batches","v":"Clean ingredients, proud owners, clear values."},
- {"rank":4,"h":"os.candlestudio","score":"8.3","emoji":"🍰","cat":"Candle studio, DMV area","str":"Three-word range, Etsy link","v":"Dessert, sculptural, custom. Menu in one line."},
- {"rank":3,"h":"hawkinsandhearth","score":"8.6","emoji":"🏡","cat":"Candle shop, New Jersey","str":"Mood, materials, place","v":"“For the art of staying in.” Cozy, sold."},
- {"rank":2,"h":"waxandwisdom_","score":"8.9","emoji":"💬","cat":"Candles and wax melts","str":"Purpose, warm tone","v":"“Light the candle. Start the conversation.”"},
- {"rank":1,"h":"goodmoodclubshop","score":"9.4","cat":"Candles and creativity, US","str":"Real story, human voice","v":"Laid off, now lighting candles. A bio with a plot.","congrats":"CONGRATULATIONS, MAKAYLA"}]},
-{"slug":"nails01","vol":"09","tag":"NAIL ARTISTS","accent":"#FF4FD8","emoji":"💅","title":"Nail Bios","single":"Nail Bio","sub":"Nail techs under 600 followers.","next":["Coffee Bios","☕","#C08552"],
- "people":[
- {"rank":5,"h":"nailsbyy.leslie","score":"7.9","emoji":"🧁","cat":"Nail tech, Bay Area","str":"Experience, clear rules","v":"Six years in, and the policies come first."},
- {"rank":4,"h":"the.nail.edit.by.kay","score":"8.2","emoji":"✨","cat":"Nail art studio, Boksburg","str":"Luxury promise, DM cue","v":"“Where your nails meet luxury.” Clear ambition."},
- {"rank":3,"h":"quinns.nails_","score":"8.6","emoji":"💋","cat":"Press-on artist, Mississippi","str":"Honest level, clear order","v":"Proudly a beginner. Honesty builds trust."},
- {"rank":2,"h":"jelly.maae","score":"8.9","emoji":"🎀","cat":"Nail tech, Brevard NC","str":"Licensed, personality, booking","v":"Licensed, queer, and caring about healthy nails."},
- {"rank":1,"h":"polishedvibez","score":"9.2","cat":"Nail tech, Charleston","str":"Rhyme, rhythm, booking","v":"“Nails that slay, vibes that stay.” Stuck in our heads.","congrats":"CONGRATULATIONS, POLISHED VIBEZ"}]},
-{"slug":"coffee01","vol":"10","tag":"COFFEE ROASTERS","accent":"#C08552","emoji":"☕","title":"Coffee Bios","single":"Coffee Bio","sub":"Small coffee roasters under 600 followers.","next":["Yoga Bios","🧘","#22C5B5"],
- "people":[
- {"rank":5,"h":"salty_roaster","score":"7.9","emoji":"🧂","cat":"Specialty roaster, France","str":"Short, origin, shop handle","v":"Three lines, all signal, no noise."},
- {"rank":4,"h":"viaficoffee","score":"8.2","emoji":"🛻","cat":"Roastery and cart, Denver","str":"Two offers, two actions","v":"Buy the coffee or book the cart. Simple."},
- {"rank":3,"h":"torofycoffee","score":"8.5","emoji":"🐂","cat":"Family roaster, Ontario","str":"Family story, passion","v":"Small, family run, and proud of it."},
- {"rank":2,"h":"sip_tinto_coffee","score":"8.8","emoji":"🇨🇴","cat":"Colombian roaster, Colorado","str":"Origin, free shipping hook","v":"Origin story plus a free shipping hook."},
- {"rank":1,"h":"bravelycoffeeroasters","score":"9.2","cat":"Coffee roaster, Sacramento","str":"Manifesto, mission","v":"“Drink Bravely. Share Warmly.” A motto, not a bio.","congrats":"CONGRATULATIONS, BRAVELY COFFEE"}]},
-{"slug":"yoga01","vol":"11","tag":"YOGA TEACHERS","accent":"#22C5B5","emoji":"🧘","title":"Yoga Bios","single":"Yoga Bio","sub":"Yoga teachers under 600 followers.","next":["Trainer Bios","🏋️","#6BD66A"],
- "people":[
- {"rank":5,"h":"flow.with.greta","score":"7.9","emoji":"🤍","cat":"Yoga teacher, Hamburg","str":"Credentials, where to find her","v":"Certified, local, and easy to find in class."},
- {"rank":4,"h":"thepauseyogastudiohull","score":"8.3","emoji":"🌿","cat":"Yoga studio, Hull","str":"Eco angle, class menu","v":"“Breathe. Move. Grow.” A studio in three verbs."},
- {"rank":3,"h":"georgia.rae.living","score":"8.6","emoji":"🔔","cat":"Yin and sound healing, Norfolk","str":"Clear audience, keyword DM","v":"“DM PAUSE.” The perfect word for the job."},
- {"rank":2,"h":"martinaflows","score":"9.0","emoji":"💪","cat":"Strength and yin teacher","str":"Clear audience, clear promise","v":"“Busy humans” is a niche we all belong to."},
- {"rank":1,"h":"divadoesyoga","score":"9.3","cat":"Vinyasa teacher, US","str":"Attitude, credentials","v":"“Divas do yoga too.” Confidence on the mat.","congrats":"CONGRATULATIONS, JADA"}]},
-{"slug":"trainer01","vol":"12","tag":"PERSONAL TRAINERS","accent":"#6BD66A","emoji":"🏋️","title":"Trainer Bios","single":"Trainer Bio","sub":"Personal trainers under 600 followers.","next":["Plant Bios","🪴","#3DDC84"],
- "people":[
- {"rank":5,"h":"dltraining.pt","score":"7.9","emoji":"🥊","cat":"Female training specialist, UK","str":"Clear audience, services","v":"Every stage of life, one clear audience."},
- {"rank":4,"h":"empowermovement_pt","score":"8.3","emoji":"⚖️","cat":"Personal trainer, West London","str":"Values, formats, free consult","v":"Strength, confidence, balance. Then the offer."},
- {"rank":3,"h":"coached.by.caz","score":"8.6","emoji":"📲","cat":"Online and in-person coach","str":"Busy women, honest journey","v":"Coaching while documenting her own journey."},
- {"rank":2,"h":"twi_performance","score":"9.0","emoji":"🎯","cat":"Level 3 coach, UK","str":"Punchy tone, keyword DM","v":"“Train with intent. Zero fluff.” Lives up to it."},
- {"rank":1,"h":"trevor_cassidy_pt","score":"9.3","cat":"Strength coach, NYC and NJ","str":"Audience, story, free consult","v":"Former pro rugby player. Credibility in four words.","congrats":"CONGRATULATIONS, TREVOR"}]},
-{"slug":"plants01","vol":"13","tag":"PLANT SHOPS","accent":"#3DDC84","emoji":"🪴","title":"Plant Bios","single":"Plant Bio","sub":"Plant shops under 600 followers.","next":["Vintage Bios","🕰️","#E8B04B"],
- "people":[
- {"rank":5,"h":"stump_plants","score":"7.8","emoji":"🌱","cat":"Indoor plant shop, Abu Dhabi","str":"Three pillars, location","v":"Plants, pots, care tips. Everything in one line."},
- {"rank":4,"h":"crzyplntladybailey_ml","score":"8.2","emoji":"💚","cat":"Houseplants, Washington","str":"Propagation, side craft","v":"Every plant propagated by hand. Love it."},
- {"rank":3,"h":"bees.cr3ations","score":"8.6","emoji":"📦","cat":"Houseplant shop, Pennsylvania","str":"Range, shipping, pickup","v":"From common to collector. Range in one arrow."},
- {"rank":2,"h":"sassysproutnampa","score":"9.0","emoji":"💎","cat":"Plants and relics, Idaho","str":"Parallel lines, personality","v":"“Plants with personality. Finds with flair.”"},
- {"rank":1,"h":"catnipandcactus","score":"9.3","cat":"Houseplant shop, US","str":"Pet friendly, playful voice","v":"Pet friendly plants, plus a dash of cats.","congrats":"CONGRATULATIONS, CATNIP & CACTUS"}]},
-{"slug":"vintage01","vol":"14","tag":"VINTAGE SELLERS","accent":"#E8B04B","emoji":"🕰️","title":"Vintage Bios","single":"Vintage Bio","sub":"Vintage sellers under 600 followers.","next":["Cake Bios","🎂","#FFB3C7"],
- "people":[
- {"rank":5,"h":"camehomewithme","score":"7.9","emoji":"🏠","cat":"Antiques and interiors, NY","str":"Short tagline, clear themes","v":"“Things worth bringing home.” Says it all."},
- {"rank":4,"h":"honkytonk.vintage","score":"8.2","emoji":"🔮","cat":"60s and 70s vintage","str":"Era focus, weekly drops","v":"Drops every Sunday. A reason to come back."},
- {"rank":3,"h":"gracesxgarage","score":"8.6","emoji":"⭐","cat":"Curated vintage, Kansas City","str":"Era range, for everyone","v":"From the 70s to the 2000s, handpicked with heart."},
- {"rank":2,"h":"somethingbluega","score":"9.0","emoji":"🫖","cat":"Estate finds, Georgia","str":"Clear passion, clear theme","v":"One blue and white item at a time. Lovely focus."},
- {"rank":1,"h":"littleoldme.vintage","score":"9.4","cat":"Americana vintage, Michigan","str":"Wordplay, style keywords","v":"“Little old me, finding little old things.” Perfect.","congrats":"CONGRATULATIONS, JESSIE"}]},
-{"slug":"cake01","vol":"15","tag":"CAKE DESIGNERS","accent":"#FFB3C7","emoji":"🎂","title":"Cake Bios","single":"Cake Bio","sub":"Home bakers under 600 followers.","next":["Hair Bios","💇","#B07CFF"],
- "people":[
- {"rank":5,"h":"baked.byolivia3","score":"7.9","emoji":"📝","cat":"Custom cakes, California","str":"Certified, two ways to order","v":"Certified and ready for any occasion."},
- {"rank":4,"h":"whiskedaway_us","score":"8.3","emoji":"🎈","cat":"Custom desserts, US","str":"Tagline, full event offer","v":"“Sweet moments, beautifully made.” Party ready."},
- {"rank":3,"h":"cakesbybs","score":"8.6","emoji":"🥚","cat":"Eggless cakes, Ontario","str":"Clear niche, warm promise","v":"100% eggless. A niche in the first line."},
- {"rank":2,"h":"chapterone.thebakery","score":"8.9","emoji":"📦","cat":"Custom cakes, North Wales","str":"Postal treats, clear delivery","v":"Postal treats. A cake that travels the UK."},
- {"rank":1,"h":"sammys_cakes_","score":"9.2","cat":"Custom cakes, Texas","str":"Unique identity, full menu","v":"“Texan Aussie Baker.” Three words, one character.","congrats":"CONGRATULATIONS, SAMMY"}]}
+ {
+  "slug": "barber01",
+  "vol": "06",
+  "tag": "BARBERS",
+  "accent": "#4D86FF",
+  "emoji": "💈",
+  "title": "Barber Bios",
+  "single": "Barber Bio",
+  "sub": "Barbers under 600 followers.",
+  "next": [
+   "Florist Bios",
+   "💐",
+   "#FF5A5A"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "luisxblends",
+    "score": "7.9",
+    "emoji": "✂️",
+    "cat": "Barber, Irving, Texas",
+    "str": "Clear offer, VIP home service",
+    "v": "Opens with the booking. Zero guesswork."
+   },
+   {
+    "rank": 4,
+    "h": "barberrcruz",
+    "score": "8.2",
+    "emoji": "💵",
+    "cat": "Barber, Melbourne",
+    "str": "Honest details, booking link",
+    "v": "“Cash preferred.” Honesty is a style too."
+   },
+   {
+    "rank": 3,
+    "h": "fob_mobilebarber",
+    "score": "8.6",
+    "emoji": "🚐",
+    "cat": "Mobile barber, Brisbane",
+    "str": "Clear promise, great name",
+    "v": "Fresh off the bus, straight to your door."
+   },
+   {
+    "rank": 2,
+    "h": "j_barber.pro",
+    "score": "8.9",
+    "emoji": "🥈",
+    "cat": "Barber, London",
+    "str": "Award up front, booking cue",
+    "v": "A competition medal does the selling."
+   },
+   {
+    "rank": 1,
+    "h": "artofperfectionnyc",
+    "score": "9.3",
+    "cat": "Barbershop, Manhattan",
+    "str": "Services, face, track record",
+    "v": "“Danny, 12 years serving NYC.” Instant trust.",
+    "congrats": "CONGRATULATIONS, DANNY"
+   }
+  ]
+ },
+ {
+  "slug": "florist01",
+  "vol": "07",
+  "tag": "FLORISTS",
+  "accent": "#FF5A5A",
+  "emoji": "💐",
+  "title": "Florist Bios",
+  "single": "Florist Bio",
+  "sub": "Independent florists under 600 followers.",
+  "next": [
+   "Candle Bios",
+   "🕯️",
+   "#FF9F43"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "thepivoinebouquet",
+    "score": "7.8",
+    "emoji": "🌷",
+    "cat": "Event florist, Sacramento",
+    "str": "Warm tagline, clear contact",
+    "v": "“Every story deserves a perfect bloom.”"
+   },
+   {
+    "rank": 4,
+    "h": "flowersbygess",
+    "score": "8.2",
+    "emoji": "🌹",
+    "cat": "Florist, Buckinghamshire",
+    "str": "Local reach, last minute orders",
+    "v": "Covers every way to order, even last minute."
+   },
+   {
+    "rank": 3,
+    "h": "withlouisemichael",
+    "score": "8.6",
+    "emoji": "🌸",
+    "cat": "Event florals, Massachusetts",
+    "str": "Booking 2027, clear inquiry",
+    "v": "Already booking 2027. Demand says it all."
+   },
+   {
+    "rank": 2,
+    "h": "faithblooms._",
+    "score": "8.9",
+    "emoji": "🛒",
+    "cat": "Wedding florist, Philadelphia",
+    "str": "Flower cart, clear service area",
+    "v": "A flower cart experience. Instantly memorable."
+   },
+   {
+    "rank": 1,
+    "h": "vandaflorals",
+    "score": "9.2",
+    "cat": "Bespoke florist, Scotland",
+    "str": "Concept-led, calm confidence",
+    "v": "“Curated to your concept.” Two lines, pure class.",
+    "congrats": "CONGRATULATIONS, GEORGINA"
+   }
+  ]
+ },
+ {
+  "slug": "candles01",
+  "vol": "08",
+  "tag": "CANDLE MAKERS",
+  "accent": "#FF9F43",
+  "emoji": "🕯️",
+  "title": "Candle Bios",
+  "single": "Candle Bio",
+  "sub": "Candle makers under 600 followers.",
+  "next": [
+   "Nail Bios",
+   "💅",
+   "#FF4FD8"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "houseofranni",
+    "score": "7.9",
+    "emoji": "🌈",
+    "cat": "Coconut-soy candles, US",
+    "str": "Values up front, small batches",
+    "v": "Clean ingredients, proud owners, clear values."
+   },
+   {
+    "rank": 4,
+    "h": "os.candlestudio",
+    "score": "8.3",
+    "emoji": "🍰",
+    "cat": "Candle studio, DMV area",
+    "str": "Three-word range, Etsy link",
+    "v": "Dessert, sculptural, custom. Menu in one line."
+   },
+   {
+    "rank": 3,
+    "h": "hawkinsandhearth",
+    "score": "8.6",
+    "emoji": "🏡",
+    "cat": "Candle shop, New Jersey",
+    "str": "Mood, materials, place",
+    "v": "“For the art of staying in.” Cozy, sold."
+   },
+   {
+    "rank": 2,
+    "h": "waxandwisdom_",
+    "score": "8.9",
+    "emoji": "💬",
+    "cat": "Candles and wax melts",
+    "str": "Purpose, warm tone",
+    "v": "“Light the candle. Start the conversation.”"
+   },
+   {
+    "rank": 1,
+    "h": "goodmoodclubshop",
+    "score": "9.4",
+    "cat": "Candles and creativity, US",
+    "str": "Real story, human voice",
+    "v": "Laid off, now lighting candles. A bio with a plot.",
+    "congrats": "CONGRATULATIONS, MAKAYLA"
+   }
+  ]
+ },
+ {
+  "slug": "nails01",
+  "vol": "09",
+  "tag": "NAIL ARTISTS",
+  "accent": "#FF4FD8",
+  "emoji": "💅",
+  "title": "Nail Bios",
+  "single": "Nail Bio",
+  "sub": "Nail techs under 600 followers.",
+  "next": [
+   "Coffee Bios",
+   "☕",
+   "#C08552"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "nailsbyy.leslie",
+    "score": "7.9",
+    "emoji": "🧁",
+    "cat": "Nail tech, Bay Area",
+    "str": "Experience, clear rules",
+    "v": "Six years in, and the policies come first."
+   },
+   {
+    "rank": 4,
+    "h": "the.nail.edit.by.kay",
+    "score": "8.2",
+    "emoji": "✨",
+    "cat": "Nail art studio, Boksburg",
+    "str": "Luxury promise, DM cue",
+    "v": "“Where your nails meet luxury.” Clear ambition."
+   },
+   {
+    "rank": 3,
+    "h": "quinns.nails_",
+    "score": "8.6",
+    "emoji": "💋",
+    "cat": "Press-on artist, Mississippi",
+    "str": "Honest level, clear order",
+    "v": "Proudly a beginner. Honesty builds trust."
+   },
+   {
+    "rank": 2,
+    "h": "jelly.maae",
+    "score": "8.9",
+    "emoji": "🎀",
+    "cat": "Nail tech, Brevard NC",
+    "str": "Licensed, personality, booking",
+    "v": "Licensed, queer, and caring about healthy nails."
+   },
+   {
+    "rank": 1,
+    "h": "polishedvibez",
+    "score": "9.2",
+    "cat": "Nail tech, Charleston",
+    "str": "Rhyme, rhythm, booking",
+    "v": "“Nails that slay, vibes that stay.” Stuck in our heads.",
+    "congrats": "CONGRATULATIONS, POLISHED VIBEZ"
+   }
+  ]
+ },
+ {
+  "slug": "coffee01",
+  "vol": "10",
+  "tag": "COFFEE ROASTERS",
+  "accent": "#C08552",
+  "emoji": "☕",
+  "title": "Coffee Bios",
+  "single": "Coffee Bio",
+  "sub": "Small coffee roasters under 600 followers.",
+  "next": [
+   "Yoga Bios",
+   "🧘",
+   "#22C5B5"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "salty_roaster",
+    "score": "7.9",
+    "emoji": "🧂",
+    "cat": "Specialty roaster, France",
+    "str": "Short, origin, shop handle",
+    "v": "Three lines, all signal, no noise."
+   },
+   {
+    "rank": 4,
+    "h": "viaficoffee",
+    "score": "8.2",
+    "emoji": "🛻",
+    "cat": "Roastery and cart, Denver",
+    "str": "Two offers, two actions",
+    "v": "Buy the coffee or book the cart. Simple."
+   },
+   {
+    "rank": 3,
+    "h": "torofycoffee",
+    "score": "8.5",
+    "emoji": "🐂",
+    "cat": "Family roaster, Ontario",
+    "str": "Family story, passion",
+    "v": "Small, family run, and proud of it."
+   },
+   {
+    "rank": 2,
+    "h": "sip_tinto_coffee",
+    "score": "8.8",
+    "emoji": "🇨🇴",
+    "cat": "Colombian roaster, Colorado",
+    "str": "Origin, free shipping hook",
+    "v": "Origin story plus a free shipping hook."
+   },
+   {
+    "rank": 1,
+    "h": "bravelycoffeeroasters",
+    "score": "9.2",
+    "cat": "Coffee roaster, Sacramento",
+    "str": "Manifesto, mission",
+    "v": "“Drink Bravely. Share Warmly.” A motto, not a bio.",
+    "congrats": "CONGRATULATIONS, BRAVELY COFFEE"
+   }
+  ]
+ },
+ {
+  "slug": "yoga01",
+  "vol": "11",
+  "tag": "YOGA TEACHERS",
+  "accent": "#22C5B5",
+  "emoji": "🧘",
+  "title": "Yoga Bios",
+  "single": "Yoga Bio",
+  "sub": "Yoga teachers under 600 followers.",
+  "next": [
+   "Trainer Bios",
+   "🏋️",
+   "#6BD66A"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "flow.with.greta",
+    "score": "7.9",
+    "emoji": "🤍",
+    "cat": "Yoga teacher, Hamburg",
+    "str": "Credentials, where to find her",
+    "v": "Certified, local, and easy to find in class."
+   },
+   {
+    "rank": 4,
+    "h": "thepauseyogastudiohull",
+    "score": "8.3",
+    "emoji": "🌿",
+    "cat": "Yoga studio, Hull",
+    "str": "Eco angle, class menu",
+    "v": "“Breathe. Move. Grow.” A studio in three verbs."
+   },
+   {
+    "rank": 3,
+    "h": "georgia.rae.living",
+    "score": "8.6",
+    "emoji": "🔔",
+    "cat": "Yin and sound healing, Norfolk",
+    "str": "Clear audience, keyword DM",
+    "v": "“DM PAUSE.” The perfect word for the job."
+   },
+   {
+    "rank": 2,
+    "h": "martinaflows",
+    "score": "9.0",
+    "emoji": "💪",
+    "cat": "Strength and yin teacher",
+    "str": "Clear audience, clear promise",
+    "v": "“Busy humans” is a niche we all belong to."
+   },
+   {
+    "rank": 1,
+    "h": "divadoesyoga",
+    "score": "9.3",
+    "cat": "Vinyasa teacher, US",
+    "str": "Attitude, credentials",
+    "v": "“Divas do yoga too.” Confidence on the mat.",
+    "congrats": "CONGRATULATIONS, JADA"
+   }
+  ]
+ },
+ {
+  "slug": "trainer01",
+  "vol": "12",
+  "tag": "PERSONAL TRAINERS",
+  "accent": "#6BD66A",
+  "emoji": "🏋️",
+  "title": "Trainer Bios",
+  "single": "Trainer Bio",
+  "sub": "Personal trainers under 600 followers.",
+  "next": [
+   "Vintage Bios",
+   "🕰️",
+   "#E8B04B"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "dltraining.pt",
+    "score": "7.9",
+    "emoji": "🥊",
+    "cat": "Female training specialist, UK",
+    "str": "Clear audience, services",
+    "v": "Every stage of life, one clear audience."
+   },
+   {
+    "rank": 4,
+    "h": "empowermovement_pt",
+    "score": "8.3",
+    "emoji": "⚖️",
+    "cat": "Personal trainer, West London",
+    "str": "Values, formats, free consult",
+    "v": "Strength, confidence, balance. Then the offer."
+   },
+   {
+    "rank": 3,
+    "h": "coached.by.caz",
+    "score": "8.6",
+    "emoji": "📲",
+    "cat": "Online and in-person coach",
+    "str": "Busy women, honest journey",
+    "v": "Coaching while documenting her own journey."
+   },
+   {
+    "rank": 2,
+    "h": "twi_performance",
+    "score": "9.0",
+    "emoji": "🎯",
+    "cat": "Level 3 coach, UK",
+    "str": "Punchy tone, keyword DM",
+    "v": "“Train with intent. Zero fluff.” Lives up to it."
+   },
+   {
+    "rank": 1,
+    "h": "trevor_cassidy_pt",
+    "score": "9.3",
+    "cat": "Strength coach, NYC and NJ",
+    "str": "Audience, story, free consult",
+    "v": "Former pro rugby player. Credibility in four words.",
+    "congrats": "CONGRATULATIONS, TREVOR"
+   }
+  ]
+ },
+ {
+  "slug": "plants01",
+  "vol": "13",
+  "tag": "PLANT SHOPS",
+  "accent": "#3DDC84",
+  "emoji": "🪴",
+  "title": "Plant Bios",
+  "single": "Plant Bio",
+  "sub": "Plant shops under 600 followers.",
+  "next": [
+   "Script Bios",
+   "✒️",
+   "#9AD0EC"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "stump_plants",
+    "score": "7.8",
+    "emoji": "🌱",
+    "cat": "Indoor plant shop, Abu Dhabi",
+    "str": "Three pillars, location",
+    "v": "Plants, pots, care tips. Everything in one line."
+   },
+   {
+    "rank": 4,
+    "h": "crzyplntladybailey_ml",
+    "score": "8.2",
+    "emoji": "💚",
+    "cat": "Houseplants, Washington",
+    "str": "Propagation, side craft",
+    "v": "Every plant propagated by hand. Love it."
+   },
+   {
+    "rank": 3,
+    "h": "bees.cr3ations",
+    "score": "8.6",
+    "emoji": "📦",
+    "cat": "Houseplant shop, Pennsylvania",
+    "str": "Range, shipping, pickup",
+    "v": "From common to collector. Range in one arrow."
+   },
+   {
+    "rank": 2,
+    "h": "sassysproutnampa",
+    "score": "9.0",
+    "emoji": "💎",
+    "cat": "Plants and relics, Idaho",
+    "str": "Parallel lines, personality",
+    "v": "“Plants with personality. Finds with flair.”"
+   },
+   {
+    "rank": 1,
+    "h": "catnipandcactus",
+    "score": "9.3",
+    "cat": "Houseplant shop, US",
+    "str": "Pet friendly, playful voice",
+    "v": "Pet friendly plants, plus a dash of cats.",
+    "congrats": "CONGRATULATIONS, CATNIP & CACTUS"
+   }
+  ]
+ },
+ {
+  "slug": "vintage01",
+  "vol": "14",
+  "tag": "VINTAGE SELLERS",
+  "accent": "#E8B04B",
+  "emoji": "🕰️",
+  "title": "Vintage Bios",
+  "single": "Vintage Bio",
+  "sub": "Vintage sellers under 600 followers.",
+  "next": [
+   "Cake Bios",
+   "🎂",
+   "#FFB3C7"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "camehomewithme",
+    "score": "7.9",
+    "emoji": "🏠",
+    "cat": "Antiques and interiors, NY",
+    "str": "Short tagline, clear themes",
+    "v": "“Things worth bringing home.” Says it all."
+   },
+   {
+    "rank": 4,
+    "h": "honkytonk.vintage",
+    "score": "8.2",
+    "emoji": "🔮",
+    "cat": "60s and 70s vintage",
+    "str": "Era focus, weekly drops",
+    "v": "Drops every Sunday. A reason to come back."
+   },
+   {
+    "rank": 3,
+    "h": "gracesxgarage",
+    "score": "8.6",
+    "emoji": "⭐",
+    "cat": "Curated vintage, Kansas City",
+    "str": "Era range, for everyone",
+    "v": "From the 70s to the 2000s, handpicked with heart."
+   },
+   {
+    "rank": 2,
+    "h": "somethingbluega",
+    "score": "9.0",
+    "emoji": "🫖",
+    "cat": "Estate finds, Georgia",
+    "str": "Clear passion, clear theme",
+    "v": "One blue and white item at a time. Lovely focus."
+   },
+   {
+    "rank": 1,
+    "h": "littleoldme.vintage",
+    "score": "9.4",
+    "cat": "Americana vintage, Michigan",
+    "str": "Wordplay, style keywords",
+    "v": "“Little old me, finding little old things.” Perfect.",
+    "congrats": "CONGRATULATIONS, JESSIE"
+   }
+  ]
+ },
+ {
+  "slug": "cake01",
+  "vol": "15",
+  "tag": "CAKE DESIGNERS",
+  "accent": "#FFB3C7",
+  "emoji": "🎂",
+  "title": "Cake Bios",
+  "single": "Cake Bio",
+  "sub": "Home bakers under 600 followers.",
+  "next": [
+   "Hair Bios",
+   "💇",
+   "#B07CFF"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "baked.byolivia3",
+    "score": "7.9",
+    "emoji": "📝",
+    "cat": "Custom cakes, California",
+    "str": "Certified, two ways to order",
+    "v": "Certified and ready for any occasion."
+   },
+   {
+    "rank": 4,
+    "h": "whiskedaway_us",
+    "score": "8.3",
+    "emoji": "🎈",
+    "cat": "Custom desserts, US",
+    "str": "Tagline, full event offer",
+    "v": "“Sweet moments, beautifully made.” Party ready."
+   },
+   {
+    "rank": 3,
+    "h": "cakesbybs",
+    "score": "8.6",
+    "emoji": "🥚",
+    "cat": "Eggless cakes, Ontario",
+    "str": "Clear niche, warm promise",
+    "v": "100% eggless. A niche in the first line."
+   },
+   {
+    "rank": 2,
+    "h": "chapterone.thebakery",
+    "score": "8.9",
+    "emoji": "📦",
+    "cat": "Custom cakes, North Wales",
+    "str": "Postal treats, clear delivery",
+    "v": "Postal treats. A cake that travels the UK."
+   },
+   {
+    "rank": 1,
+    "h": "sammys_cakes_",
+    "score": "9.2",
+    "cat": "Custom cakes, Texas",
+    "str": "Unique identity, full menu",
+    "v": "“Texan Aussie Baker.” Three words, one character.",
+    "congrats": "CONGRATULATIONS, SAMMY"
+   }
+  ]
+ }
 ]
