@@ -64,32 +64,32 @@ function setT(t){{
  $('k').style.opacity=ease(t/.6);
  $('tt').style.opacity=ease((t-.2)/.6); $('tt').style.transform=`translateY(${{(1-ease((t-.2)/.6))*40}}px)`;
  $('u1').style.strokeDashoffset=1-io((t-.9)/.6); $('u2').style.strokeDashoffset=1-io((t-1.3)/.5);
- const ck=ease((t-.6)/.9); const out=io((t-11.4)/.8);
+ const ck=ease((t-.6)/.9); const out=io((t-22.0)/.8);
  $('card').style.opacity=ck*(1-out); $('card').style.transform=`translateY(${{(1-ck)*140-out*80}}px)`;
  // punteggio
  const s0=C.score_before, s1=C.score_after;
- let v=s0*ease((t-1.4)/1.2); if(t>8.6) v=s0+(s1-s0)*io((t-8.6)/1.6);
+ let v=s0*ease((t-1.4)/1.2); if(t>17.4) v=s0+(s1-s0)*io((t-17.4)/1.6);
  $('sv').textContent=v.toFixed(1);
- const up=cl((t-8.6)/1.6,0,1); $('score').style.borderColor=up>.5?C.accent:'#FF5C5C';
- $('score').style.transform=`scale(${{1+Math.sin(cl((t-10.2)/.5,0,1)*Math.PI)*.12}})`;
+ const up=cl((t-17.4)/1.6,0,1); $('score').style.borderColor=up>.5?C.accent:'#FF5C5C';
+ $('score').style.transform=`scale(${{1+Math.sin(cl((t-19.0)/.5,0,1)*Math.PI)*.12}})`;
  // problemi: evidenzia la riga e mostra la nota (uno alla volta)
- const w=[2.6,4.1,5.6];
- C.issues.forEach((x,i)=>{{const a=ease((t-w[i])/.5)*(1-ease((t-(w[i]+1.4))/.4)); const el=$('i'+i); el.style.opacity=a; el.style.transform=`translateY(${{(1-ease((t-w[i])/.5))*30}}px)`;
-   x.lines.forEach(l=>{{const m=$('m'+l); const k=ease((t-w[i]-.1)/.4); const cur=parseFloat(m.dataset.k||0); m.style.width=Math.max(BL[l]+16)*(t<7.2?Math.max(k,0):0)+'px';}});}});
+ const w=[3.5,6.3,9.1];
+ C.issues.forEach((x,i)=>{{const a=ease((t-w[i])/.5)*(1-ease((t-(w[i]+2.3))/.4)); const el=$('i'+i); el.style.opacity=a; el.style.transform=`translateY(${{(1-ease((t-w[i])/.5))*30}}px)`;
+   x.lines.forEach(l=>{{const m=$('m'+l); const k=ease((t-w[i]-.1)/.4); const cur=parseFloat(m.dataset.k||0); m.style.width=Math.max(BL[l]+16)*(t<11.8?Math.max(k,0):0)+'px';}});}});
  // prima sparisce, dopo si scrive
- const fade=ease((t-7.1)/.4); $('bb').style.opacity=1-fade;
- const lab=$('lab'); if(t>7.3){{lab.textContent='AFTER'; lab.style.background=C.accent; lab.style.color='#0B1631'}} else {{lab.textContent='BEFORE'; lab.style.background='#6B6B6B'; lab.style.color='#fff'}}
- const n=Math.floor(tot*cl((t-7.5)/2.6,0,1)); let r=n;
- AF.forEach((ch,i)=>{{const k=Math.min(r,ch.length); r-=k; $('a'+i).innerHTML=ch.slice(0,k).join('').replace(/&/g,'&amp;').replace(/</g,'&lt;')+((k>0&&k<ch.length)||(i==AF.length-1&&k==ch.length&&n<tot)?'<span class="cur"></span>':'')+(k==ch.length&&i==AF.length-1&&t<10.8&&Math.floor(t*2)%2==0?'<span class="cur"></span>':'')}});
+ const fade=ease((t-11.6)/.4); $('bb').style.opacity=1-fade;
+ const lab=$('lab'); if(t>11.9){{lab.textContent='AFTER'; lab.style.background=C.accent; lab.style.color='#0B1631'}} else {{lab.textContent='BEFORE'; lab.style.background='#6B6B6B'; lab.style.color='#fff'}}
+ const n=Math.floor(tot*cl((t-12.2)/5.0,0,1)); let r=n;
+ AF.forEach((ch,i)=>{{const k=Math.min(r,ch.length); r-=k; $('a'+i).innerHTML=ch.slice(0,k).join('').replace(/&/g,'&amp;').replace(/</g,'&lt;')+((k>0&&k<ch.length)||(i==AF.length-1&&k==ch.length&&n<tot)?'<span class="cur"></span>':'')+(k==ch.length&&i==AF.length-1&&t<17.6&&Math.floor(t*2)%2==0?'<span class="cur"></span>':'')}});
  // guadagni
- C.deltas.forEach((x,i)=>{{const st=9.0+i*.45; const el=$('d'+i); el.style.opacity=ease((t-st)/.4)*(1-out); el.style.top=(i*104)+'px'; el.style.transform=`translateX(${{(1-ease((t-st)/.4))*-40}}px)`;}});
+ C.deltas.forEach((x,i)=>{{const st=17.8+i*.7; const el=$('d'+i); el.style.opacity=ease((t-st)/.4)*(1-out); el.style.top=(i*104)+'px'; el.style.transform=`translateX(${{(1-ease((t-st)/.4))*-40}}px)`;}});
  $('top').style.opacity=1-out;
- const e=$('end'); const ek=ease((t-11.9)/.8); e.style.opacity=ek; e.style.transform=`translateY(${{(1-ek)*60}}px)`;
+ const e=$('end'); const ek=ease((t-22.5)/.8); e.style.opacity=ek; e.style.transform=`translateY(${{(1-ek)*60}}px)`;
 }}
 </script></body></html>'''
 async def main(cfgp,outp):
     from playwright.async_api import async_playwright
-    cfg=json.load(open(cfgp)); fps=cfg.get('fps',30); dur=cfg.get('dur',14.5)
+    cfg=json.load(open(cfgp)); fps=cfg.get('fps',30); dur=cfg.get('dur',26)
     hp='/tmp/fix.html'; open(hp,'w').write(html(cfg))
     fr='/tmp/fix_frames'; shutil.rmtree(fr,ignore_errors=True); os.makedirs(fr)
     async with async_playwright() as pw:
