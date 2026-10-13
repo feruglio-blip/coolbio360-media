@@ -538,9 +538,10 @@
       "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_04.jpg",
       "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_05.jpg",
       "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_06.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_07.jpg"
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_07.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/score01/coolbio360_score01_08.jpg"
     ],
-    "didascalia": "How we score your Instagram bio 📏\n\nEvery list we publish uses the same rubric: the Cool Score. Four criteria, ten points.\n\nPersonality, 3 pts: does it sound like a person?\nClarity, 3 pts: do we get what you do in 3 seconds?\nCall to action, 2 pts: do we know what to do next?\nDetails, 2 pts: short lines, smart emoji, zero typos.\n\nFull marks examples from our lists: @honeybeecrochetstudio @curlsbyeightysixed @rabbottinteriors @thesoapbubblehaus\n\nSave this and score your own bio. Want our verdict? DM us your @.\n\n#instagrambio #biotips #instagramtips #bioideas #personalbranding #smallbusiness #branding #coolbio360",
+    "didascalia": "How we score your Instagram bio 📏\n\nEvery list we publish uses the same rubric: the Cool Score. Five criteria, ten points.\n\nFirst rule: you must have posted in the last 30 days. Dormant accounts don't make our lists.\n\nPersonality, 3 pts: does it sound like a person?\nClarity, 2 pts: do we get what you do in 3 seconds?\nCall to action, 2 pts: do we know what to do next?\nDetails, 1 pt: short lines, smart emoji, zero typos.\nFeed, 2 pts: does your grid keep your bio's promise?\n\nFull marks examples from our lists: @honeybeecrochetstudio @curlsbyeightysixed @rabbottinteriors @thesoapbubblehaus @sammys_cakes_\n\nSave this and score your own bio. Want our verdict? DM us your @.\n\n#instagrambio #biotips #instagramtips #bioideas #personalbranding #smallbusiness #branding #coolbio360",
     "prima_riga": "How we score your Instagram bio 📏",
     "nota": "",
     "user_tags": [
@@ -550,28 +551,35 @@
         {
           "username": "honeybeecrochetstudio",
           "x": 0.5,
-          "y": 0.62
+          "y": 0.6
         }
       ],
       [
         {
           "username": "curlsbyeightysixed",
           "x": 0.5,
-          "y": 0.62
+          "y": 0.6
         }
       ],
       [
         {
           "username": "rabbottinteriors",
           "x": 0.5,
-          "y": 0.62
+          "y": 0.6
         }
       ],
       [
         {
           "username": "thesoapbubblehaus",
           "x": 0.5,
-          "y": 0.62
+          "y": 0.6
+        }
+      ],
+      [
+        {
+          "username": "sammys_cakes_",
+          "x": 0.5,
+          "y": 0.6
         }
       ],
       []

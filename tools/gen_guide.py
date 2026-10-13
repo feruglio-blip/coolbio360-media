@@ -3,7 +3,7 @@ import asyncio, sys, os, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gen import *
 
-def pts_badge(n,A): return f'<div style="background:{A};color:#0B1631;padding:10px 22px;font-size:26px;font-weight:700;letter-spacing:5px">{n} PTS</div>'
+def pts_badge(n,A): return f'<div style="background:{A};color:#0B1631;padding:10px 22px;font-size:26px;font-weight:700;letter-spacing:5px">{n} PT{'S' if str(n)!='1' else ''}</div>'
 def bullets(items,A):
     return ''.join(f'<div style="display:flex;gap:20px;align-items:baseline;padding:18px 0;border-bottom:1px solid rgba(243,238,228,0.12);font-size:34px;line-height:1.3"><div style="color:{A};font-weight:700;min-width:34px">{s}</div><div>{t}</div></div>' for s,t in items)
 
@@ -19,12 +19,12 @@ def g_cover(c):
 
 def g_overview(c):
     A=c['accent']
-    rows=''.join(f'''<div style="display:flex;align-items:center;gap:28px;padding:26px 0;border-bottom:1px solid rgba(243,238,228,0.14)">
+    rows=''.join(f'''<div style="display:flex;align-items:center;gap:28px;padding:{26 if len(c["criteria"])<5 else 15}px 0;border-bottom:1px solid rgba(243,238,228,0.14)">
 <div style="font-family:'Inter',sans-serif;font-weight:300;font-size:110px;line-height:0.8;width:90px">{p}</div>
 <div style="flex:1"><div style="font-family:'Inter',sans-serif;font-weight:700;font-size:48px;letter-spacing:-1.5px">{n}</div><div style="font-size:28px;color:#9A958B;margin-top:6px">{q}</div></div>
 <div style="display:flex;gap:8px">{''.join(f'<div style="width:26px;height:26px;background:{A if i<int(p) else "rgba(243,238,228,0.14)"}"></div>' for i in range(3))}</div></div>''' for p,n,q in c['criteria'])
     inner=header(f"THE GUIDE · {c['tag']}")+f'''<div style="margin-top:50px;{LBL}">THE COOL SCORE</div>
-<div style="font-family:'Inter',sans-serif;font-weight:700;font-size:96px;line-height:0.95;letter-spacing:-4px;margin-top:14px">Four things.<br>Ten points.</div>
+<div style="font-family:'Inter',sans-serif;font-weight:700;font-size:96px;line-height:0.95;letter-spacing:-4px;margin-top:14px">{['Zero','One','Two','Three','Four','Five','Six'][len(c['criteria'])]} things.<br>Ten points.</div>
 <div style="margin-top:40px;border-top:1px solid rgba(243,238,228,0.35)">{rows}</div>
 {verdict(c['overview_line'],40)}{footer('HOW WE SCORE','SWIPE →')}'''
     return wrap(A,inner)
@@ -36,7 +36,7 @@ def g_criterion(c,k,i,n):
 <div style="font-family:'Hanken Grotesk';font-style:italic;font-size:46px;line-height:1.2;color:#E9E3D7;margin-top:22px">{k['question']}</div>
 <div style="margin-top:28px;border-top:1px solid rgba(243,238,228,0.35)">{bullets(k['rules'],A)}</div>
 <div style="margin-top:30px;font-size:18px;font-weight:700;letter-spacing:4px;color:#9A958B">FULL MARKS · @{k['h'].upper()}</div>
-<div style="margin-top:14px;background:#FFFFFF;border-radius:18px;padding:18px;box-shadow:0 30px 60px rgba(0,0,0,0.45);display:flex;justify-content:center"><img src="file://{T}/shots/{k['h']}.png" style="display:block;max-width:100%;max-height:360px;height:auto"></div>
+<div style="margin-top:14px;background:#FFFFFF;border-radius:18px;padding:18px;box-shadow:0 30px 60px rgba(0,0,0,0.45);display:flex;justify-content:center"><img src="file://{T}/{k.get('img','shots/'+k['h']+'.png')}" style="display:block;max-width:100%;max-height:360px;height:auto"></div>
 {footer(k['why'],'NEXT →')}'''
     return wrap(A,inner)
 
