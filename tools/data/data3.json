@@ -1,0 +1,622 @@
+[
+ {
+  "slug": "hair01",
+  "vol": "16",
+  "tag": "HAIRSTYLISTS",
+  "accent": "#B07CFF",
+  "emoji": "💇",
+  "title": "Hair Bios",
+  "single": "Hair Bio",
+  "sub": "Hairstylists under 600 followers.",
+  "next": [
+   "Makeup Bios",
+   "💄",
+   "#FF6F91"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "sinclairshearss",
+    "score": "7.9",
+    "emoji": "🎀",
+    "cat": "Hairstylist, Concord NC",
+    "str": "Personality, clear next step",
+    "v": "Hair, vlogs and fun. You know who you’re booking."
+   },
+   {
+    "rank": 4,
+    "h": "hairbydaisylara",
+    "score": "8.3",
+    "emoji": "👱‍♀️",
+    "cat": "Colour technician, UK",
+    "str": "Sharp niche, booking cue",
+    "v": "Balayage and blonde. One niche, owned."
+   },
+   {
+    "rank": 3,
+    "h": "thecurlabode",
+    "score": "8.6",
+    "emoji": "➰",
+    "cat": "Curl specialist, Norfolk",
+    "str": "Credentials on two continents",
+    "v": "Leeds to New York. The training speaks."
+   },
+   {
+    "rank": 2,
+    "h": "beautybyg.snyder",
+    "score": "8.9",
+    "emoji": "✨",
+    "cat": "Colour specialist, Boca Raton",
+    "str": "Salon, specialty, services",
+    "v": "Everything a new client needs, in four lines."
+   },
+   {
+    "rank": 1,
+    "h": "curlsbyeightysixed",
+    "score": "9.4",
+    "cat": "Curl cuts and colour",
+    "str": "Empathy, promise, CTA",
+    "v": "“Curly hair, understood.” Three words, total trust.",
+    "congrats": "CONGRATULATIONS, EIGHTY SIXED"
+   }
+  ]
+ },
+ {
+  "slug": "mua01",
+  "vol": "17",
+  "tag": "MAKEUP ARTISTS",
+  "accent": "#FF6F91",
+  "emoji": "💄",
+  "title": "Makeup Bios",
+  "single": "Makeup Bio",
+  "sub": "Makeup artists under 600 followers.",
+  "next": [
+   "Jewelry Bios",
+   "💍",
+   "#C9D1E0"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "pearl_makeoverrr",
+    "score": "7.8",
+    "emoji": "💆‍♀️",
+    "cat": "Beauty therapist, London",
+    "str": "Qualified, full service list",
+    "v": "Qualified and versatile. A full menu up front."
+   },
+   {
+    "rank": 4,
+    "h": "adorn_by_karma",
+    "score": "8.2",
+    "emoji": "🌍",
+    "cat": "Makeup and hair, Ahmedabad",
+    "str": "Booked ahead, global reach",
+    "v": "Booking open for 2026-27. Demand is the pitch."
+   },
+   {
+    "rank": 3,
+    "h": "natalia_beautyd",
+    "score": "8.6",
+    "emoji": "🇲🇩",
+    "cat": "Makeup and hair, London",
+    "str": "Personal story, real voice",
+    "v": "From Moldova to London, mum of two. Human first."
+   },
+   {
+    "rank": 2,
+    "h": "prettyjacked_",
+    "score": "8.9",
+    "emoji": "🍒",
+    "cat": "Bridal makeup, Milwaukee",
+    "str": "Bold name, clear CTA",
+    "v": "“Elevated beauty experiences.” Then: DM to book."
+   },
+   {
+    "rank": 1,
+    "h": "musebymelia",
+    "score": "9.2",
+    "cat": "Editorial makeup, London",
+    "str": "Positioning, range, booking",
+    "v": "London based, worldwide ready. Every line works.",
+    "congrats": "CONGRATULATIONS, MELIA"
+   }
+  ]
+ },
+ {
+  "slug": "jewelry01",
+  "vol": "18",
+  "tag": "JEWELLERY MAKERS",
+  "accent": "#C9D1E0",
+  "emoji": "💍",
+  "title": "Jewelry Bios",
+  "single": "Jewelry Bio",
+  "sub": "Jewellery makers under 600 followers.",
+  "next": [
+   "Script Bios",
+   "✒️",
+   "#9AD0EC"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "theglasstidejewellery",
+    "score": "7.9",
+    "emoji": "🌊",
+    "cat": "Sea glass jewellery, Sussex",
+    "str": "Poetic, minimal",
+    "v": "“Sterling silver ocean treasures.” Short and salty."
+   },
+   {
+    "rank": 4,
+    "h": "ashtree_art_glass",
+    "score": "8.3",
+    "emoji": "🔥",
+    "cat": "Glass beads, UK",
+    "str": "Nature and fire, shop + workshops",
+    "v": "“Inspired by nature, shaped by fire.” Lovely."
+   },
+   {
+    "rank": 3,
+    "h": "sundaymade.ca",
+    "score": "8.6",
+    "emoji": "♻️",
+    "cat": "Recycled glass beads, Canada",
+    "str": "Ethics in four lines",
+    "v": "Recycled, fair trade, shop consciously. Values first."
+   },
+   {
+    "rank": 2,
+    "h": "junipertxsilver",
+    "score": "9.0",
+    "emoji": "🌻",
+    "cat": "Silversmith, Kansas",
+    "str": "Self taught story, live drop",
+    "v": "Self taught silversmith, Texas soul. Pure character."
+   },
+   {
+    "rank": 1,
+    "h": "mkmakesjewellery",
+    "score": "9.3",
+    "cat": "Sentimental jewellery, UK",
+    "str": "Customer-centric promise",
+    "v": "“You choose the meaning. I make the piece.”",
+    "congrats": "CONGRATULATIONS, MK"
+   }
+  ]
+ },
+ {
+  "slug": "calli01",
+  "vol": "19",
+  "tag": "CALLIGRAPHERS",
+  "accent": "#9AD0EC",
+  "emoji": "✒️",
+  "title": "Script Bios",
+  "single": "Script Bio",
+  "sub": "Calligraphers under 600 followers.",
+  "next": [
+   "Skin Bios",
+   "🧴",
+   "#FFC9A8"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "the_introvertwrites_",
+    "score": "7.8",
+    "emoji": "📓",
+    "cat": "Lettering and art journal",
+    "str": "Clear content pillars",
+    "v": "An introvert who lets the pen do the talking."
+   },
+   {
+    "rank": 4,
+    "h": "fionascreativejoy",
+    "score": "8.2",
+    "emoji": "🌀",
+    "cat": "Hand lettering, London",
+    "str": "Joyful voice, cyanotype twist",
+    "v": "Lettering plus cyanotype. A curious mind on show."
+   },
+   {
+    "rank": 3,
+    "h": "thecalligraphyedit_",
+    "score": "8.6",
+    "emoji": "💌",
+    "cat": "Luxury calligraphy, UK",
+    "str": "Premium tone, clear offer",
+    "v": "Handcrafted for life’s meaningful moments."
+   },
+   {
+    "rank": 2,
+    "h": "cynosure__calli",
+    "score": "9.0",
+    "emoji": "🌻",
+    "cat": "Arabic calligraphy, Mumbai",
+    "str": "Rhythm, contrast",
+    "v": "“Calm strokes, loud beauty.” Poetry in four words."
+   },
+   {
+    "rank": 1,
+    "h": "staciescripts",
+    "score": "9.2",
+    "cat": "Calligrapher, New Hampshire",
+    "str": "Teacher, maker, clear CTA",
+    "v": "Place, classes, commissions, contact. Textbook bio.",
+    "congrats": "CONGRATULATIONS, STACIE"
+   }
+  ]
+ },
+ {
+  "slug": "skin01",
+  "vol": "20",
+  "tag": "ESTHETICIANS",
+  "accent": "#FFC9A8",
+  "emoji": "🧴",
+  "title": "Skin Bios",
+  "single": "Skin Bio",
+  "sub": "Estheticians under 600 followers.",
+  "next": [
+   "Soap Bios",
+   "🧼",
+   "#7FD1C7"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "esti.emy",
+    "score": "7.9",
+    "emoji": "🫧",
+    "cat": "Esthetician, Dalton",
+    "str": "Services and place",
+    "v": "Facials, headspa, waxing. You know what’s on."
+   },
+   {
+    "rank": 4,
+    "h": "reimagineskinspa",
+    "score": "8.3",
+    "emoji": "🦋",
+    "cat": "Skin spa, Minnesota",
+    "str": "Team credibility",
+    "v": "Physicians and estheticians under one roof."
+   },
+   {
+    "rank": 3,
+    "h": "themirrandaedit",
+    "score": "8.6",
+    "emoji": "🌸",
+    "cat": "Brows and facials, Elgin IL",
+    "str": "Specific niche, first visit CTA",
+    "v": "Hormonal skin facials. Specific wins."
+   },
+   {
+    "rank": 2,
+    "h": "skinberryfields",
+    "score": "8.9",
+    "emoji": "🍓",
+    "cat": "Licensed esthetician",
+    "str": "Honest, playful brand",
+    "v": "“Under construction” and proud. Very relatable."
+   },
+   {
+    "rank": 1,
+    "h": "skinwithmica_",
+    "score": "9.2",
+    "cat": "Skin tech, Newark UK",
+    "str": "Accredited, insured, booking",
+    "v": "Trained, accredited, insured. Trust in one line.",
+    "congrats": "CONGRATULATIONS, MICA"
+   }
+  ]
+ },
+ {
+  "slug": "soap01",
+  "vol": "21",
+  "tag": "SOAP MAKERS",
+  "accent": "#7FD1C7",
+  "emoji": "🧼",
+  "title": "Soap Bios",
+  "single": "Soap Bio",
+  "sub": "Soap makers under 600 followers.",
+  "next": [
+   "Wood Bios",
+   "🪵",
+   "#A3B86C"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "sophiessoaps_",
+    "score": "7.9",
+    "emoji": "💝",
+    "cat": "Handmade soap, US",
+    "str": "Origin story",
+    "v": "Started as a fundraiser for her daughter. Sweet."
+   },
+   {
+    "rank": 4,
+    "h": "spacecoastsoapco",
+    "score": "8.3",
+    "emoji": "🚀",
+    "cat": "Organic soaps, Florida",
+    "str": "Everyday magic, maker credit",
+    "v": "Luxury and everyday magic, signed by the maker."
+   },
+   {
+    "rank": 3,
+    "h": "thesoapbubblehaus",
+    "score": "8.6",
+    "emoji": "🫧",
+    "cat": "Cold process soap, Sydney",
+    "str": "Four clean lines",
+    "v": "Handcrafted, small batch, cold process. Shop."
+   },
+   {
+    "rank": 2,
+    "h": "desertglowsoap",
+    "score": "9.0",
+    "emoji": "🌲",
+    "cat": "Nature soaps, US",
+    "str": "Cause, product, CTA",
+    "v": "Soap that supports national parks. Purpose sells."
+   },
+   {
+    "rank": 1,
+    "h": "saltandpasturesoap",
+    "score": "9.3",
+    "cat": "Botanical soaps, US",
+    "str": "Wit, family promise",
+    "v": "“Botanicals you can actually pronounce.” Perfect.",
+    "congrats": "CONGRATULATIONS, SALT + PASTURE"
+   }
+  ]
+ },
+ {
+  "slug": "wood01",
+  "vol": "22",
+  "tag": "WOODWORKERS",
+  "accent": "#A3B86C",
+  "emoji": "🪵",
+  "title": "Wood Bios",
+  "single": "Wood Bio",
+  "sub": "Woodworkers under 600 followers.",
+  "next": [
+   "Photo Bios",
+   "📸",
+   "#F2E6D0"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "eddiejchwoodturning",
+    "score": "7.9",
+    "emoji": "🌀",
+    "cat": "Wood turner, UK",
+    "str": "Young voice, side passions",
+    "v": "A young turner with a band. Personality on a lathe."
+   },
+   {
+    "rank": 4,
+    "h": "noblekraftdesignco",
+    "score": "8.3",
+    "emoji": "🚪",
+    "cat": "Custom cabinetry, Florida",
+    "str": "Clear services, service area",
+    "v": "Built-ins to pantries. Says exactly what they make."
+   },
+   {
+    "rank": 3,
+    "h": "reecewoodworks",
+    "score": "8.6",
+    "emoji": "🌳",
+    "cat": "Wood trinkets, US",
+    "str": "Old-school charm, DM cue",
+    "v": "“Purveyor of wood trinkets.” Then: Cheers!"
+   },
+   {
+    "rank": 2,
+    "h": "sidehustlewoodcraft",
+    "score": "8.9",
+    "emoji": "🖊️",
+    "cat": "Pens and engraving, US",
+    "str": "Product list, veteran owned",
+    "v": "Pens, wood, laser. Veteran owned. Clear and proud."
+   },
+   {
+    "rank": 1,
+    "h": "created_by_michael",
+    "score": "9.2",
+    "cat": "Handmade woodwork, US",
+    "str": "Story-driven promise",
+    "v": "“Every piece has a story.” And it should last.",
+    "congrats": "CONGRATULATIONS, MICHAEL"
+   }
+  ]
+ },
+ {
+  "slug": "photo01",
+  "vol": "23",
+  "tag": "WEDDING PHOTOGRAPHERS",
+  "accent": "#F2E6D0",
+  "emoji": "📸",
+  "title": "Photo Bios",
+  "single": "Photo Bio",
+  "sub": "Wedding photographers under 600 followers.",
+  "next": [
+   "Knitting Bios",
+   "🧶",
+   "#FF8A65"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "alexanderbeauphotography",
+    "score": "7.9",
+    "emoji": "🏛️",
+    "cat": "Wedding photographer, London",
+    "str": "Honest price cue, style",
+    "v": "The laughs, the chaos and the moments. Real."
+   },
+   {
+    "rank": 4,
+    "h": "heidifotografia",
+    "score": "8.3",
+    "emoji": "🌴",
+    "cat": "Wedding photographer, Florida",
+    "str": "Style in three words",
+    "v": "Timeless, romantic, editorial. Style made clear."
+   },
+   {
+    "rank": 3,
+    "h": "danihearts_weddingphotography",
+    "score": "8.6",
+    "emoji": "💍",
+    "cat": "Wedding photographer, Scotland",
+    "str": "Warm promise, worldwide",
+    "v": "Timeless, authentic and full of heart. On brand."
+   },
+   {
+    "rank": 2,
+    "h": "lovedrunkphoto",
+    "score": "9.0",
+    "emoji": "🏳️‍🌈",
+    "cat": "Elopements, Adelaide",
+    "str": "Inclusive, carefree vibe",
+    "v": "“All lovers welcome.” Inclusive and fun."
+   },
+   {
+    "rank": 1,
+    "h": "bearded_wedding_photographer",
+    "score": "9.4",
+    "cat": "Documentary weddings, UK",
+    "str": "Calm voice, 300+ weddings",
+    "v": "“A calm presence. A watchful eye.” Pure confidence.",
+    "congrats": "CONGRATULATIONS, WAYNE"
+   }
+  ]
+ },
+ {
+  "slug": "yarn01",
+  "vol": "24",
+  "tag": "KNIT AND CROCHET",
+  "accent": "#FF8A65",
+  "emoji": "🧶",
+  "title": "Knitting Bios",
+  "single": "Yarn Bio",
+  "sub": "Knitters and crocheters under 600 followers.",
+  "next": [
+   "Interior Bios",
+   "🛋️",
+   "#8FA6A0"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "the_yarn_basket2026",
+    "score": "7.9",
+    "emoji": "🧺",
+    "cat": "Handmade crochet",
+    "str": "Clear rules, order via DM",
+    "v": "Lead time, payment, returns. No surprises."
+   },
+   {
+    "rank": 4,
+    "h": "crochet_byadri",
+    "score": "8.3",
+    "emoji": "🦋",
+    "cat": "Crochet, Puerto Rico",
+    "str": "Promise, local pride",
+    "v": "The touch your wardrobe was missing. Made in Vieques."
+   },
+   {
+    "rank": 3,
+    "h": "_coonieknits_",
+    "score": "8.6",
+    "emoji": "🐈",
+    "cat": "Knitting journal, Germany",
+    "str": "Cosy theme, Ravelry link",
+    "v": "Knitting, cats and photos. Cosy in one line."
+   },
+   {
+    "rank": 2,
+    "h": "timberridgeknits",
+    "score": "9.0",
+    "emoji": "🏔️",
+    "cat": "Knitwear, Idaho",
+    "str": "Symbols, rhythm, shop",
+    "v": "Knits and things, handmade in Idaho. Charming."
+   },
+   {
+    "rank": 1,
+    "h": "honeybeecrochetstudio",
+    "score": "9.3",
+    "cat": "Crochet creator, YouTube",
+    "str": "Self irony, channel CTA",
+    "v": "“Crocheting my way out of responsibilities.” Iconic.",
+    "congrats": "CONGRATULATIONS, JESSICA"
+   }
+  ]
+ },
+ {
+  "slug": "interior01",
+  "vol": "25",
+  "tag": "INTERIOR DESIGNERS",
+  "accent": "#8FA6A0",
+  "emoji": "🛋️",
+  "title": "Interior Bios",
+  "single": "Interior Bio",
+  "sub": "Interior designers under 600 followers.",
+  "next": [
+   "Pet Sitter Bios",
+   "🐕",
+   "#33CCFF"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "sedelli_store",
+    "score": "7.9",
+    "emoji": "🕯️",
+    "cat": "Home decor store, Florida",
+    "str": "One line positioning",
+    "v": "“Understated pieces that complete a room.”"
+   },
+   {
+    "rank": 4,
+    "h": "connolly.interiors",
+    "score": "8.3",
+    "emoji": "❤️",
+    "cat": "Interior stylist, UK",
+    "str": "Heart + function",
+    "v": "Spaces that feel like you. Warm and clear."
+   },
+   {
+    "rank": 3,
+    "h": "_studioremi",
+    "score": "8.6",
+    "emoji": "🏡",
+    "cat": "Interior designer, England",
+    "str": "Evocative, sector list",
+    "v": "Soulful, layered, beautifully lived in."
+   },
+   {
+    "rank": 2,
+    "h": "rabbottinteriors",
+    "score": "9.0",
+    "emoji": "🎀",
+    "cat": "Virtual interior designer",
+    "str": "Bold niche, keyword DM",
+    "v": "Unapologetically feminine spaces. DM “DESIGN”."
+   },
+   {
+    "rank": 1,
+    "h": "ingoodproportion.london",
+    "score": "9.4",
+    "cat": "Interior design, London",
+    "str": "Poetic line, founder credit",
+    "v": "“A room in good proportion always sings.”",
+    "congrats": "CONGRATULATIONS, IGP"
+   }
+  ]
+ }
+]
