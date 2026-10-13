@@ -1,0 +1,25 @@
+{
+ "accent": "#FF8A5B",
+ "episode": "No.01",
+ "line1": "Can we fix",
+ "line2": "this bio?",
+ "handle": "moonlitwick.co",
+ "initial": "M",
+ "avatar_bg": "#3A3550",
+ "stats": ["86", "412", "390"],
+ "name": "Moonlit Wick",
+ "before": ["Candles 🌙✨✨", "Handmade with love ❤️", "Check out our shop!!", "DM for orders"],
+ "issues": [
+  {"label": "Could be anyone", "note": "\"Handmade with love\" is in 1,000 bios", "lines": [0, 1]},
+  {"label": "No details", "note": "What scent? Where? Why you?", "lines": [0]},
+  {"label": "Two CTAs, no reason", "note": "Shop or DM? And why now?", "lines": [2, 3]}
+ ],
+ "after": ["Candles that smell like Sunday mornings 🌙", "Hand-poured soy, small batches · Leeds", "New scent drops on the 1st of every month", "Grab the next drop before it sells out ↓"],
+ "score_before": 5.8,
+ "score_after": 9.1,
+ "deltas": [{"k": "Personality", "v": 1.5}, {"k": "Clarity", "v": 1.0}, {"k": "Call to action", "v": 0.8}],
+ "end2": "DM us your bio. We fix one every week.",
+ "footnote": "EXAMPLE BIO",
+ "audio": "/tmp/music_fix.m4a",
+ "dur": 14.5
+}
