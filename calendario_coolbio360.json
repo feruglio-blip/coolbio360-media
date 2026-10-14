@@ -160,67 +160,6 @@
     ]
   },
   {
-    "id": "cb007",
-    "data": "2026-10-14",
-    "ora": "06:00",
-    "tipo": "carosello",
-    "tema": "Florists",
-    "immagini": [
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_01.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_02.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_03.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_04.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_05.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_06.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_07.jpg"
-    ],
-    "didascalia": "The 5 best florist bios on Instagram right now 💐\n\nFresh stems, fresh words. All under 600 followers, ranked by our editors.\n\nNo.1 @vandaflorals\nNo.2 @faithblooms._\nNo.3 @withlouisemichael\nNo.4 @flowersbygess\nNo.5 @thepivoinebouquet\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #florist #weddingflorist #floraldesign #smallbusiness #branding #coolbio360",
-    "prima_riga": "The 5 best florist bios on Instagram right now 💐",
-    "nota": "",
-    "user_tags": [
-      [],
-      [
-        {
-          "username": "thepivoinebouquet",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "flowersbygess",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "withlouisemichael",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "faithblooms._",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "vandaflorals",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      []
-    ],
-    "collaboratori": [
-      "vandaflorals"
-    ]
-  },
-  {
     "id": "cb008",
     "data": "2026-10-14",
     "ora": "12:00",
@@ -340,6 +279,67 @@
     ],
     "collaboratori": [
       "polishedvibez"
+    ]
+  },
+  {
+    "id": "cb007",
+    "data": "2026-10-14",
+    "ora": "21:00",
+    "tipo": "carosello",
+    "tema": "Florists",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/florist01/coolbio360_florist01_07.jpg"
+    ],
+    "didascalia": "The 5 best florist bios on Instagram right now 💐\n\nFresh stems, fresh words. All under 600 followers, ranked by our editors.\n\nNo.1 @vandaflorals\nNo.2 @faithblooms._\nNo.3 @withlouisemichael\nNo.4 @flowersbygess\nNo.5 @thepivoinebouquet\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #florist #weddingflorist #floraldesign #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best florist bios on Instagram right now 💐",
+    "nota": "",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "thepivoinebouquet",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "flowersbygess",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "withlouisemichael",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "faithblooms._",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "vandaflorals",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "vandaflorals"
     ]
   },
   {
