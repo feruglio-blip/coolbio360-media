@@ -1499,5 +1499,615 @@
     "collaboratori": [
       "noblehound_groomers"
     ]
+  },
+  {
+    "id": "cb027",
+    "data": "2026-10-21",
+    "ora": "08:30",
+    "tipo": "carosello",
+    "tema": "Pet Sitters",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/petsit01/coolbio360_petsit01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/petsit01/coolbio360_petsit01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/petsit01/coolbio360_petsit01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/petsit01/coolbio360_petsit01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/petsit01/coolbio360_petsit01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/petsit01/coolbio360_petsit01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/petsit01/coolbio360_petsit01_07.jpg"
+    ],
+    "didascalia": "The 5 best pet sitter bios on Instagram right now 🐕\n\nWalks, visits, cuddles. All under 600 followers, ranked by our editors.\n\nNo.1 @daphnespetadventures\nNo.2 @oly_paws\nNo.3 @mackspackadventures\nNo.4 @baulcombeandbark\nNo.5 @murphysmuttsdogwalking\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #petsitter #dogwalker #petcare #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best pet sitter bios on Instagram right now 🐕",
+    "nota": "",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "murphysmuttsdogwalking",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "baulcombeandbark",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "mackspackadventures",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "oly_paws",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "daphnespetadventures",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "daphnespetadventures"
+    ]
+  },
+  {
+    "id": "cb028",
+    "data": "2026-10-21",
+    "ora": "12:00",
+    "tipo": "carosello",
+    "tema": "Home Bakers",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/baker01/coolbio360_baker01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/baker01/coolbio360_baker01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/baker01/coolbio360_baker01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/baker01/coolbio360_baker01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/baker01/coolbio360_baker01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/baker01/coolbio360_baker01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/baker01/coolbio360_baker01_07.jpg"
+    ],
+    "didascalia": "The 5 best home baker bios on Instagram right now 🥐\n\nButter, sugar, personality. All under 600 followers, ranked by our editors.\n\nNo.1 @treat_thebakery\nNo.2 @sab_bakes\nNo.3 @hersweetbakery\nNo.4 @xosweetdee\nNo.5 @thursdayoven_by_rei\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #homebaker #pastry #cottagebakery #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best home baker bios on Instagram right now 🥐",
+    "nota": "",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "thursdayoven_by_rei",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "xosweetdee",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "hersweetbakery",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "sab_bakes",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "treat_thebakery",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "treat_thebakery"
+    ]
+  },
+  {
+    "id": "cb029",
+    "data": "2026-10-21",
+    "ora": "18:00",
+    "tipo": "carosello",
+    "tema": "Lash and Brow Artists",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/lash01/coolbio360_lash01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/lash01/coolbio360_lash01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/lash01/coolbio360_lash01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/lash01/coolbio360_lash01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/lash01/coolbio360_lash01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/lash01/coolbio360_lash01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/lash01/coolbio360_lash01_07.jpg"
+    ],
+    "didascalia": "The 5 best lash and brow bios on Instagram right now 👁️\n\nSmall details, big difference. All under 600 followers, ranked by our editors.\n\nNo.1 @winksbylivii\nNo.2 @refinedbyary\nNo.3 @starlitlashess\nNo.4 @melorabeautyco\nNo.5 @lasheddbyyarii_\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #lashartist #browartist #lashextensions #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best lash and brow bios on Instagram right now 👁️",
+    "nota": "",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "lasheddbyyarii_",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "melorabeautyco",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "starlitlashess",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "refinedbyary",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "winksbylivii",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "winksbylivii"
+    ]
+  },
+  {
+    "id": "cb030",
+    "data": "2026-10-22",
+    "ora": "08:30",
+    "tipo": "carosello",
+    "tema": "Mobile Bars",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/bar01/coolbio360_bar01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/bar01/coolbio360_bar01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/bar01/coolbio360_bar01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/bar01/coolbio360_bar01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/bar01/coolbio360_bar01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/bar01/coolbio360_bar01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/bar01/coolbio360_bar01_07.jpg"
+    ],
+    "didascalia": "The 5 best mobile bar bios on Instagram right now 🍸\n\nShaken, stirred, well written. All under 600 followers, ranked by our editors.\n\nNo.1 @themixingstall\nNo.2 @blueridgebartending\nNo.3 @sparrowcocktailco\nNo.4 @thecrackedcauldroncocktails\nNo.5 @toast_to_that_llc\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #mobilebar #mobilebartending #eventbartender #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best mobile bar bios on Instagram right now 🍸",
+    "nota": "",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "toast_to_that_llc",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "thecrackedcauldroncocktails",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "sparrowcocktailco",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "blueridgebartending",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "themixingstall",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "themixingstall"
+    ]
+  },
+  {
+    "id": "cb031",
+    "data": "2026-10-22",
+    "ora": "12:00",
+    "tipo": "carosello",
+    "tema": "Cookie Artists",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cookie01/coolbio360_cookie01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cookie01/coolbio360_cookie01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cookie01/coolbio360_cookie01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cookie01/coolbio360_cookie01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cookie01/coolbio360_cookie01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cookie01/coolbio360_cookie01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cookie01/coolbio360_cookie01_07.jpg"
+    ],
+    "didascalia": "The 5 best cookie artist bios on Instagram right now 🍪\n\nRoyal icing, royal bios. All under 600 followers, ranked by our editors.\n\nNo.1 @moonlightbakeryatl\nNo.2 @mikaylascookieco\nNo.3 @love.lawson17\nNo.4 @maddisdelights\nNo.5 @customcookiesbyalicia\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #decoratedcookies #sugarcookies #cookieart #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best cookie artist bios on Instagram right now 🍪",
+    "nota": "",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "customcookiesbyalicia",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "maddisdelights",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "love.lawson17",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "mikaylascookieco",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "moonlightbakeryatl",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "moonlightbakeryatl"
+    ]
+  },
+  {
+    "id": "cb032",
+    "data": "2026-10-22",
+    "ora": "18:00",
+    "tipo": "carosello",
+    "tema": "Massage Therapists",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/massage01/coolbio360_massage01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/massage01/coolbio360_massage01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/massage01/coolbio360_massage01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/massage01/coolbio360_massage01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/massage01/coolbio360_massage01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/massage01/coolbio360_massage01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/massage01/coolbio360_massage01_07.jpg"
+    ],
+    "didascalia": "The 5 best massage therapist bios on Instagram right now 💆\n\nCalm hands, clear words. All under 600 followers, ranked by our editors.\n\nNo.1 @serenitymassagebykc\nNo.2 @justbreathesportsmassage\nNo.3 @handslikebutta\nNo.4 @armoredmassage\nNo.5 @trubalance.bodywork\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #massagetherapist #sportsmassage #massagetherapy #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best massage therapist bios on Instagram right now 💆",
+    "nota": "",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "trubalance.bodywork",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "armoredmassage",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "handslikebutta",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "justbreathesportsmassage",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "serenitymassagebykc",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "serenitymassagebykc"
+    ]
+  },
+  {
+    "id": "cb033",
+    "data": "2026-10-23",
+    "ora": "08:30",
+    "tipo": "carosello",
+    "tema": "Food Trucks",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/truck01/coolbio360_truck01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/truck01/coolbio360_truck01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/truck01/coolbio360_truck01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/truck01/coolbio360_truck01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/truck01/coolbio360_truck01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/truck01/coolbio360_truck01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/truck01/coolbio360_truck01_07.jpg"
+    ],
+    "didascalia": "The 5 best food truck bios on Instagram right now 🚚\n\nHungry for a good bio? All under 600 followers, ranked by our editors.\n\nNo.1 @unclekandco\nNo.2 @tako_loko_htx\nNo.3 @hi_pilina.food.station\nNo.4 @pastaamore_streetfood\nNo.5 @howechippyvan30\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #foodtruck #streetfood #foodtrucklife #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best food truck bios on Instagram right now 🚚",
+    "nota": "",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "howechippyvan30",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "pastaamore_streetfood",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "hi_pilina.food.station",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "tako_loko_htx",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "unclekandco",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "unclekandco"
+    ]
+  },
+  {
+    "id": "cb034",
+    "data": "2026-10-23",
+    "ora": "12:00",
+    "tipo": "carosello",
+    "tema": "Embroidery Artists",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/embroid01/coolbio360_embroid01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/embroid01/coolbio360_embroid01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/embroid01/coolbio360_embroid01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/embroid01/coolbio360_embroid01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/embroid01/coolbio360_embroid01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/embroid01/coolbio360_embroid01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/embroid01/coolbio360_embroid01_07.jpg"
+    ],
+    "didascalia": "The 5 best embroidery bios on Instagram right now 🪡\n\nEvery stitch counts, every word too. All under 600 followers, ranked by our editors.\n\nNo.1 @witch.crafting\nNo.2 @tisnthreads\nNo.3 @netamirworkshop\nNo.4 @mariekispal\nNo.5 @fil_et_reve\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #embroidery #handembroidery #embroideryart #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best embroidery bios on Instagram right now 🪡",
+    "nota": "",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "fil_et_reve",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "mariekispal",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "netamirworkshop",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "tisnthreads",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "witch.crafting",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "witch.crafting"
+    ]
+  },
+  {
+    "id": "cb035",
+    "data": "2026-10-23",
+    "ora": "18:00",
+    "tipo": "carosello",
+    "tema": "Coffee Carts",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cart01/coolbio360_cart01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cart01/coolbio360_cart01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cart01/coolbio360_cart01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cart01/coolbio360_cart01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cart01/coolbio360_cart01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cart01/coolbio360_cart01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/cart01/coolbio360_cart01_07.jpg"
+    ],
+    "didascalia": "The 5 best coffee cart bios on Instagram right now ☕\n\nSmall carts, strong brews, sharp bios. All under 600 followers, ranked by our editors.\n\nNo.1 @themorningaftercup\nNo.2 @hazelandco.tx\nNo.3 @roamingcoffeecart\nNo.4 @beanbrigade831\nNo.5 @fuelandflowcc\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #coffeecart #mobilecoffee #coffeetruck #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best coffee cart bios on Instagram right now ☕",
+    "nota": "",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "fuelandflowcc",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "beanbrigade831",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "roamingcoffeecart",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "hazelandco.tx",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "themorningaftercup",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "themorningaftercup"
+    ]
+  },
+  {
+    "id": "cb036",
+    "data": "2026-10-24",
+    "ora": "08:30",
+    "tipo": "carosello",
+    "tema": "Balloon Artists",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/balloon01/coolbio360_balloon01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/balloon01/coolbio360_balloon01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/balloon01/coolbio360_balloon01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/balloon01/coolbio360_balloon01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/balloon01/coolbio360_balloon01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/balloon01/coolbio360_balloon01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/balloon01/coolbio360_balloon01_07.jpg"
+    ],
+    "didascalia": "The 5 best balloon artist bios on Instagram right now 🎈\n\nLight, bright, well tied. All under 600 followers, ranked by our editors.\n\nNo.1 @petalnpop.co\nNo.2 @colortheoryballoons\nNo.3 @blisspopballoons\nNo.4 @balloon_deco_me\nNo.5 @liyasluxeballoons\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #balloonartist #balloondecor #balloongarland #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best balloon artist bios on Instagram right now 🎈",
+    "nota": "",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "liyasluxeballoons",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "balloon_deco_me",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "blisspopballoons",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "colortheoryballoons",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "petalnpop.co",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "petalnpop.co"
+    ]
   }
 ]

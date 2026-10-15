@@ -34,7 +34,7 @@ def cover(c):
     inner=f'''<div style="display: flex; justify-content: space-between; margin-top: 18px; font-size: 20px; font-weight: 700; letter-spacing: 4px; color: #9A958B"><div>THE BIO ISSUE</div><div>VOL. {c['vol']} · {c['tag']}</div></div>
 <div style="margin-top: 80px; display: flex; align-items: flex-end; justify-content: space-between"><div style="background: {A}; color: #0B1631; padding: 10px 22px; font-size: 26px; font-weight: 700; letter-spacing: 6px">THE LIST</div>{emobox(c['emoji'],190,180,130,10,A)}</div>
 <div style="margin-top: 30px; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 150px; line-height: 0.95; letter-spacing: -6px">The 5 Best</div>
-<div style="font-family: 'Inter', sans-serif; font-weight: 700; font-size: 150px; line-height: 0.95; letter-spacing: -6px">{hand(c['title'],A)}</div>
+<div style="font-family: 'Inter', sans-serif; font-weight: 700; font-size: {c.get('tsize',150)}px; line-height: 0.95; letter-spacing: -6px">{hand(c['title'],A)}</div>
 <div style="font-family: 'Hanken Grotesk'; font-style: italic; font-weight: 400; font-size: 80px; line-height: 1.1; color: #D9D3C7; margin-top: 30px">on Instagram right now</div>
 <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: flex-end; border-top: 2px solid rgba(243, 238, 228, 0.85); padding-top: 24px"><div style="font-size: 31px; font-weight: 500; line-height: 1.4; max-width: 640px; color: #D9D3C7">{c['sub']} Ranked from No. 5 to No. 1 by our editors.</div><div style="font-size: 24px; font-weight: 700; letter-spacing: 5px">SWIPE →</div></div>'''
     return wrap(A,inner,48)
