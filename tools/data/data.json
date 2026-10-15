@@ -159,21 +159,21 @@
    },
    {
     "rank": 4,
-    "h": "oddball_ceramics",
-    "score": "8.4",
-    "emoji": "🎨",
-    "cat": "Hand painted, Byron Hinterland",
-    "str": "Clear promise, maker credit",
-    "v": "No molds, no repeats. A promise in four words."
+    "h": "nettleanddockpottery",
+    "score": "8.3",
+    "emoji": "🍀",
+    "cat": "Pottery workshops, Devon",
+    "str": "Offer and place in one line",
+    "v": "Nature, workshops, Devon. Everything in one line."
    },
    {
     "rank": 3,
-    "h": "thrownbyhill",
-    "score": "8.7",
-    "emoji": "🌀",
-    "cat": "Wheel thrown pottery, Wirral",
-    "str": "Honest progress story",
-    "v": "One Monday class at a time. Easy to root for."
+    "h": "oyatgoods",
+    "score": "8.6",
+    "emoji": "🍑",
+    "cat": "Hand built ceramics, LA",
+    "str": "Honest voice, clear craft",
+    "v": "“Refining my point of view, piece by piece.” Lovely."
    },
    {
     "rank": 2,
@@ -212,33 +212,24 @@
   "people": [
    {
     "rank": 5,
-    "h": "groomwithaviewelgin",
-    "score": "7.9",
-    "emoji": "🐶",
-    "cat": "Dog groomer, Elgin",
-    "str": "Qualified, all breeds, DM cue",
-    "v": "Every essential, nothing extra."
+    "h": "hayleighsgroomroom",
+    "score": "8.0",
+    "emoji": "🩺",
+    "cat": "Dog groomer and vet nurse, UK",
+    "str": "Credentials up front",
+    "v": "A vet nurse with scissors. Trust, in two lines."
    },
    {
     "rank": 4,
-    "h": "thepamperpuphouse",
-    "score": "8.2",
-    "emoji": "🛁",
-    "cat": "Grooming, Southern Highlands",
-    "str": "Warm tagline, local areas",
-    "v": "Every pup deserves it. So does this bio."
+    "h": "snoutdispatch",
+    "score": "8.4",
+    "emoji": "🚐",
+    "cat": "Mobile dog grooming, Orange",
+    "str": "Service, terms, area",
+    "v": "Mobile, by appointment, local. Zero guesswork."
    },
    {
     "rank": 3,
-    "h": "fur.real.grooming",
-    "score": "8.5",
-    "emoji": "✂️",
-    "cat": "Dog and cat stylist, Missouri",
-    "str": "20 years, pun handle",
-    "v": "Fur real: a pun with 20 years behind it."
-   },
-   {
-    "rank": 2,
     "h": "pawshgroomingandstay",
     "score": "8.9",
     "emoji": "🐾",
@@ -247,13 +238,23 @@
     "v": "Brazilian grooming in Jarrow. Nobody else says that."
    },
    {
+    "rank": 2,
+    "h": "dovelydogs",
+    "score": "9.0",
+    "emoji": "💕",
+    "cat": "1:1 dog grooming, Texas",
+    "str": "Clear specialism, empathy",
+    "v": "Senior, nervous and special needs pups. A niche with a heart."
+   },
+   {
     "rank": 1,
-    "h": "groomingvango",
-    "score": "9.5",
-    "cat": "Mobile pet spa, West Virginia",
-    "str": "Wordplay, clear service",
-    "v": "“Sit. Stay. We’ll roll over to you.”",
-    "congrats": "CONGRATULATIONS, VAN-GO"
+    "h": "noblehound_groomers",
+    "score": "9.4",
+    "emoji": "🎩",
+    "cat": "One on one grooming, Melbourne",
+    "str": "Rhythm, place, DM to book",
+    "v": "“Tailored styling. Patient care.” Four words, a whole brand.",
+    "congrats": "CONGRATULATIONS, NOBLE HOUND"
    }
   ]
  }

@@ -450,21 +450,21 @@
   "people": [
    {
     "rank": 5,
-    "h": "stump_plants",
-    "score": "7.8",
-    "emoji": "🌱",
-    "cat": "Indoor plant shop, Abu Dhabi",
-    "str": "Three pillars, location",
-    "v": "Plants, pots, care tips. Everything in one line."
-   },
-   {
-    "rank": 4,
     "h": "crzyplntladybailey_ml",
     "score": "8.2",
     "emoji": "💚",
     "cat": "Houseplants, Washington",
     "str": "Propagation, side craft",
     "v": "Every plant propagated by hand. Love it."
+   },
+   {
+    "rank": 4,
+    "h": "rollingrootplants",
+    "score": "8.4",
+    "emoji": "🚚",
+    "cat": "Mobile plant shop, Wisconsin",
+    "str": "Concept first, motto",
+    "v": "A plant shop on wheels, said in five words."
    },
    {
     "rank": 3,
