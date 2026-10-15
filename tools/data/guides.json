@@ -153,5 +153,434 @@
    "Short lines, zero typos?",
    "Did you post this month?"
   ]
+ },
+ {
+  "slug": "mistakes01",
+  "tag": "5 MISTAKES",
+  "kicker": "THE GUIDE · 02",
+  "accent": "#FF6B6B",
+  "emoji": "🚫",
+  "t1": "5 Bio",
+  "t2": "Mistakes",
+  "t3": "and how to fix them",
+  "sub": "The five things we see most often in bios that never make our lists.",
+  "no_squares": true,
+  "ov_label": "THE CHECK",
+  "ov_title": "Five mistakes.<br>Five fixes.",
+  "ov_footer": "SPOT YOURS",
+  "criteria": [
+   [
+    "01",
+    "No job",
+    "We can’t tell what you do."
+   ],
+   [
+    "02",
+    "Buzzwords",
+    "Passionate, quality, best."
+   ],
+   [
+    "03",
+    "No next step",
+    "Nice bio. Now what?"
+   ],
+   [
+    "04",
+    "Text wall",
+    "One long paragraph."
+   ],
+   [
+    "05",
+    "No voice",
+    "Could be anyone."
+   ]
+  ],
+  "overview_line": "Fix one today. Fix all five this week.",
+  "item_label": "MISTAKE",
+  "ex_label": "FIXED BY",
+  "criteria_detail": [
+   {
+    "name": "No job",
+    "badge": "FIX",
+    "h": "hairbydaisylara",
+    "question": "If we can’t tell what you do, we scroll on.",
+    "rules": [
+     [
+      "−",
+      "A slogan with no job in it"
+     ],
+     [
+      "+",
+      "Your service in the first line"
+     ],
+     [
+      "+",
+      "One niche beats five services"
+     ]
+    ],
+    "why": "“BALAYAGE AND BLONDE SPECIALIST”"
+   },
+   {
+    "name": "Buzzwords",
+    "badge": "FIX",
+    "h": "mandymakesthat",
+    "question": "Every bio says passionate. Yours should prove it.",
+    "rules": [
+     [
+      "−",
+      "Quality, passionate, the best"
+     ],
+     [
+      "+",
+      "A date, a number, a fact"
+     ],
+     [
+      "+",
+      "Something only you can claim"
+     ]
+    ],
+    "why": "“FOUNDER OF AB’S 1ST MEAL PREP CO (2010)”"
+   },
+   {
+    "name": "No next step",
+    "badge": "FIX",
+    "h": "sigitastattoo",
+    "question": "A great bio with no action is a dead end.",
+    "rules": [
+     [
+      "−",
+      "Three links and no instruction"
+     ],
+     [
+      "+",
+      "One clear action: book, shop, DM"
+     ],
+     [
+      "+",
+      "A keyword DM makes it effortless"
+     ]
+    ],
+    "why": "DM “BOOK”. REPLY IN 2H."
+   },
+   {
+    "name": "Text wall",
+    "badge": "FIX",
+    "h": "salty_roaster",
+    "question": "Nobody reads a paragraph on a phone.",
+    "rules": [
+     [
+      "−",
+      "One block, no breaks"
+     ],
+     [
+      "+",
+      "One idea per line"
+     ],
+     [
+      "+",
+      "Three or four lines are plenty"
+     ]
+    ],
+    "why": "THREE LINES, ALL SIGNAL"
+   },
+   {
+    "name": "No voice",
+    "badge": "FIX",
+    "h": "goodmoodclubshop",
+    "question": "People follow people, not product lists.",
+    "rules": [
+     [
+      "−",
+      "A list that could be anyone’s"
+     ],
+     [
+      "+",
+      "A tiny story or a real detail"
+     ],
+     [
+      "+",
+      "Write like you talk"
+     ]
+    ],
+    "why": "LAID OFF, NOW LIGHTING CANDLES"
+   }
+  ],
+  "end_title": "Check your<br>own bio.",
+  "end_line": "Five questions, two minutes.",
+  "checklist": [
+   "Is your job in the first line?",
+   "Did you swap one buzzword for a fact?",
+   "Is there one clear next step?",
+   "Short lines, one idea each?",
+   "Does it sound like you?"
+  ]
+ },
+ {
+  "slug": "firstline01",
+  "tag": "FIRST LINE",
+  "kicker": "THE GUIDE · 03",
+  "accent": "#4FC3F7",
+  "emoji": "✍️",
+  "t1": "Write a",
+  "t2": "First Line",
+  "t3": "that stops the scroll",
+  "sub": "Four ways to open a bio, from real accounts in our lists.",
+  "no_squares": true,
+  "ov_label": "FOUR FORMULAS",
+  "ov_title": "One line.<br>Four ways in.",
+  "ov_footer": "PICK ONE",
+  "criteria": [
+   [
+    "01",
+    "The niche",
+    "Say what makes you specific."
+   ],
+   [
+    "02",
+    "The hook",
+    "Make them curious."
+   ],
+   [
+    "03",
+    "The joke",
+    "Make them smile."
+   ],
+   [
+    "04",
+    "The promise",
+    "Make it about them."
+   ]
+  ],
+  "overview_line": "The first line is the only one everybody reads.",
+  "item_label": "FORMULA",
+  "ex_label": "DONE BY",
+  "criteria_detail": [
+   {
+    "name": "The niche",
+    "badge": "CLEAR",
+    "h": "cakesbybs",
+    "question": "Lead with what makes you different.",
+    "rules": [
+     [
+      "+",
+      "Your specialism, not your category"
+     ],
+     [
+      "+",
+      "A number or a promise helps"
+     ],
+     [
+      "−",
+      "“Baker” alone. So is everyone."
+     ]
+    ],
+    "why": "“100% EGGLESS CAKES”"
+   },
+   {
+    "name": "The hook",
+    "badge": "CURIOUS",
+    "h": "skintalks_withcass",
+    "question": "Open with a line people want to finish.",
+    "rules": [
+     [
+      "+",
+      "A bold statement or a twist"
+     ],
+     [
+      "+",
+      "Then explain it in line two"
+     ],
+     [
+      "−",
+      "A hook with no follow up"
+     ]
+    ],
+    "why": "“YOUR SKIN IS ALWAYS TALKING”"
+   },
+   {
+    "name": "The joke",
+    "badge": "HUMAN",
+    "h": "wonkypots__",
+    "question": "A little self irony goes a long way.",
+    "rules": [
+     [
+      "+",
+      "Laugh at yourself, not at others"
+     ],
+     [
+      "+",
+      "Keep the job visible too"
+     ],
+     [
+      "−",
+      "An inside joke nobody gets"
+     ]
+    ],
+    "why": "“BECAUSE I CAN’T DO NORMAL”"
+   },
+   {
+    "name": "The promise",
+    "badge": "FOR YOU",
+    "h": "mkmakesjewellery",
+    "question": "Make the reader the hero of line one.",
+    "rules": [
+     [
+      "+",
+      "Start with “I help you” or “You”"
+     ],
+     [
+      "+",
+      "Name the outcome they want"
+     ],
+     [
+      "−",
+      "A promise that could fit any shop"
+     ]
+    ],
+    "why": "“YOU CHOOSE THE MEANING. I MAKE THE PIECE.”"
+   }
+  ],
+  "end_title": "Rewrite your<br>first line.",
+  "end_line": "Try all four. Keep the best one.",
+  "checklist": [
+   "Does it say what makes you specific?",
+   "Would a stranger want to read line two?",
+   "Does it sound like you on a good day?",
+   "Is the reader in it?"
+  ]
+ },
+ {
+  "slug": "emoji01",
+  "tag": "EMOJI",
+  "kicker": "THE GUIDE · 04",
+  "accent": "#FFD166",
+  "emoji": "📍",
+  "t1": "Use Emoji",
+  "t2": "Like Signs",
+  "t3": "not like confetti",
+  "sub": "How the best small accounts use emoji to make a bio easier to read.",
+  "no_squares": true,
+  "ov_label": "FOUR RULES",
+  "ov_title": "Emoji are<br>road signs.",
+  "ov_footer": "READ THE ROAD",
+  "criteria": [
+   [
+    "01",
+    "Signposts",
+    "One emoji, one kind of info."
+   ],
+   [
+    "02",
+    "Your symbol",
+    "Own bullet, own style."
+   ],
+   [
+    "03",
+    "Identity",
+    "One emoji, a whole story."
+   ],
+   [
+    "04",
+    "Restraint",
+    "Fewer, better placed."
+   ]
+  ],
+  "overview_line": "If you remove the emoji and nothing changes, remove them.",
+  "item_label": "RULE",
+  "ex_label": "DONE BY",
+  "criteria_detail": [
+   {
+    "name": "Signposts",
+    "badge": "SCAN",
+    "h": "bees.cr3ations",
+    "question": "Each emoji tells us what the line is about.",
+    "rules": [
+     [
+      "+",
+      "Pin for place, box for shipping"
+     ],
+     [
+      "+",
+      "Start the line with the emoji"
+     ],
+     [
+      "−",
+      "Random sparkles mid sentence"
+     ]
+    ],
+    "why": "RANGE, SHIPPING, PLACE, SHOP"
+   },
+   {
+    "name": "Your symbol",
+    "badge": "STYLE",
+    "h": "timberridgeknits",
+    "question": "A repeated symbol gives your bio rhythm.",
+    "rules": [
+     [
+      "+",
+      "Same bullet on every line"
+     ],
+     [
+      "+",
+      "Pick one that fits your brand"
+     ],
+     [
+      "−",
+      "A different emoji every line"
+     ]
+    ],
+    "why": "※ FOUR LINES, ONE RHYTHM"
+   },
+   {
+    "name": "Identity",
+    "badge": "STORY",
+    "h": "themorningaftercup",
+    "question": "One emoji can carry your roots or your niche.",
+    "rules": [
+     [
+      "+",
+      "A flag, a tool, a signature dish"
+     ],
+     [
+      "+",
+      "Put it next to the word it explains"
+     ],
+     [
+      "−",
+      "Five flags, zero meaning"
+     ]
+    ],
+    "why": "ONE FLAG, A WHOLE CAFÉ"
+   },
+   {
+    "name": "Restraint",
+    "badge": "FOCUS",
+    "h": "colortheoryballoons",
+    "question": "Save the emoji for the line that matters.",
+    "rules": [
+     [
+      "+",
+      "Plain text, then a pop on the CTA"
+     ],
+     [
+      "+",
+      "Two or three in total is plenty"
+     ],
+     [
+      "−",
+      "An emoji after every word"
+     ]
+    ],
+    "why": "ALL THE SPARKLE ON “DM TO BOOK”"
+   }
+  ],
+  "end_title": "Edit your<br>emoji.",
+  "end_line": "Keep the signs, drop the confetti.",
+  "checklist": [
+   "Does every emoji mean something?",
+   "Do they start the lines?",
+   "Is there one that is truly yours?",
+   "Could you cut one more?"
+  ]
  }
 ]

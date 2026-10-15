@@ -1135,6 +1135,66 @@
     ]
   },
   {
+    "id": "cb037",
+    "data": "2026-10-18",
+    "ora": "21:00",
+    "tipo": "carosello",
+    "tema": "Guide: 5 Mistakes",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/mistakes01/coolbio360_mistakes01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/mistakes01/coolbio360_mistakes01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/mistakes01/coolbio360_mistakes01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/mistakes01/coolbio360_mistakes01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/mistakes01/coolbio360_mistakes01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/mistakes01/coolbio360_mistakes01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/mistakes01/coolbio360_mistakes01_07.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/mistakes01/coolbio360_mistakes01_08.jpg"
+    ],
+    "didascalia": "5 bio mistakes that keep you off our lists 🚫\n\nWe read hundreds of small business bios every week. These are the five mistakes we see most, and how real accounts fix them.\n\n1. No job: say what you do in the first line. Fixed by @hairbydaisylara\n2. Buzzwords: swap “passionate” for a fact. Fixed by @mandymakesthat\n3. No next step: one clear action. Fixed by @sigitastattoo\n4. Text wall: one idea per line. Fixed by @salty_roaster\n5. No voice: a tiny story beats a product list. Fixed by @goodmoodclubshop\n\nSave this and check your own bio. Want our verdict? DM us your @.\n\n#instagrambio #biotips #instagramtips #bioideas #personalbranding #smallbusiness #branding #coolbio360",
+    "prima_riga": "5 bio mistakes that keep you off our lists 🚫",
+    "nota": "",
+    "user_tags": [
+      [],
+      [],
+      [
+        {
+          "username": "hairbydaisylara",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      [
+        {
+          "username": "mandymakesthat",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      [
+        {
+          "username": "sigitastattoo",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      [
+        {
+          "username": "salty_roaster",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      [
+        {
+          "username": "goodmoodclubshop",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      []
+    ]
+  },
+  {
     "id": "cb013",
     "data": "2026-10-19",
     "ora": "08:30",
@@ -1684,6 +1744,58 @@
     ]
   },
   {
+    "id": "cb038",
+    "data": "2026-10-21",
+    "ora": "21:00",
+    "tipo": "carosello",
+    "tema": "Guide: First Line",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/firstline01/coolbio360_firstline01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/firstline01/coolbio360_firstline01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/firstline01/coolbio360_firstline01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/firstline01/coolbio360_firstline01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/firstline01/coolbio360_firstline01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/firstline01/coolbio360_firstline01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/firstline01/coolbio360_firstline01_07.jpg"
+    ],
+    "didascalia": "4 ways to write a first line that stops the scroll ✍️\n\nThe first line of your bio is the only one everybody reads. Four formulas, from real accounts in our lists.\n\n1. The niche: “100% Eggless Cakes” by @cakesbybs\n2. The hook: “Your skin is always talking” by @skintalks_withcass\n3. The joke: “Because I can’t do normal” by @wonkypots__\n4. The promise: “You choose the meaning. I make the piece.” by @mkmakesjewellery\n\nWhich one fits you? Try all four and keep the best. Want our verdict? DM us your @.\n\n#instagrambio #biotips #instagramtips #bioideas #personalbranding #smallbusiness #branding #coolbio360",
+    "prima_riga": "4 ways to write a first line that stops the scroll ✍️",
+    "nota": "",
+    "user_tags": [
+      [],
+      [],
+      [
+        {
+          "username": "cakesbybs",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      [
+        {
+          "username": "skintalks_withcass",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      [
+        {
+          "username": "wonkypots__",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      [
+        {
+          "username": "mkmakesjewellery",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      []
+    ]
+  },
+  {
     "id": "cb030",
     "data": "2026-10-22",
     "ora": "08:30",
@@ -2108,6 +2220,58 @@
     ],
     "collaboratori": [
       "petalnpop.co"
+    ]
+  },
+  {
+    "id": "cb039",
+    "data": "2026-10-24",
+    "ora": "21:00",
+    "tipo": "carosello",
+    "tema": "Guide: Emoji",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/emoji01/coolbio360_emoji01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/emoji01/coolbio360_emoji01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/emoji01/coolbio360_emoji01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/emoji01/coolbio360_emoji01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/emoji01/coolbio360_emoji01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/emoji01/coolbio360_emoji01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/emoji01/coolbio360_emoji01_07.jpg"
+    ],
+    "didascalia": "Use emoji like road signs, not confetti 📍\n\nEmoji can make a bio easier to read, or impossible to read. Four rules from the best small accounts we found.\n\n1. Signposts: one emoji, one kind of info. @bees.cr3ations\n2. Your symbol: same bullet, every line. @timberridgeknits\n3. Identity: one emoji, a whole story. @themorningaftercup\n4. Restraint: save the sparkle for the CTA. @colortheoryballoons\n\nIf you remove an emoji and nothing changes, remove it. Want our verdict? DM us your @.\n\n#instagrambio #biotips #instagramtips #bioideas #personalbranding #smallbusiness #branding #coolbio360",
+    "prima_riga": "Use emoji like road signs, not confetti 📍",
+    "nota": "",
+    "user_tags": [
+      [],
+      [],
+      [
+        {
+          "username": "bees.cr3ations",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      [
+        {
+          "username": "timberridgeknits",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      [
+        {
+          "username": "themorningaftercup",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      [
+        {
+          "username": "colortheoryballoons",
+          "x": 0.5,
+          "y": 0.6
+        }
+      ],
+      []
     ]
   }
 ]
