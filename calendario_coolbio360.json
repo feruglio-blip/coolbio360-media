@@ -343,67 +343,6 @@
     ]
   },
   {
-    "id": "cb010",
-    "data": "2026-10-15",
-    "ora": "06:00",
-    "tipo": "carosello",
-    "tema": "Coffee Roasters",
-    "immagini": [
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_01.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_02.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_03.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_04.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_05.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_06.jpg",
-      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_07.jpg"
-    ],
-    "didascalia": "The 5 best coffee roaster bios on Instagram right now ☕\n\nSmall batch beans, big personality. All under 600 followers, ranked by our editors.\n\nNo.1 @bravelycoffeeroasters\nNo.2 @sip_tinto_coffee\nNo.3 @torofycoffee\nNo.4 @viaficoffee\nNo.5 @salty_roaster\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #coffeeroaster #specialtycoffee #microroastery #smallbusiness #branding #coolbio360",
-    "prima_riga": "The 5 best coffee roaster bios on Instagram right now ☕",
-    "nota": "",
-    "user_tags": [
-      [],
-      [
-        {
-          "username": "salty_roaster",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "viaficoffee",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "torofycoffee",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "sip_tinto_coffee",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      [
-        {
-          "username": "bravelycoffeeroasters",
-          "x": 0.5,
-          "y": 0.42
-        }
-      ],
-      []
-    ],
-    "collaboratori": [
-      "bravelycoffeeroasters"
-    ]
-  },
-  {
     "id": "cb011",
     "data": "2026-10-15",
     "ora": "12:00",
@@ -588,7 +527,7 @@
   {
     "id": "cb014",
     "data": "2026-10-16",
-    "ora": "06:00",
+    "ora": "08:30",
     "tipo": "carosello",
     "tema": "Vintage Sellers",
     "immagini": [
@@ -769,9 +708,70 @@
     ]
   },
   {
+    "id": "cb010",
+    "data": "2026-10-16",
+    "ora": "21:00",
+    "tipo": "carosello",
+    "tema": "Coffee Roasters",
+    "immagini": [
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_01.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_02.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_03.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_04.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_05.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_06.jpg",
+      "https://raw.githubusercontent.com/feruglio-blip/coolbio360-media/main/posts/coffee01/coolbio360_coffee01_07.jpg"
+    ],
+    "didascalia": "The 5 best coffee roaster bios on Instagram right now ☕\n\nSmall batch beans, big personality. All under 600 followers, ranked by our editors.\n\nNo.1 @bravelycoffeeroasters\nNo.2 @sip_tinto_coffee\nNo.3 @torofycoffee\nNo.4 @viaficoffee\nNo.5 @salty_roaster\n\nWhich one is your favourite? Tell us below.\nIs your bio next? Tag @coolbio360 or send it by DM.\n\n#instagrambio #biotips #coffeeroaster #specialtycoffee #microroastery #smallbusiness #branding #coolbio360",
+    "prima_riga": "The 5 best coffee roaster bios on Instagram right now ☕",
+    "nota": "",
+    "user_tags": [
+      [],
+      [
+        {
+          "username": "salty_roaster",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "viaficoffee",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "torofycoffee",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "sip_tinto_coffee",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      [
+        {
+          "username": "bravelycoffeeroasters",
+          "x": 0.5,
+          "y": 0.42
+        }
+      ],
+      []
+    ],
+    "collaboratori": [
+      "bravelycoffeeroasters"
+    ]
+  },
+  {
     "id": "cb017",
     "data": "2026-10-17",
-    "ora": "06:00",
+    "ora": "08:30",
     "tipo": "carosello",
     "tema": "Makeup Artists",
     "immagini": [
@@ -954,7 +954,7 @@
   {
     "id": "cb022",
     "data": "2026-10-18",
-    "ora": "06:00",
+    "ora": "08:30",
     "tipo": "carosello",
     "tema": "Woodworkers",
     "immagini": [
@@ -1137,7 +1137,7 @@
   {
     "id": "cb013",
     "data": "2026-10-19",
-    "ora": "06:00",
+    "ora": "08:30",
     "tipo": "carosello",
     "tema": "Plant Shops",
     "immagini": [
@@ -1320,7 +1320,7 @@
   {
     "id": "cb024",
     "data": "2026-10-20",
-    "ora": "06:00",
+    "ora": "08:30",
     "tipo": "carosello",
     "tema": "Knit And Crochet",
     "immagini": [
