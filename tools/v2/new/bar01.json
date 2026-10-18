@@ -1,0 +1,146 @@
+{
+ "slug": "bar01",
+ "vol": "29",
+ "tag": "MOBILE BARS",
+ "accent": "#5EE6C8",
+ "emoji": "🍸",
+ "title": "Bar Bios",
+ "single": "Bar Bio",
+ "sub": "Mobile bars and event bartenders under 600 followers",
+ "next": "Cookie Bios, vol. 30",
+ "people": [
+  {
+   "rank": 5,
+   "h": "toast_to_that_llc",
+   "score": "7.9",
+   "emoji": "🎉",
+   "cat": "Mobile bartender, Florida",
+   "str": "Pure energy",
+   "v": "“BOOK ME!!!!” Nobody will miss the call to action.",
+   "bio": [
+    9.0,
+    8.0,
+    8.0,
+    7.5
+   ],
+   "feed": [
+    6,
+    5.5,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "thecrackedcauldroncocktails",
+   "score": "8.3",
+   "emoji": "🧪",
+   "cat": "Pop up bar, coffee and cocktails",
+   "str": "Range plus custom",
+   "v": "Coffee, cocktails, mocktails, all made to your taste.",
+   "bio": [
+    8.5,
+    9.0,
+    8.5,
+    8.0
+   ],
+   "feed": [
+    7.5,
+    7,
+    7
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "sparrowcocktailco",
+   "score": "8.7",
+   "emoji": "🥂",
+   "cat": "Mobile cocktail bar, California",
+   "str": "Elegant and specific",
+   "v": "Weddings and events, two towns, one line. Classy.",
+   "bio": [
+    8.5,
+    9.0,
+    9.0,
+    8.0
+   ],
+   "feed": [
+    9,
+    9,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "blueridgebartending",
+   "score": "9.0",
+   "emoji": "🤠",
+   "cat": "Mobile bar service, PA and MD",
+   "str": "Attitude in quotes",
+   "v": "“We’re here for the party.” Says yes before you ask.",
+   "bio": [
+    10,
+    9.0,
+    9.0,
+    8.5
+   ],
+   "feed": [
+    7.5,
+    7,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 1,
+   "h": "themixingstall",
+   "score": "9.3",
+   "cat": "Mobile bartending, Dallas Fort Worth",
+   "str": "Promise, proof, booking",
+   "v": "“Crafted cocktails that wow guests.” Then menus, events, book now.",
+   "congrats": "CONGRATULATIONS, MIXING STALL",
+   "bio": [
+    10,
+    10,
+    8.5,
+    9.5
+   ],
+   "feed": [
+    8,
+    8,
+    10
+   ]
+  }
+ ],
+ "word": "Bar",
+ "steal": {
+  "h": "Your mobile bar bio,<br>in four lines.",
+  "lines": [
+   [
+    "[a line people can quote] 🍸",
+    "THE HOOK"
+   ],
+   [
+    "[mobile bar / cocktails] for [weddings, events]",
+    "THE OFFER"
+   ],
+   [
+    "📍 [area you serve] · [insured / certified]",
+    "THE TRUST"
+   ],
+   [
+    "👇 [book your date / get a quote]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_mobile_bar_here",
+  "ex": [
+   "Shaken, stirred, never boring 🍸",
+   "Mobile cocktail bar for weddings &amp; parties",
+   "📍 Surrey and London · fully insured",
+   "👇 Check your date and get a quote"
+  ]
+ }
+}

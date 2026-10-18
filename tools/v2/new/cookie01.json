@@ -1,0 +1,146 @@
+{
+ "slug": "cookie01",
+ "vol": "30",
+ "tag": "COOKIE ARTISTS",
+ "accent": "#D9A066",
+ "emoji": "🍪",
+ "title": "Cookie Bios",
+ "single": "Cookie Bio",
+ "sub": "Cookie decorators under 600 followers",
+ "next": "Massage Bios, vol. 31",
+ "people": [
+  {
+   "rank": 5,
+   "h": "customcookiesbyalicia",
+   "score": "8.0",
+   "emoji": "🚀",
+   "cat": "Decorated sugar cookies",
+   "str": "Licensed, clear scope",
+   "v": "Licensed kitchen, every occasion, email or DM. Reliable.",
+   "bio": [
+    8.0,
+    7.5,
+    8.0,
+    7.0
+   ],
+   "feed": [
+    9,
+    9.5,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "maddisdelights",
+   "score": "8.3",
+   "emoji": "😊",
+   "cat": "Home bakery, Roseville CA",
+   "str": "Tidy menu, DM cue",
+   "v": "Cookies, breads, desserts, events. Then a clear DM line.",
+   "bio": [
+    9.0,
+    8.0,
+    9.0,
+    8.0
+   ],
+   "feed": [
+    7,
+    6.5,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "love.lawson17",
+   "score": "8.6",
+   "emoji": "💌",
+   "cat": "Cookie decorator, East Texas",
+   "str": "Occasions listed",
+   "v": "Birthdays, weddings, showers. You know if it is for you.",
+   "bio": [
+    9.0,
+    8.5,
+    8.0,
+    8.5
+   ],
+   "feed": [
+    8.5,
+    8.5,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "mikaylascookieco",
+   "score": "8.9",
+   "emoji": "💜",
+   "cat": "Themed sugar cookies",
+   "str": "Two lines, done",
+   "v": "Themed cookies, DM to order, location. Short and sweet.",
+   "bio": [
+    9.5,
+    9.5,
+    8.0,
+    9.0
+   ],
+   "feed": [
+    7.5,
+    7.5,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 1,
+   "h": "moonlightbakeryatl",
+   "score": "9.2",
+   "cat": "Custom cookies, Atlanta",
+   "str": "Name, niche, order path",
+   "v": "Maker, city, licence, order form. Nothing missing.",
+   "congrats": "CONGRATULATIONS, MOONLIGHT",
+   "bio": [
+    9.0,
+    9.5,
+    9.5,
+    8.5
+   ],
+   "feed": [
+    9,
+    9,
+    10
+   ]
+  }
+ ],
+ "word": "Cookie",
+ "steal": {
+  "h": "Your cookie bio,<br>in four lines.",
+  "lines": [
+   [
+    "[themed / custom] sugar cookies 🍪",
+    "THE OFFER"
+   ],
+   [
+    "[birthdays, showers, weddings, corporate]",
+    "THE OCCASIONS"
+   ],
+   [
+    "📍 [your town] · [licensed home kitchen]",
+    "THE TRUST"
+   ],
+   [
+    "👇 [order form / DM to order]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_cookie_shop_here",
+  "ex": [
+   "Custom sugar cookies, iced by hand 🍪",
+   "Birthdays · showers · weddings · corporate",
+   "📍 Cork · licensed home kitchen",
+   "👇 Order form in the link, 2 weeks ahead"
+  ]
+ }
+}

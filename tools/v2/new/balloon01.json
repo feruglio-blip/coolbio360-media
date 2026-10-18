@@ -1,0 +1,146 @@
+{
+ "slug": "balloon01",
+ "vol": "35",
+ "tag": "BALLOON ARTISTS",
+ "accent": "#FF8FB1",
+ "emoji": "🎈",
+ "title": "Balloon Bios",
+ "single": "Balloon Bio",
+ "sub": "Balloon artists and stylists under 600 followers",
+ "next": "Vintage Bios, vol. 14",
+ "people": [
+  {
+   "rank": 5,
+   "h": "liyasluxeballoons",
+   "score": "8.0",
+   "emoji": "💕",
+   "cat": "Balloon decor, Colorado Springs",
+   "str": "Human first",
+   "v": "Wife, mama, nurse, balloon enthusiast. You meet her first.",
+   "bio": [
+    8.0,
+    7.5,
+    8.5,
+    7.5
+   ],
+   "feed": [
+    8,
+    8,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "balloon_deco_me",
+   "score": "8.3",
+   "emoji": "🎈",
+   "cat": "Balloon stylist, Dunedin NZ",
+   "str": "Full menu",
+   "v": "Corporate, birthdays, arch hire, vinyl decals. All in view.",
+   "bio": [
+    9.0,
+    8.5,
+    8.0,
+    8.5
+   ],
+   "feed": [
+    7,
+    6.5,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "blisspopballoons",
+   "score": "8.7",
+   "emoji": "✨",
+   "cat": "Event styling, Newcastle NSW",
+   "str": "Areas plus enquiry arrow",
+   "v": "Three towns listed and an arrow to the link. Easy.",
+   "bio": [
+    9.0,
+    8.5,
+    8.5,
+    8.5
+   ],
+   "feed": [
+    8,
+    8.5,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "colortheoryballoons",
+   "score": "9.0",
+   "emoji": "🎨",
+   "cat": "Balloon artist, San Antonio",
+   "str": "Name, place, promise",
+   "v": "“Let’s make your event pop!” Then DM to book. Friendly and clear.",
+   "bio": [
+    9.0,
+    10,
+    10,
+    9.0
+   ],
+   "feed": [
+    7.5,
+    7,
+    6
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 1,
+   "h": "petalnpop.co",
+   "score": "9.3",
+   "cat": "Balloon styling, Lancaster PA",
+   "str": "Four lines, zero doubts",
+   "v": "Service, extras, area, DM to book. A perfect structure.",
+   "congrats": "CONGRATULATIONS, PETAL N POP",
+   "bio": [
+    10,
+    10,
+    8.5,
+    9.5
+   ],
+   "feed": [
+    8,
+    8,
+    9
+   ]
+  }
+ ],
+ "word": "Balloon",
+ "steal": {
+  "h": "Your balloon bio,<br>in four lines.",
+  "lines": [
+   [
+    "🎈 [balloon styling] &amp; [what else you rent]",
+    "THE OFFER"
+   ],
+   [
+    "[birthdays · showers · corporate]",
+    "THE OCCASIONS"
+   ],
+   [
+    "📍 [your area] &amp; beyond",
+    "FIND US"
+   ],
+   [
+    "📩 [DM to book / enquiries below]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_balloon_studio_here",
+  "ex": [
+   "🎈 Balloon styling &amp; backdrop hire",
+   "Birthdays · baby showers · grand openings",
+   "📍 Glasgow &amp; beyond",
+   "📩 DM to book your date"
+  ]
+ }
+}

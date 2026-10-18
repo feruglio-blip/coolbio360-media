@@ -1,0 +1,146 @@
+{
+ "slug": "truck01",
+ "vol": "32",
+ "tag": "FOOD TRUCKS",
+ "accent": "#FFB347",
+ "emoji": "🚚",
+ "title": "Truck Bios",
+ "single": "Truck Bio",
+ "sub": "Food trucks and street food under 600 followers",
+ "next": "Stitch Bios, vol. 33",
+ "people": [
+  {
+   "rank": 5,
+   "h": "howechippyvan30",
+   "score": "8.0",
+   "emoji": "🐟",
+   "cat": "Fish and chips van, UK",
+   "str": "Heritage as proof",
+   "v": "“Serving since 1930.” Tradition on your doorstep, a post for every day of the week.",
+   "bio": [
+    8.5,
+    9,
+    8,
+    8.5
+   ],
+   "feed": [
+    5,
+    6,
+    7
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "pastaamore_streetfood",
+   "score": "8.3",
+   "emoji": "🍝",
+   "cat": "Street food truck, Terni",
+   "str": "Lunch, dinner, promise",
+   "v": "Fresh pasta by day, crispy fries by night. And tomorrow’s menu, posted today.",
+   "bio": [
+    9,
+    9,
+    7.5,
+    8
+   ],
+   "feed": [
+    7,
+    6.5,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "hi_pilina.food.station",
+   "score": "8.7",
+   "emoji": "🌞",
+   "cat": "Food truck, Hiroshima",
+   "str": "Arrows for everything",
+   "v": "Contact, sister shop, next stop: a tidy little map. And one retro style across every post.",
+   "bio": [
+    8.5,
+    9,
+    8.5,
+    8.5
+   ],
+   "feed": [
+    9,
+    9.5,
+    8.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "tako_loko_htx",
+   "score": "9.0",
+   "emoji": "🌮",
+   "cat": "Taco spot, Houston",
+   "str": "Origin plus attitude",
+   "v": "“Not your average taco spot.” Straight from Monterrey, with close-ups that make you hungry.",
+   "bio": [
+    9.5,
+    9.5,
+    9.5,
+    8
+   ],
+   "feed": [
+    9.5,
+    8.5,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 1,
+   "h": "unclekandco",
+   "score": "9.3",
+   "cat": "Food truck, Barossa SA",
+   "str": "Character in caps",
+   "v": "“Barossa’s favourite uncle.” Real people, real truck, real burgers.",
+   "congrats": "CONGRATULATIONS, UNCLE K",
+   "bio": [
+    9.8,
+    9.5,
+    9.5,
+    8.5
+   ],
+   "feed": [
+    9.5,
+    9.5,
+    9.5
+   ]
+  }
+ ],
+ "word": "Truck",
+ "steal": {
+  "h": "Your food truck bio,<br>in four lines.",
+  "lines": [
+   [
+    "[your nickname or attitude] 🚚",
+    "THE HOOK"
+   ],
+   [
+    "[what you serve] · [where it’s from]",
+    "THE OFFER"
+   ],
+   [
+    "📍 [where you park] · [days]",
+    "FIND US"
+   ],
+   [
+    "👇 [order ahead / book us]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_truck_here",
+  "ex": [
+   "Houston’s happiest dumplings 🚚",
+   "Hand-folded daily · Shanghai family recipes",
+   "📍 Downtown · Thu to Sun",
+   "👇 Order ahead or book us for events"
+  ]
+ }
+}

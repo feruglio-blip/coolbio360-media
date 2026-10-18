@@ -1,0 +1,146 @@
+{
+ "slug": "cart01",
+ "vol": "34",
+ "tag": "COFFEE CARTS",
+ "accent": "#C08552",
+ "emoji": "☕",
+ "title": "Cart Bios",
+ "single": "Cart Bio",
+ "sub": "Mobile coffee carts under 600 followers",
+ "next": "Balloon Bios, vol. 35",
+ "people": [
+  {
+   "rank": 5,
+   "h": "fuelandflowcc",
+   "score": "7.9",
+   "emoji": "☕",
+   "cat": "Mobile coffee trailer",
+   "str": "Two lines of swagger",
+   "v": "“Caffeine dealer.” Funny, short, memorable.",
+   "bio": [
+    8.0,
+    8.5,
+    7.0,
+    8.0
+   ],
+   "feed": [
+    7,
+    7,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "beanbrigade831",
+   "score": "8.3",
+   "emoji": "⚔️",
+   "cat": "Coffee truck, California",
+   "str": "Story in a phrase",
+   "v": "Family owned and passion driven. Crafting coffee magic.",
+   "bio": [
+    9.0,
+    8.0,
+    9.0,
+    8.0
+   ],
+   "feed": [
+    6.5,
+    6,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "roamingcoffeecart",
+   "score": "8.6",
+   "emoji": "⛰️",
+   "cat": "Coffee cart, Albuquerque",
+   "str": "A line worth stealing",
+   "v": "“Specialty coffee, anywhere.” Then where and how to book.",
+   "bio": [
+    9.5,
+    8.5,
+    8.5,
+    8.0
+   ],
+   "feed": [
+    7,
+    7.5,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "hazelandco.tx",
+   "score": "9.0",
+   "emoji": "🐕",
+   "cat": "Coffee cart, New Braunfels TX",
+   "str": "Short and bookable",
+   "v": "Cart, DM or email, place, owner tag. Nothing to guess.",
+   "bio": [
+    9.5,
+    9.5,
+    8.5,
+    9.0
+   ],
+   "feed": [
+    8.5,
+    8,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 1,
+   "h": "themorningaftercup",
+   "score": "9.3",
+   "cat": "Mobile café, NJ and NY",
+   "str": "Identity, menu, booking",
+   "v": "Dominican roots, four drinks, two states, one booking link.",
+   "congrats": "CONGRATULATIONS, MORNING AFTER",
+   "bio": [
+    10,
+    9.5,
+    9.5,
+    9.0
+   ],
+   "feed": [
+    7.5,
+    8,
+    9
+   ]
+  }
+ ],
+ "word": "Cart",
+ "steal": {
+  "h": "Your coffee cart bio,<br>in four lines.",
+  "lines": [
+   [
+    "[mobile café / coffee cart] [your twist] ☕",
+    "THE OFFER"
+   ],
+   [
+    "[coffee · matcha · what else you pour]",
+    "THE MENU"
+   ],
+   [
+    "📍 [your town] · [pop-ups &amp; events]",
+    "FIND US"
+   ],
+   [
+    "👇 [book us / see the schedule]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_coffee_cart_here",
+  "ex": [
+   "Coffee cart with a vintage soul ☕",
+   "Espresso · matcha · dirty sodas",
+   "📍 Austin · pop-ups and private events",
+   "👇 Book us or see this week’s stops"
+  ]
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "slug": "embroid01",
+ "vol": "33",
+ "tag": "EMBROIDERY",
+ "accent": "#E86A92",
+ "emoji": "🪡",
+ "title": "Stitch Bios",
+ "single": "Stitch Bio",
+ "sub": "Embroidery artists under 600 followers",
+ "next": "Cart Bios, vol. 34",
+ "people": [
+  {
+   "rank": 5,
+   "h": "fil_et_reve",
+   "score": "7.9",
+   "emoji": "🪡",
+   "cat": "Embroidery atelier, Korea",
+   "str": "Craft credentials",
+   "v": "Haute couture and Lunéville embroidery. Specialist and proud.",
+   "bio": [
+    7.0,
+    8.0,
+    8.0,
+    7.0
+   ],
+   "feed": [
+    9,
+    9,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "mariekispal",
+   "score": "8.2",
+   "emoji": "🌿",
+   "cat": "Illustrator and embroiderer",
+   "str": "Three roles, one line",
+   "v": "Illustrator, embroiderer, garden enthusiast. Simple and personal.",
+   "bio": [
+    9.0,
+    8.5,
+    8.0,
+    8.5
+   ],
+   "feed": [
+    7,
+    6,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "netamirworkshop",
+   "score": "8.6",
+   "emoji": "🎨",
+   "cat": "Textile artist and teacher",
+   "str": "Clear expertise",
+   "v": "Paper and collage embroidery workshops. You know what she teaches.",
+   "bio": [
+    8.5,
+    9.0,
+    8.5,
+    8.0
+   ],
+   "feed": [
+    8.5,
+    8,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "tisnthreads",
+   "score": "9.0",
+   "emoji": "🧵",
+   "cat": "Embroidered keepsakes",
+   "str": "Purpose, gift, DM",
+   "v": "Love and meaning, a gift for every moment, DM to order.",
+   "bio": [
+    9.5,
+    9.5,
+    8.5,
+    9.0
+   ],
+   "feed": [
+    8,
+    8,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 1,
+   "h": "witch.crafting",
+   "score": "9.2",
+   "cat": "Hand embroidery artist",
+   "str": "Mood plus open door",
+   "v": "“Whimsical hand-embroidered art.” Then custom orders by message. Charming.",
+   "congrats": "CONGRATULATIONS, KENDALL",
+   "bio": [
+    9.5,
+    9.5,
+    9.5,
+    9.0
+   ],
+   "feed": [
+    8.5,
+    8,
+    9
+   ]
+  }
+ ],
+ "word": "Stitch",
+ "steal": {
+  "h": "Your embroidery bio,<br>in four lines.",
+  "lines": [
+   [
+    "[your style in three words] 🧵",
+    "THE HOOK"
+   ],
+   [
+    "[what you stitch] · [custom / workshops]",
+    "THE OFFER"
+   ],
+   [
+    "[who it’s for / why it matters]",
+    "THE MEANING"
+   ],
+   [
+    "👇 [DM for custom orders / shop link]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_studio_here",
+  "ex": [
+   "Tiny flowers, big feelings 🧵",
+   "Hand-embroidered hoops · custom pet portraits",
+   "Gifts that people actually keep",
+   "👇 DM for custom orders"
+  ]
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "slug": "lash01",
+ "vol": "28",
+ "tag": "LASH AND BROW",
+ "accent": "#B39DFF",
+ "emoji": "👁️",
+ "title": "Lash Bios",
+ "single": "Lash Bio",
+ "sub": "Lash and brow artists under 600 followers",
+ "next": "Bar Bios, vol. 29",
+ "people": [
+  {
+   "rank": 5,
+   "h": "lasheddbyyarii_",
+   "score": "8.0",
+   "emoji": "🎀",
+   "cat": "Lash technician, Van Nuys",
+   "str": "Menu plus DM",
+   "v": "Classic, hybrid, volume. Then DM to book.",
+   "bio": [
+    9.0,
+    8.0,
+    7.5,
+    7.5
+   ],
+   "feed": [
+    7,
+    7,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "melorabeautyco",
+   "score": "8.4",
+   "emoji": "✨",
+   "cat": "Brow artist, Miami",
+   "str": "Policies up front",
+   "v": "Home based, address after booking. Professional and safe.",
+   "bio": [
+    9.0,
+    8.5,
+    8.5,
+    8.5
+   ],
+   "feed": [
+    7,
+    6.5,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "starlitlashess",
+   "score": "8.7",
+   "emoji": "💖",
+   "cat": "Lash artist, Glendale CA",
+   "str": "Brand mood, booking path",
+   "v": "A sparkly name and a clear route to booking.",
+   "bio": [
+    9.0,
+    8.5,
+    9.5,
+    8.5
+   ],
+   "feed": [
+    8,
+    8,
+    8
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "refinedbyary",
+   "score": "9.0",
+   "emoji": "📰",
+   "cat": "Lash and brow artist, Auckland",
+   "str": "Tight menu, clear CTA",
+   "v": "Naturally enhanced. Services in one line. Book now.",
+   "bio": [
+    9.5,
+    9.0,
+    9.0,
+    9.0
+   ],
+   "feed": [
+    7.5,
+    8,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 1,
+   "h": "winksbylivii",
+   "score": "9.2",
+   "cat": "Lash artist, Westchester NY",
+   "str": "Transparent booking",
+   "v": "Deposit stated, area stated, door open. Zero friction.",
+   "congrats": "CONGRATULATIONS, LIVII",
+   "bio": [
+    10,
+    9.0,
+    10,
+    9.0
+   ],
+   "feed": [
+    7,
+    7.5,
+    9.5
+   ]
+  }
+ ],
+ "word": "Lash",
+ "steal": {
+  "h": "Your lash artist bio,<br>in four lines.",
+  "lines": [
+   [
+    "[your city] lash &amp; brow artist",
+    "WHO + WHERE"
+   ],
+   [
+    "✨ [certified] · [classic / hybrid / lifts]",
+    "THE SKILLS"
+   ],
+   [
+    "📍 [studio or home based] · [area]",
+    "FIND US"
+   ],
+   [
+    "👇 [book online / DM to book]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_lash_artist_here",
+  "ex": [
+   "Manchester lash &amp; brow artist",
+   "✨ Certified · classic, hybrid, lash lifts",
+   "📍 Home studio · Didsbury",
+   "👇 Book online, deposit secures your slot"
+  ]
+ }
+}

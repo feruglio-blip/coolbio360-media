@@ -1,0 +1,146 @@
+{
+ "slug": "baker01",
+ "vol": "27",
+ "tag": "HOME BAKERS",
+ "accent": "#E9C46A",
+ "emoji": "🥐",
+ "title": "Baker Bios",
+ "single": "Baker Bio",
+ "sub": "Home bakers and pastry cooks under 600 followers",
+ "next": "Lash Bios, vol. 28",
+ "people": [
+  {
+   "rank": 5,
+   "h": "thursdayoven_by_rei",
+   "score": "7.9",
+   "emoji": "🍞",
+   "cat": "Microbakery, Augusta",
+   "str": "Purpose first",
+   "v": "Baking with intention. A promise you can taste.",
+   "bio": [
+    8.0,
+    8.5,
+    8.0,
+    7.5
+   ],
+   "feed": [
+    7.5,
+    6.5,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "xosweetdee",
+   "score": "8.3",
+   "emoji": "🎀",
+   "cat": "Bakery owner and editor",
+   "str": "Big personality",
+   "v": "“Spreading magic through ingredients and words.” Sweet.",
+   "bio": [
+    8.5,
+    9.0,
+    7.5,
+    8.5
+   ],
+   "feed": [
+    7,
+    7.5,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "hersweetbakery",
+   "score": "8.7",
+   "emoji": "🍪",
+   "cat": "Cottage baker, Sacramento",
+   "str": "Clear offer, preorder cue",
+   "v": "Small batches, big dreams, preorder below. Tidy.",
+   "bio": [
+    10,
+    9.0,
+    8.5,
+    8.5
+   ],
+   "feed": [
+    6.5,
+    6.5,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "sab_bakes",
+   "score": "9.1",
+   "emoji": "🥖",
+   "cat": "Patisserie and sourdough, Montréal",
+   "str": "Charm plus credentials",
+   "v": "Baking her way through life, with an École Ducasse diploma.",
+   "bio": [
+    9.5,
+    10,
+    8.5,
+    9.5
+   ],
+   "feed": [
+    8,
+    7.5,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 1,
+   "h": "treat_thebakery",
+   "score": "9.4",
+   "cat": "Home bakery, London",
+   "str": "Opening line with attitude",
+   "v": "“Life is hard. You deserve a treat.” Instant craving.",
+   "congrats": "CONGRATULATIONS, TREAT",
+   "bio": [
+    10,
+    9.5,
+    10,
+    9.0
+   ],
+   "feed": [
+    8,
+    8.5,
+    9
+   ]
+  }
+ ],
+ "word": "Baker",
+ "steal": {
+  "h": "Your baker bio,<br>in four lines.",
+  "lines": [
+   [
+    "[a line with attitude] 🍩",
+    "THE HOOK"
+   ],
+   [
+    "[what you bake] · [home bakery / cottage]",
+    "THE OFFER"
+   ],
+   [
+    "📍 [your area] · [pickup or delivery]",
+    "FIND US"
+   ],
+   [
+    "👇 [DM to order / preorder link]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_bakery_here",
+  "ex": [
+   "Butter first, questions later 🥐",
+   "Croissants and sourdough · licensed home bakery",
+   "📍 Leeds · Saturday pickup",
+   "👇 DM to order by Thursday"
+  ]
+ }
+}

@@ -1,0 +1,1182 @@
+{
+ "petsit01": {
+  "slug": "petsit01",
+  "vol": "26",
+  "tag": "PET SITTERS",
+  "accent": "#33CCFF",
+  "emoji": "🐕",
+  "title": "Sitter Bios",
+  "single": "Sitter Bio",
+  "sub": "Pet sitters and dog walkers under 600 followers.",
+  "next": [
+   "Baker Bios",
+   "🥐",
+   "#E9C46A"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "murphysmuttsdogwalking",
+    "score": "7.9",
+    "emoji": "🐹",
+    "cat": "Pet sitting, Preston",
+    "str": "Every pet welcome",
+    "v": "Cats, dogs, rabbits, hamsters. Everyone gets a pop in."
+   },
+   {
+    "rank": 4,
+    "h": "baulcombeandbark",
+    "score": "8.3",
+    "emoji": "🦮",
+    "cat": "Dog walking, Eastbourne",
+    "str": "Service menu, DM to book",
+    "v": "Pack walks, solo walks, drop-ins. Then: DM to book."
+   },
+   {
+    "rank": 3,
+    "h": "mackspackadventures",
+    "score": "8.6",
+    "emoji": "🌲",
+    "cat": "Group dog walks, Aberdeen",
+    "str": "Experience and areas",
+    "v": "Three years, first aid, four neighbourhoods. Clear as day."
+   },
+   {
+    "rank": 2,
+    "h": "oly_paws",
+    "score": "9.0",
+    "emoji": "🔒",
+    "cat": "Dog walker and pet sitter, Olympia",
+    "str": "Trust signals, stacked",
+    "v": "Licensed, bonded, insured, GPS tracked. Peace of mind, listed."
+   },
+   {
+    "rank": 1,
+    "h": "daphnespetadventures",
+    "score": "9.3",
+    "cat": "House and pet sitter, La Jolla",
+    "str": "Warm intro, real person",
+    "v": "“Mom turned pet pro.” A whole story in four words.",
+    "congrats": "CONGRATULATIONS, DAPHNE"
+   }
+  ]
+ },
+ "baker01": {
+  "slug": "baker01",
+  "vol": "27",
+  "tag": "HOME BAKERS",
+  "accent": "#E9C46A",
+  "emoji": "🥐",
+  "title": "Baker Bios",
+  "single": "Baker Bio",
+  "sub": "Home bakers and pastry cooks under 600 followers.",
+  "next": [
+   "Lash Bios",
+   "👁️",
+   "#B39DFF"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "thursdayoven_by_rei",
+    "score": "7.9",
+    "emoji": "🍞",
+    "cat": "Microbakery, Augusta",
+    "str": "Purpose first",
+    "v": "Baking with intention. A promise you can taste."
+   },
+   {
+    "rank": 4,
+    "h": "xosweetdee",
+    "score": "8.3",
+    "emoji": "🎀",
+    "cat": "Bakery owner and editor",
+    "str": "Big personality",
+    "v": "“Spreading magic through ingredients and words.” Sweet."
+   },
+   {
+    "rank": 3,
+    "h": "hersweetbakery",
+    "score": "8.7",
+    "emoji": "🍪",
+    "cat": "Cottage baker, Sacramento",
+    "str": "Clear offer, preorder cue",
+    "v": "Small batches, big dreams, preorder below. Tidy."
+   },
+   {
+    "rank": 2,
+    "h": "sab_bakes",
+    "score": "9.1",
+    "emoji": "🥖",
+    "cat": "Patisserie and sourdough, Montréal",
+    "str": "Charm plus credentials",
+    "v": "Baking her way through life, with an École Ducasse diploma."
+   },
+   {
+    "rank": 1,
+    "h": "treat_thebakery",
+    "score": "9.4",
+    "cat": "Home bakery, London",
+    "str": "Opening line with attitude",
+    "v": "“Life is hard. You deserve a treat.” Instant craving.",
+    "congrats": "CONGRATULATIONS, TREAT"
+   }
+  ]
+ },
+ "lash01": {
+  "slug": "lash01",
+  "vol": "28",
+  "tag": "LASH AND BROW",
+  "accent": "#B39DFF",
+  "emoji": "👁️",
+  "title": "Lash Bios",
+  "single": "Lash Bio",
+  "sub": "Lash and brow artists under 600 followers.",
+  "next": [
+   "Bar Bios",
+   "🍸",
+   "#5EE6C8"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "lasheddbyyarii_",
+    "score": "8.0",
+    "emoji": "🎀",
+    "cat": "Lash technician, Van Nuys",
+    "str": "Menu plus DM",
+    "v": "Classic, hybrid, volume. Then DM to book."
+   },
+   {
+    "rank": 4,
+    "h": "melorabeautyco",
+    "score": "8.4",
+    "emoji": "✨",
+    "cat": "Brow artist, Miami",
+    "str": "Policies up front",
+    "v": "Home based, address after booking. Professional and safe."
+   },
+   {
+    "rank": 3,
+    "h": "starlitlashess",
+    "score": "8.7",
+    "emoji": "💖",
+    "cat": "Lash artist, Glendale CA",
+    "str": "Brand mood, booking path",
+    "v": "A sparkly name and a clear route to booking."
+   },
+   {
+    "rank": 2,
+    "h": "refinedbyary",
+    "score": "9.0",
+    "emoji": "📰",
+    "cat": "Lash and brow artist, Auckland",
+    "str": "Tight menu, clear CTA",
+    "v": "Naturally enhanced. Services in one line. Book now."
+   },
+   {
+    "rank": 1,
+    "h": "winksbylivii",
+    "score": "9.2",
+    "cat": "Lash artist, Westchester NY",
+    "str": "Transparent booking",
+    "v": "Deposit stated, area stated, door open. Zero friction.",
+    "congrats": "CONGRATULATIONS, LIVII"
+   }
+  ]
+ },
+ "bar01": {
+  "slug": "bar01",
+  "vol": "29",
+  "tag": "MOBILE BARS",
+  "accent": "#5EE6C8",
+  "emoji": "🍸",
+  "title": "Bar Bios",
+  "single": "Bar Bio",
+  "sub": "Mobile bars and event bartenders under 600 followers.",
+  "next": [
+   "Cookie Bios",
+   "🍪",
+   "#D9A066"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "toast_to_that_llc",
+    "score": "7.9",
+    "emoji": "🎉",
+    "cat": "Mobile bartender, Florida",
+    "str": "Pure energy",
+    "v": "“BOOK ME!!!!” Nobody will miss the call to action."
+   },
+   {
+    "rank": 4,
+    "h": "thecrackedcauldroncocktails",
+    "score": "8.3",
+    "emoji": "🧪",
+    "cat": "Pop up bar, coffee and cocktails",
+    "str": "Range plus custom",
+    "v": "Coffee, cocktails, mocktails, all made to your taste."
+   },
+   {
+    "rank": 3,
+    "h": "sparrowcocktailco",
+    "score": "8.7",
+    "emoji": "🥂",
+    "cat": "Mobile cocktail bar, California",
+    "str": "Elegant and specific",
+    "v": "Weddings and events, two towns, one line. Classy."
+   },
+   {
+    "rank": 2,
+    "h": "blueridgebartending",
+    "score": "9.0",
+    "emoji": "🤠",
+    "cat": "Mobile bar service, PA and MD",
+    "str": "Attitude in quotes",
+    "v": "“We’re here for the party.” Says yes before you ask."
+   },
+   {
+    "rank": 1,
+    "h": "themixingstall",
+    "score": "9.3",
+    "cat": "Mobile bartending, Dallas Fort Worth",
+    "str": "Promise, proof, booking",
+    "v": "“Crafted cocktails that wow guests.” Then menus, events, book now.",
+    "congrats": "CONGRATULATIONS, MIXING STALL"
+   }
+  ]
+ },
+ "cookie01": {
+  "slug": "cookie01",
+  "vol": "30",
+  "tag": "COOKIE ARTISTS",
+  "accent": "#D9A066",
+  "emoji": "🍪",
+  "title": "Cookie Bios",
+  "single": "Cookie Bio",
+  "sub": "Cookie decorators under 600 followers.",
+  "next": [
+   "Massage Bios",
+   "💆",
+   "#7DB9E8"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "customcookiesbyalicia",
+    "score": "8.0",
+    "emoji": "🚀",
+    "cat": "Decorated sugar cookies",
+    "str": "Licensed, clear scope",
+    "v": "Licensed kitchen, every occasion, email or DM. Reliable."
+   },
+   {
+    "rank": 4,
+    "h": "maddisdelights",
+    "score": "8.3",
+    "emoji": "😊",
+    "cat": "Home bakery, Roseville CA",
+    "str": "Tidy menu, DM cue",
+    "v": "Cookies, breads, desserts, events. Then a clear DM line."
+   },
+   {
+    "rank": 3,
+    "h": "love.lawson17",
+    "score": "8.6",
+    "emoji": "💌",
+    "cat": "Cookie decorator, East Texas",
+    "str": "Occasions listed",
+    "v": "Birthdays, weddings, showers. You know if it is for you."
+   },
+   {
+    "rank": 2,
+    "h": "mikaylascookieco",
+    "score": "8.9",
+    "emoji": "💜",
+    "cat": "Themed sugar cookies",
+    "str": "Two lines, done",
+    "v": "Themed cookies, DM to order, location. Short and sweet."
+   },
+   {
+    "rank": 1,
+    "h": "moonlightbakeryatl",
+    "score": "9.2",
+    "cat": "Custom cookies, Atlanta",
+    "str": "Name, niche, order path",
+    "v": "Maker, city, licence, order form. Nothing missing.",
+    "congrats": "CONGRATULATIONS, MOONLIGHT"
+   }
+  ]
+ },
+ "massage01": {
+  "slug": "massage01",
+  "vol": "31",
+  "tag": "MASSAGE THERAPISTS",
+  "accent": "#7DB9E8",
+  "emoji": "💆",
+  "title": "Massage Bios",
+  "single": "Massage Bio",
+  "sub": "Massage therapists under 600 followers.",
+  "next": [
+   "Truck Bios",
+   "🚚",
+   "#FFB347"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "trubalance.bodywork",
+    "score": "8.0",
+    "emoji": "☯️",
+    "cat": "Massage therapy, Provo",
+    "str": "Values on show",
+    "v": "Sports, therapeutic, energy work, LGBTQ+ owned. Clear identity."
+   },
+   {
+    "rank": 4,
+    "h": "armoredmassage",
+    "score": "8.4",
+    "emoji": "🛡️",
+    "cat": "Sports massage, Kansas City",
+    "str": "Focus plus proof",
+    "v": "Recovery focused, featured locally, book below. Short and sure."
+   },
+   {
+    "rank": 3,
+    "h": "handslikebutta",
+    "score": "8.7",
+    "emoji": "🐚",
+    "cat": "Licensed massage therapist, Connecticut",
+    "str": "Name with a wink",
+    "v": "Hands Like Butta. You already know how it feels."
+   },
+   {
+    "rank": 2,
+    "h": "justbreathesportsmassage",
+    "score": "9.0",
+    "emoji": "🍃",
+    "cat": "Sports massage, Wrexham",
+    "str": "Outcome first",
+    "v": "“Helping you feel more comfortable in your body.” Human and precise."
+   },
+   {
+    "rank": 1,
+    "h": "serenitymassagebykc",
+    "score": "9.2",
+    "cat": "Mobile massage therapist, UK",
+    "str": "Experience as a headline",
+    "v": "“20 years of healing hands.” Then everything you need to trust her.",
+    "congrats": "CONGRATULATIONS, KC"
+   }
+  ],
+  "tsize": 128
+ },
+ "truck01": {
+  "slug": "truck01",
+  "vol": "32",
+  "tag": "FOOD TRUCKS",
+  "accent": "#FFB347",
+  "emoji": "🚚",
+  "title": "Truck Bios",
+  "single": "Truck Bio",
+  "sub": "Food trucks and street food under 600 followers.",
+  "next": [
+   "Stitch Bios",
+   "🪡",
+   "#E86A92"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "howechippyvan30",
+    "score": "8.0",
+    "emoji": "🐟",
+    "cat": "Fish and chips van, UK",
+    "str": "Heritage as proof",
+    "v": "Serving since 1930. Tradition on your doorstep."
+   },
+   {
+    "rank": 4,
+    "h": "pastaamore_streetfood",
+    "score": "8.3",
+    "emoji": "🍝",
+    "cat": "Street food, Terni",
+    "str": "Lunch, dinner, promise",
+    "v": "Fresh pasta by day, crispy fries by night, all made to order."
+   },
+   {
+    "rank": 3,
+    "h": "hi_pilina.food.station",
+    "score": "8.7",
+    "emoji": "🌞",
+    "cat": "Food truck, Hiroshima",
+    "str": "Arrows for everything",
+    "v": "Contact, sister shop, next stop. A tidy little map."
+   },
+   {
+    "rank": 2,
+    "h": "tako_loko_htx",
+    "score": "9.0",
+    "emoji": "🌮",
+    "cat": "Taco spot, Houston",
+    "str": "Origin plus attitude",
+    "v": "Straight from Monterrey. “Not your average taco spot.” Order ahead."
+   },
+   {
+    "rank": 1,
+    "h": "unclekandco",
+    "score": "9.3",
+    "cat": "Food truck, Barossa SA",
+    "str": "Character in caps",
+    "v": "“Barossa’s favourite uncle.” Your local, wherever we park. Pure warmth.",
+    "congrats": "CONGRATULATIONS, UNCLE K"
+   }
+  ]
+ },
+ "embroid01": {
+  "slug": "embroid01",
+  "vol": "33",
+  "tag": "EMBROIDERY",
+  "accent": "#E86A92",
+  "emoji": "🪡",
+  "title": "Stitch Bios",
+  "single": "Stitch Bio",
+  "sub": "Embroidery artists under 600 followers.",
+  "next": [
+   "Cart Bios",
+   "☕",
+   "#C08552"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "fil_et_reve",
+    "score": "7.9",
+    "emoji": "🪡",
+    "cat": "Embroidery atelier, Korea",
+    "str": "Craft credentials",
+    "v": "Haute couture and Lunéville embroidery. Specialist and proud."
+   },
+   {
+    "rank": 4,
+    "h": "mariekispal",
+    "score": "8.2",
+    "emoji": "🌿",
+    "cat": "Illustrator and embroiderer",
+    "str": "Three roles, one line",
+    "v": "Illustrator, embroiderer, garden enthusiast. Simple and personal."
+   },
+   {
+    "rank": 3,
+    "h": "netamirworkshop",
+    "score": "8.6",
+    "emoji": "🎨",
+    "cat": "Textile artist and teacher",
+    "str": "Clear expertise",
+    "v": "Paper and collage embroidery workshops. You know what she teaches."
+   },
+   {
+    "rank": 2,
+    "h": "tisnthreads",
+    "score": "9.0",
+    "emoji": "🧵",
+    "cat": "Embroidered keepsakes",
+    "str": "Purpose, gift, DM",
+    "v": "Love and meaning, a gift for every moment, DM to order."
+   },
+   {
+    "rank": 1,
+    "h": "witch.crafting",
+    "score": "9.2",
+    "cat": "Hand embroidery artist",
+    "str": "Mood plus open door",
+    "v": "“Whimsical hand-embroidered art.” Then custom orders by message. Charming.",
+    "congrats": "CONGRATULATIONS, KENDALL"
+   }
+  ]
+ },
+ "cart01": {
+  "slug": "cart01",
+  "vol": "34",
+  "tag": "COFFEE CARTS",
+  "accent": "#C08552",
+  "emoji": "☕",
+  "title": "Cart Bios",
+  "single": "Cart Bio",
+  "sub": "Mobile coffee carts under 600 followers.",
+  "next": [
+   "Balloon Bios",
+   "🎈",
+   "#FF8FB1"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "fuelandflowcc",
+    "score": "7.9",
+    "emoji": "☕",
+    "cat": "Mobile coffee trailer",
+    "str": "Two lines of swagger",
+    "v": "“Caffeine dealer.” Funny, short, memorable."
+   },
+   {
+    "rank": 4,
+    "h": "beanbrigade831",
+    "score": "8.3",
+    "emoji": "⚔️",
+    "cat": "Coffee truck, California",
+    "str": "Story in a phrase",
+    "v": "Family owned and passion driven. Crafting coffee magic."
+   },
+   {
+    "rank": 3,
+    "h": "roamingcoffeecart",
+    "score": "8.6",
+    "emoji": "⛰️",
+    "cat": "Coffee cart, Albuquerque",
+    "str": "A line worth stealing",
+    "v": "“Specialty coffee, anywhere.” Then where and how to book."
+   },
+   {
+    "rank": 2,
+    "h": "hazelandco.tx",
+    "score": "9.0",
+    "emoji": "🐕",
+    "cat": "Coffee cart, New Braunfels TX",
+    "str": "Short and bookable",
+    "v": "Cart, DM or email, place, owner tag. Nothing to guess."
+   },
+   {
+    "rank": 1,
+    "h": "themorningaftercup",
+    "score": "9.3",
+    "cat": "Mobile café, NJ and NY",
+    "str": "Identity, menu, booking",
+    "v": "Dominican roots, four drinks, two states, one booking link.",
+    "congrats": "CONGRATULATIONS, MORNING AFTER"
+   }
+  ]
+ },
+ "balloon01": {
+  "slug": "balloon01",
+  "vol": "35",
+  "tag": "BALLOON ARTISTS",
+  "accent": "#FF8FB1",
+  "emoji": "🎈",
+  "title": "Balloon Bios",
+  "single": "Balloon Bio",
+  "sub": "Balloon artists and stylists under 600 followers.",
+  "next": [
+   "Chef Bios",
+   "👨‍🍳",
+   "#FF7DB4"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "liyasluxeballoons",
+    "score": "8.0",
+    "emoji": "💕",
+    "cat": "Balloon decor, Colorado Springs",
+    "str": "Human first",
+    "v": "Wife, mama, nurse, balloon enthusiast. You meet her first."
+   },
+   {
+    "rank": 4,
+    "h": "balloon_deco_me",
+    "score": "8.3",
+    "emoji": "🎈",
+    "cat": "Balloon stylist, Dunedin NZ",
+    "str": "Full menu",
+    "v": "Corporate, birthdays, arch hire, vinyl decals. All in view."
+   },
+   {
+    "rank": 3,
+    "h": "blisspopballoons",
+    "score": "8.7",
+    "emoji": "✨",
+    "cat": "Event styling, Newcastle NSW",
+    "str": "Areas plus enquiry arrow",
+    "v": "Three towns listed and an arrow to the link. Easy."
+   },
+   {
+    "rank": 2,
+    "h": "colortheoryballoons",
+    "score": "9.0",
+    "emoji": "🎨",
+    "cat": "Balloon artist, San Antonio",
+    "str": "Name, place, promise",
+    "v": "“Let’s make your event pop!” Then DM to book. Friendly and clear."
+   },
+   {
+    "rank": 1,
+    "h": "petalnpop.co",
+    "score": "9.3",
+    "cat": "Balloon styling, Lancaster PA",
+    "str": "Four lines, zero doubts",
+    "v": "Service, extras, area, DM to book. A perfect structure.",
+    "congrats": "CONGRATULATIONS, PETAL N POP"
+   }
+  ]
+ },
+ "vintage01": {
+  "slug": "vintage01",
+  "vol": "14",
+  "tag": "VINTAGE SELLERS",
+  "accent": "#E8B04B",
+  "emoji": "🕰️",
+  "title": "Vintage Bios",
+  "single": "Vintage Bio",
+  "sub": "Vintage sellers under 600 followers.",
+  "next": [
+   "Cake Bios",
+   "🎂",
+   "#FFB3C7"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "camehomewithme",
+    "score": "7.9",
+    "emoji": "🏠",
+    "cat": "Antiques and interiors, NY",
+    "str": "Short tagline, clear themes",
+    "v": "“Things worth bringing home.” Says it all."
+   },
+   {
+    "rank": 4,
+    "h": "honkytonk.vintage",
+    "score": "8.2",
+    "emoji": "🔮",
+    "cat": "60s and 70s vintage",
+    "str": "Era focus, weekly drops",
+    "v": "Drops every Sunday. A reason to come back."
+   },
+   {
+    "rank": 3,
+    "h": "gracesxgarage",
+    "score": "8.6",
+    "emoji": "⭐",
+    "cat": "Curated vintage, Kansas City",
+    "str": "Era range, for everyone",
+    "v": "From the 70s to the 2000s, handpicked with heart."
+   },
+   {
+    "rank": 2,
+    "h": "somethingbluega",
+    "score": "9.0",
+    "emoji": "🫖",
+    "cat": "Estate finds, Georgia",
+    "str": "Clear passion, clear theme",
+    "v": "One blue and white item at a time. Lovely focus."
+   },
+   {
+    "rank": 1,
+    "h": "littleoldme.vintage",
+    "score": "9.4",
+    "cat": "Americana vintage, Michigan",
+    "str": "Wordplay, style keywords",
+    "v": "“Little old me, finding little old things.” Perfect.",
+    "congrats": "CONGRATULATIONS, JESSIE"
+   }
+  ]
+ },
+ "hair01": {
+  "slug": "hair01",
+  "vol": "16",
+  "tag": "HAIRSTYLISTS",
+  "accent": "#B07CFF",
+  "emoji": "💇",
+  "title": "Hair Bios",
+  "single": "Hair Bio",
+  "sub": "Hairstylists under 600 followers.",
+  "next": [
+   "Makeup Bios",
+   "💄",
+   "#FF6F91"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "sinclairshearss",
+    "score": "7.9",
+    "emoji": "🎀",
+    "cat": "Hairstylist, Concord NC",
+    "str": "Personality, clear next step",
+    "v": "Hair, vlogs and fun. You know who you’re booking."
+   },
+   {
+    "rank": 4,
+    "h": "hairbydaisylara",
+    "score": "8.3",
+    "emoji": "👱‍♀️",
+    "cat": "Colour technician, UK",
+    "str": "Sharp niche, booking cue",
+    "v": "Balayage and blonde. One niche, owned."
+   },
+   {
+    "rank": 3,
+    "h": "thecurlabode",
+    "score": "8.6",
+    "emoji": "➰",
+    "cat": "Curl specialist, Norfolk",
+    "str": "Credentials on two continents",
+    "v": "Leeds to New York. The training speaks."
+   },
+   {
+    "rank": 2,
+    "h": "beautybyg.snyder",
+    "score": "8.9",
+    "emoji": "✨",
+    "cat": "Colour specialist, Boca Raton",
+    "str": "Salon, specialty, services",
+    "v": "Everything a new client needs, in four lines."
+   },
+   {
+    "rank": 1,
+    "h": "curlsbyeightysixed",
+    "score": "9.4",
+    "cat": "Curl cuts and colour",
+    "str": "Empathy, promise, CTA",
+    "v": "“Curly hair, understood.” Three words, total trust.",
+    "congrats": "CONGRATULATIONS, EIGHTY SIXED"
+   }
+  ]
+ },
+ "wood01": {
+  "slug": "wood01",
+  "vol": "22",
+  "tag": "WOODWORKERS",
+  "accent": "#A3B86C",
+  "emoji": "🪵",
+  "title": "Wood Bios",
+  "single": "Wood Bio",
+  "sub": "Woodworkers under 600 followers.",
+  "next": [
+   "Photo Bios",
+   "📸",
+   "#F2E6D0"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "eddiejchwoodturning",
+    "score": "7.9",
+    "emoji": "🌀",
+    "cat": "Wood turner, UK",
+    "str": "Young voice, side passions",
+    "v": "A young turner with a band. Personality on a lathe."
+   },
+   {
+    "rank": 4,
+    "h": "noblekraftdesignco",
+    "score": "8.3",
+    "emoji": "🚪",
+    "cat": "Custom cabinetry, Florida",
+    "str": "Clear services, service area",
+    "v": "Built-ins to pantries. Says exactly what they make."
+   },
+   {
+    "rank": 3,
+    "h": "reecewoodworks",
+    "score": "8.6",
+    "emoji": "🌳",
+    "cat": "Wood trinkets, US",
+    "str": "Old-school charm, DM cue",
+    "v": "“Purveyor of wood trinkets.” Then: Cheers!"
+   },
+   {
+    "rank": 2,
+    "h": "sidehustlewoodcraft",
+    "score": "8.9",
+    "emoji": "🖊️",
+    "cat": "Pens and engraving, US",
+    "str": "Product list, veteran owned",
+    "v": "Pens, wood, laser. Veteran owned. Clear and proud."
+   },
+   {
+    "rank": 1,
+    "h": "created_by_michael",
+    "score": "9.2",
+    "cat": "Handmade woodwork, US",
+    "str": "Story-driven promise",
+    "v": "“Every piece has a story.” And it should last.",
+    "congrats": "CONGRATULATIONS, MICHAEL"
+   }
+  ]
+ },
+ "plants01": {
+  "slug": "plants01",
+  "vol": "13",
+  "tag": "PLANT SHOPS",
+  "accent": "#3DDC84",
+  "emoji": "🪴",
+  "title": "Plant Bios",
+  "single": "Plant Bio",
+  "sub": "Plant shops under 600 followers.",
+  "next": [
+   "Script Bios",
+   "✒️",
+   "#9AD0EC"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "crzyplntladybailey_ml",
+    "score": "8.2",
+    "emoji": "💚",
+    "cat": "Houseplants, Washington",
+    "str": "Propagation, side craft",
+    "v": "Every plant propagated by hand. Love it."
+   },
+   {
+    "rank": 4,
+    "h": "rollingrootplants",
+    "score": "8.4",
+    "emoji": "🚚",
+    "cat": "Mobile plant shop, Wisconsin",
+    "str": "Concept first, motto",
+    "v": "A plant shop on wheels, said in five words."
+   },
+   {
+    "rank": 3,
+    "h": "bees.cr3ations",
+    "score": "8.6",
+    "emoji": "📦",
+    "cat": "Houseplant shop, Pennsylvania",
+    "str": "Range, shipping, pickup",
+    "v": "From common to collector. Range in one arrow."
+   },
+   {
+    "rank": 2,
+    "h": "sassysproutnampa",
+    "score": "9.0",
+    "emoji": "💎",
+    "cat": "Plants and relics, Idaho",
+    "str": "Parallel lines, personality",
+    "v": "“Plants with personality. Finds with flair.”"
+   },
+   {
+    "rank": 1,
+    "h": "catnipandcactus",
+    "score": "9.3",
+    "cat": "Houseplant shop, US",
+    "str": "Pet friendly, playful voice",
+    "v": "Pet friendly plants, plus a dash of cats.",
+    "congrats": "CONGRATULATIONS, CATNIP & CACTUS"
+   }
+  ]
+ },
+ "calli01": {
+  "slug": "calli01",
+  "vol": "19",
+  "tag": "CALLIGRAPHERS",
+  "accent": "#9AD0EC",
+  "emoji": "✒️",
+  "title": "Script Bios",
+  "single": "Script Bio",
+  "sub": "Calligraphers under 600 followers.",
+  "next": [
+   "Skin Bios",
+   "🧴",
+   "#FFC9A8"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "zaylettering_",
+    "score": "7.7",
+    "emoji": "🖋️",
+    "cat": "Blackletter lettering",
+    "str": "Clean, focused",
+    "v": "Three words, one craft. The feed does the rest."
+   },
+   {
+    "rank": 4,
+    "h": "fionascreativejoy",
+    "score": "8.2",
+    "emoji": "🌀",
+    "cat": "Hand lettering, London",
+    "str": "Joyful voice, cyanotype twist",
+    "v": "Lettering plus cyanotype. A curious mind on show."
+   },
+   {
+    "rank": 3,
+    "h": "thecalligraphyedit_",
+    "score": "8.6",
+    "emoji": "💌",
+    "cat": "Luxury calligraphy, UK",
+    "str": "Premium tone, clear offer",
+    "v": "Handcrafted for life’s meaningful moments."
+   },
+   {
+    "rank": 2,
+    "h": "flourishedflamingo",
+    "score": "9.0",
+    "emoji": "🦩",
+    "cat": "Modern calligraphy, New Jersey",
+    "str": "Warm invite, full offer",
+    "v": "“Learn calligraphy with me!” Classes, orders, events. Done."
+   },
+   {
+    "rank": 1,
+    "h": "staciescripts",
+    "score": "9.2",
+    "cat": "Calligrapher, New Hampshire",
+    "str": "Teacher, maker, clear CTA",
+    "v": "Place, classes, commissions, contact. Textbook bio.",
+    "congrats": "CONGRATULATIONS, STACIE"
+   }
+  ]
+ },
+ "skin01": {
+  "slug": "skin01",
+  "vol": "20",
+  "tag": "ESTHETICIANS",
+  "accent": "#FFC9A8",
+  "emoji": "🧴",
+  "title": "Skin Bios",
+  "single": "Skin Bio",
+  "sub": "Estheticians under 600 followers.",
+  "next": [
+   "Knitting Bios",
+   "🧶",
+   "#FF8A65"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "esti.emy",
+    "score": "7.9",
+    "emoji": "🫧",
+    "cat": "Esthetician, Dalton",
+    "str": "Services and place",
+    "v": "Facials, headspa, waxing. You know what’s on."
+   },
+   {
+    "rank": 4,
+    "h": "reimagineskinspa",
+    "score": "8.3",
+    "emoji": "🦋",
+    "cat": "Skin spa, Minnesota",
+    "str": "Team credibility",
+    "v": "Physicians and estheticians under one roof."
+   },
+   {
+    "rank": 3,
+    "h": "themirrandaedit",
+    "score": "8.6",
+    "emoji": "🌸",
+    "cat": "Brows and facials, Elgin IL",
+    "str": "Specific niche, first visit CTA",
+    "v": "Hormonal skin facials. Specific wins."
+   },
+   {
+    "rank": 2,
+    "h": "skintalks_withcass",
+    "score": "8.9",
+    "emoji": "✨",
+    "cat": "Medical aesthetician",
+    "str": "Hook line, credentials",
+    "v": "“Your skin is always talking.” Best first line in the list."
+   },
+   {
+    "rank": 1,
+    "h": "skinwithmica_",
+    "score": "9.2",
+    "cat": "Skin tech, Newark UK",
+    "str": "Accredited, insured, booking",
+    "v": "Trained, accredited, insured. Trust in one line.",
+    "congrats": "CONGRATULATIONS, MICA"
+   }
+  ]
+ },
+ "yarn01": {
+  "slug": "yarn01",
+  "vol": "24",
+  "tag": "KNIT AND CROCHET",
+  "accent": "#FF8A65",
+  "emoji": "🧶",
+  "title": "Knitting Bios",
+  "single": "Yarn Bio",
+  "sub": "Knitters and crocheters under 600 followers.",
+  "next": [
+   "Interior Bios",
+   "🛋️",
+   "#8FA6A0"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "crochet_byadri",
+    "score": "8.3",
+    "emoji": "🦋",
+    "cat": "Crochet, Puerto Rico",
+    "str": "Promise, local pride",
+    "v": "The touch your wardrobe was missing. Made in Vieques."
+   },
+   {
+    "rank": 4,
+    "h": "woolly__wow",
+    "score": "8.4",
+    "emoji": "🧶",
+    "cat": "Handmade knitwear",
+    "str": "Product list, keyword DM",
+    "v": "DM “I WANT”. The easiest order button on Instagram."
+   },
+   {
+    "rank": 3,
+    "h": "_coonieknits_",
+    "score": "8.6",
+    "emoji": "🐈",
+    "cat": "Knitting journal, Germany",
+    "str": "Cosy theme, Ravelry link",
+    "v": "Knitting, cats and photos. Cosy in one line."
+   },
+   {
+    "rank": 2,
+    "h": "timberridgeknits",
+    "score": "9.0",
+    "emoji": "🏔️",
+    "cat": "Knitwear, Idaho",
+    "str": "Symbols, rhythm, shop",
+    "v": "Knits and things, handmade in Idaho. Charming."
+   },
+   {
+    "rank": 1,
+    "h": "honeybeecrochetstudio",
+    "score": "9.3",
+    "cat": "Crochet creator, YouTube",
+    "str": "Self irony, channel CTA",
+    "v": "“Crocheting my way out of responsibilities.” Iconic.",
+    "congrats": "CONGRATULATIONS, JESSICA"
+   }
+  ]
+ },
+ "interior01": {
+  "slug": "interior01",
+  "vol": "25",
+  "tag": "INTERIOR DESIGNERS",
+  "accent": "#8FA6A0",
+  "emoji": "🛋️",
+  "title": "Interior Bios",
+  "single": "Interior Bio",
+  "sub": "Interior designers under 600 followers.",
+  "next": [
+   "Groomer Bios",
+   "🐩",
+   "#33CCFF"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "sedelli_store",
+    "score": "7.9",
+    "emoji": "🕯️",
+    "cat": "Home decor store, Florida",
+    "str": "One line positioning",
+    "v": "“Understated pieces that complete a room.”"
+   },
+   {
+    "rank": 4,
+    "h": "biancasinteriordecorating",
+    "score": "8.3",
+    "emoji": "🎃",
+    "cat": "Interior decorator, Connecticut",
+    "str": "Services with a seasonal twist",
+    "v": "Pumpkin porch styling. Specific, seasonal, memorable."
+   },
+   {
+    "rank": 3,
+    "h": "_studioremi",
+    "score": "8.6",
+    "emoji": "🏡",
+    "cat": "Interior designer, England",
+    "str": "Evocative, sector list",
+    "v": "Soulful, layered, beautifully lived in."
+   },
+   {
+    "rank": 2,
+    "h": "rabbottinteriors",
+    "score": "9.0",
+    "emoji": "🎀",
+    "cat": "Virtual interior designer",
+    "str": "Bold niche, keyword DM",
+    "v": "Unapologetically feminine spaces. DM “DESIGN”."
+   },
+   {
+    "rank": 1,
+    "h": "ingoodproportion.london",
+    "score": "9.4",
+    "cat": "Interior design, London",
+    "str": "Poetic line, founder credit",
+    "v": "“A room in good proportion always sings.”",
+    "congrats": "CONGRATULATIONS, IGP"
+   }
+  ]
+ },
+ "dogs01": {
+  "slug": "dogs01",
+  "vol": "05",
+  "tag": "DOG GROOMERS",
+  "accent": "#33CCFF",
+  "emoji": "🐩",
+  "title": "Groomer Bios",
+  "single": "Groomer Bio",
+  "sub": "Dog groomers under 600 followers.",
+  "next": [
+   "Pet Sitter Bios",
+   "🐕",
+   "#33CCFF"
+  ],
+  "people": [
+   {
+    "rank": 5,
+    "h": "hayleighsgroomroom",
+    "score": "8.0",
+    "emoji": "🩺",
+    "cat": "Dog groomer and vet nurse, UK",
+    "str": "Credentials up front",
+    "v": "A vet nurse with scissors. Trust, in two lines."
+   },
+   {
+    "rank": 4,
+    "h": "snoutdispatch",
+    "score": "8.4",
+    "emoji": "🚐",
+    "cat": "Mobile dog grooming, Orange",
+    "str": "Service, terms, area",
+    "v": "Mobile, by appointment, local. Zero guesswork."
+   },
+   {
+    "rank": 3,
+    "h": "pawshgroomingandstay",
+    "score": "8.9",
+    "emoji": "🐾",
+    "cat": "Brazilian grooming, Jarrow",
+    "str": "Unique angle, tidy list",
+    "v": "Brazilian grooming in Jarrow. Nobody else says that."
+   },
+   {
+    "rank": 2,
+    "h": "dovelydogs",
+    "score": "9.0",
+    "emoji": "💕",
+    "cat": "1:1 dog grooming, Texas",
+    "str": "Clear specialism, empathy",
+    "v": "Senior, nervous and special needs pups. A niche with a heart."
+   },
+   {
+    "rank": 1,
+    "h": "noblehound_groomers",
+    "score": "9.4",
+    "emoji": "🎩",
+    "cat": "One on one grooming, Melbourne",
+    "str": "Rhythm, place, DM to book",
+    "v": "“Tailored styling. Patient care.” Four words, a whole brand.",
+    "congrats": "CONGRATULATIONS, NOBLE HOUND"
+   }
+  ]
+ }
+}

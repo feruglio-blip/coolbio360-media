@@ -1,0 +1,146 @@
+{
+ "slug": "petsit01",
+ "vol": "26",
+ "tag": "PET SITTERS",
+ "accent": "#33CCFF",
+ "emoji": "🐕",
+ "title": "Sitter Bios",
+ "single": "Sitter Bio",
+ "sub": "Pet sitters and dog walkers under 600 followers",
+ "next": "Baker Bios, vol. 27",
+ "people": [
+  {
+   "rank": 5,
+   "h": "murphysmuttsdogwalking",
+   "score": "7.9",
+   "emoji": "🐹",
+   "cat": "Pet sitting, Preston",
+   "str": "Every pet welcome",
+   "v": "Cats, dogs, rabbits, hamsters. Everyone gets a pop in.",
+   "bio": [
+    8.0,
+    8.5,
+    7.0,
+    8.5
+   ],
+   "feed": [
+    7.5,
+    6.5,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "baulcombeandbark",
+   "score": "8.3",
+   "emoji": "🦮",
+   "cat": "Dog walking, Eastbourne",
+   "str": "Service menu, DM to book",
+   "v": "Pack walks, solo walks, drop-ins. Then: DM to book.",
+   "bio": [
+    7.5,
+    8.5,
+    9.0,
+    7.5
+   ],
+   "feed": [
+    7,
+    9,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "mackspackadventures",
+   "score": "8.6",
+   "emoji": "🌲",
+   "cat": "Group dog walks, Aberdeen",
+   "str": "Experience and areas",
+   "v": "Three years, first aid, four neighbourhoods. Clear as day.",
+   "bio": [
+    8.0,
+    9.0,
+    8.5,
+    9.0
+   ],
+   "feed": [
+    8,
+    7.5,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "oly_paws",
+   "score": "9.0",
+   "emoji": "🔒",
+   "cat": "Dog walker and pet sitter, Olympia",
+   "str": "Trust signals, stacked",
+   "v": "Licensed, bonded, insured, GPS tracked. Peace of mind, listed.",
+   "bio": [
+    8.5,
+    9.5,
+    9.0,
+    10
+   ],
+   "feed": [
+    7,
+    7,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 1,
+   "h": "daphnespetadventures",
+   "score": "9.3",
+   "cat": "House and pet sitter, La Jolla",
+   "str": "Warm intro, real person",
+   "v": "“Mom turned pet pro.” A whole story in four words.",
+   "congrats": "CONGRATULATIONS, DAPHNE",
+   "bio": [
+    10,
+    10,
+    9.5,
+    9.0
+   ],
+   "feed": [
+    6.5,
+    6,
+    10
+   ]
+  }
+ ],
+ "word": "Sitter",
+ "steal": {
+  "h": "Your pet sitter bio,<br>in four lines.",
+  "lines": [
+   [
+    "🐾 [what you do] in [your town]",
+    "THE OFFER"
+   ],
+   [
+    "[the pets you love] · [walks, visits, stays]",
+    "THE SERVICES"
+   ],
+   [
+    "🔒 [insured / first aid / years with pets]",
+    "THE TRUST"
+   ],
+   [
+    "👇 [DM to book / book online]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_pet_sitter_here",
+  "ex": [
+   "Dog walker &amp; pet sitter in Bristol 🐾",
+   "Dogs, cats and the odd tortoise · walks, visits, stays",
+   "🔒 Insured · canine first aid · 6 years with pets",
+   "👇 DM to book a meet and greet"
+  ]
+ }
+}

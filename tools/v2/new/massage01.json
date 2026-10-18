@@ -1,0 +1,147 @@
+{
+ "slug": "massage01",
+ "vol": "31",
+ "tag": "MASSAGE THERAPISTS",
+ "accent": "#7DB9E8",
+ "emoji": "💆",
+ "title": "Massage Bios",
+ "single": "Massage Bio",
+ "sub": "Massage therapists under 600 followers",
+ "next": "Truck Bios, vol. 32",
+ "people": [
+  {
+   "rank": 5,
+   "h": "trubalance.bodywork",
+   "score": "8.0",
+   "emoji": "☯️",
+   "cat": "Massage therapy, Provo",
+   "str": "Values on show",
+   "v": "Sports, therapeutic, energy work, LGBTQ+ owned. Clear identity.",
+   "bio": [
+    7.5,
+    8.5,
+    8.5,
+    7.5
+   ],
+   "feed": [
+    7,
+    7,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "armoredmassage",
+   "score": "8.4",
+   "emoji": "🛡️",
+   "cat": "Sports massage, Kansas City",
+   "str": "Focus plus proof",
+   "v": "Recovery focused, featured locally, book below. Short and sure.",
+   "bio": [
+    8.5,
+    8.5,
+    8.5,
+    8.0
+   ],
+   "feed": [
+    8,
+    8,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "handslikebutta",
+   "score": "8.7",
+   "emoji": "🐚",
+   "cat": "Licensed massage therapist, Connecticut",
+   "str": "Name with a wink",
+   "v": "Hands Like Butta. You already know how it feels.",
+   "bio": [
+    10,
+    9.0,
+    8.5,
+    8.5
+   ],
+   "feed": [
+    6.5,
+    7,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "justbreathesportsmassage",
+   "score": "9.0",
+   "emoji": "🍃",
+   "cat": "Sports massage, Wrexham",
+   "str": "Outcome first",
+   "v": "“Helping you feel more comfortable in your body.” Human and precise.",
+   "bio": [
+    9.5,
+    9.5,
+    9.5,
+    9.0
+   ],
+   "feed": [
+    7,
+    6.5,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 1,
+   "h": "serenitymassagebykc",
+   "score": "9.2",
+   "cat": "Mobile massage therapist, UK",
+   "str": "Experience as a headline",
+   "v": "“20 years of healing hands.” Then everything you need to trust her.",
+   "congrats": "CONGRATULATIONS, KC",
+   "bio": [
+    9.5,
+    9.5,
+    8.5,
+    9.0
+   ],
+   "feed": [
+    9,
+    9.5,
+    10
+   ]
+  }
+ ],
+ "tsize": 128,
+ "word": "Massage",
+ "steal": {
+  "h": "Your massage bio,<br>in four lines.",
+  "lines": [
+   [
+    "[years] of [your kind of massage]",
+    "THE PROOF"
+   ],
+   [
+    "[who you help] · [what they feel after]",
+    "THE PROMISE"
+   ],
+   [
+    "📍 [studio / mobile] · [qualified &amp; insured]",
+    "THE TRUST"
+   ],
+   [
+    "👇 [book your session]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_massage_here",
+  "ex": [
+   "12 years of deep tissue and sports massage",
+   "Runners, desk backs, stressed shoulders",
+   "📍 Mobile in Brighton · qualified &amp; insured",
+   "👇 Book your session online"
+  ]
+ }
+}

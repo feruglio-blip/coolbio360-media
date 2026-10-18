@@ -1,0 +1,146 @@
+{
+ "slug": "vintage01",
+ "vol": "14",
+ "tag": "VINTAGE SELLERS",
+ "accent": "#E8B04B",
+ "emoji": "🕰️",
+ "title": "Vintage Bios",
+ "single": "Vintage Bio",
+ "sub": "Vintage sellers under 600 followers",
+ "next": "Hair Bios, vol. 16",
+ "people": [
+  {
+   "rank": 5,
+   "h": "camehomewithme",
+   "score": "7.9",
+   "emoji": "🏠",
+   "cat": "Antiques and interiors, NY",
+   "str": "Short tagline, clear themes",
+   "v": "“Things worth bringing home.” Says it all.",
+   "bio": [
+    8.5,
+    7.5,
+    7.5,
+    7.0
+   ],
+   "feed": [
+    8,
+    8.5,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "honkytonk.vintage",
+   "score": "8.2",
+   "emoji": "🔮",
+   "cat": "60s and 70s vintage",
+   "str": "Era focus, weekly drops",
+   "v": "Drops every Sunday. A reason to come back.",
+   "bio": [
+    8.5,
+    8.5,
+    7.0,
+    8.0
+   ],
+   "feed": [
+    8.5,
+    9,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "gracesxgarage",
+   "score": "8.6",
+   "emoji": "⭐",
+   "cat": "Curated vintage, Kansas City",
+   "str": "Era range, for everyone",
+   "v": "From the 70s to the 2000s, handpicked with heart.",
+   "bio": [
+    9.0,
+    8.5,
+    9.5,
+    8.5
+   ],
+   "feed": [
+    7,
+    6.5,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "somethingbluega",
+   "score": "9.0",
+   "emoji": "🫖",
+   "cat": "Estate finds, Georgia",
+   "str": "Clear passion, clear theme",
+   "v": "One blue and white item at a time. Lovely focus.",
+   "bio": [
+    9.5,
+    8.5,
+    9.5,
+    8.5
+   ],
+   "feed": [
+    8,
+    8.5,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 1,
+   "h": "littleoldme.vintage",
+   "score": "9.4",
+   "cat": "Americana vintage, Michigan",
+   "str": "Wordplay, style keywords",
+   "v": "“Little old me, finding little old things.” Perfect.",
+   "congrats": "CONGRATULATIONS, JESSIE",
+   "bio": [
+    10,
+    10,
+    9.0,
+    10
+   ],
+   "feed": [
+    7.5,
+    7,
+    9
+   ]
+  }
+ ],
+ "word": "Vintage",
+ "steal": {
+  "h": "Your vintage bio,<br>in four lines.",
+  "lines": [
+   [
+    "[a line about how you hunt]",
+    "THE HOOK"
+   ],
+   [
+    "[decades / style you curate]",
+    "THE CURATION"
+   ],
+   [
+    "📍 [where you are / markets]",
+    "FIND US"
+   ],
+   [
+    "👇 [shop link / drop day]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_vintage_shop_here",
+  "ex": [
+   "Finding little old things so you don’t have to",
+   "70s to 90s · denim, leather, kitsch",
+   "📍 Bristol · flea markets every Sunday",
+   "👇 New drop every Friday, shop below"
+  ]
+ }
+}
