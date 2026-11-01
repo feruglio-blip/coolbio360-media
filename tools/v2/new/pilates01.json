@@ -1,0 +1,135 @@
+{
+ "slug": "pilates01",
+ "vol": "36",
+ "tag": "PILATES",
+ "accent": "#F7A072",
+ "emoji": "🧘‍♀️",
+ "word": "Pilates",
+ "sub": "Pilates teachers and studios under 1,500 followers",
+ "next": "Next list tomorrow",
+ "steal": {
+  "h": "Your Pilates bio,<br>in four lines.",
+  "lines": [
+   [
+    "[your vibe in one line] 🌶️",
+    "THE HOOK"
+   ],
+   [
+    "[mat / reformer / tower] · [who you teach]",
+    "THE OFFER"
+   ],
+   [
+    "📍 [studio, city or online] · [certified]",
+    "THE TRUST"
+   ],
+   [
+    "👇 [book a class / free first session]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_pilates_here",
+  "ex": [
+   "Strong core, zero ego 🌶️",
+   "Reformer &amp; mat · beginners and mums-to-be",
+   "📍 Leeds studio + online · fully certified",
+   "👇 Book your first class free"
+  ]
+ },
+ "people": [
+  {
+   "rank": 1,
+   "h": "pilateswithbridge",
+   "score": "9.3",
+   "cat": "Reformer and hot mat instructor",
+   "v": "“ur fav reformer + hot mat instructor.” Six words, one chilli, all personality.",
+   "bio": [
+    9.5,
+    9.5,
+    9.5,
+    9.0
+   ],
+   "feed": [
+    8.5,
+    9,
+    10
+   ],
+   "congrats": "CONGRATULATIONS, BRIDGE"
+  },
+  {
+   "rank": 2,
+   "h": "dariahorb.pilates",
+   "score": "9.0",
+   "cat": "Pilates teacher, Munich",
+   "v": "Certified, a neuro-training fan, home workouts for real life. Three lines, zero fluff.",
+   "bio": [
+    9.5,
+    9.0,
+    8.5,
+    9.0
+   ],
+   "feed": [
+    8.5,
+    9,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "sonapilates",
+   "score": "8.7",
+   "cat": "Pilates studio, Bristol",
+   "v": "“Expert-led Pilates for every body.” Then: come as you are. Warm and clear.",
+   "bio": [
+    9.0,
+    9.5,
+    8.0,
+    9.0
+   ],
+   "feed": [
+    7.5,
+    7.5,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "thereformerspace",
+   "score": "8.3",
+   "cat": "Reformer and tower studio, UK",
+   "v": "Boutique, small groups, 1:1. And a feed that looks like a design magazine.",
+   "bio": [
+    8.0,
+    8.5,
+    8.0,
+    7.5
+   ],
+   "feed": [
+    8.5,
+    9,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 5,
+   "h": "alignwell_studio",
+   "score": "8.0",
+   "cat": "Reformer studio, Bristol",
+   "v": "Studio, method, address, “find out more.” The essentials, neatly stacked.",
+   "bio": [
+    8.0,
+    7.5,
+    8.5,
+    7.5
+   ],
+   "feed": [
+    8,
+    8.5,
+    9
+   ],
+   "congrats": ""
+  }
+ ]
+}
