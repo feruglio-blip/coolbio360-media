@@ -52,7 +52,13 @@
   "vol": "01",
   "A2": "#4C6FD6",
   "t3": "Winter captions|you can copy",
-  "badge": "15 captions"
+  "badge": "15 captions",
+  "hues": [
+   "#A9CFF2",
+   "#4C6FD6",
+   "#9D8CF2",
+   "#6FE3E0"
+  ]
  },
  {
   "slug": "user01",
@@ -121,7 +127,13 @@
   "vol": "02",
   "A2": "#7B55D9",
   "t3": "Aesthetic|username ideas",
-  "badge": "20 names"
+  "badge": "20 names",
+  "hues": [
+   "#CDB4F5",
+   "#7B55D9",
+   "#F2A7C8",
+   "#8FB8F5"
+  ]
  },
  {
   "slug": "emoji01",
@@ -190,7 +202,13 @@
   "vol": "03",
   "A2": "#E05683",
   "t3": "Emoji combos|for your bio",
-  "badge": "20 combos"
+  "badge": "20 combos",
+  "hues": [
+   "#F7B3C8",
+   "#E05683",
+   "#FFB38A",
+   "#B38AF2"
+  ]
  },
  {
   "slug": "bday01",
@@ -245,7 +263,13 @@
   "vol": "04",
   "A2": "#F07A3C",
   "t3": "Birthday captions|you can copy",
-  "badge": "15 captions"
+  "badge": "15 captions",
+  "hues": [
+   "#FFD27A",
+   "#F07A3C",
+   "#F25C78",
+   "#FFB3A1"
+  ]
  },
  {
   "slug": "meme01",
@@ -314,6 +338,12 @@
   "vol": "05",
   "A2": "#23A07E",
   "t3": "What the bio says|vs what it means",
-  "badge": "8 bios decoded"
+  "badge": "8 bios decoded",
+  "hues": [
+   "#9EE6C4",
+   "#23A07E",
+   "#7FD3E8",
+   "#E8F59E"
+  ]
  }
 ]
