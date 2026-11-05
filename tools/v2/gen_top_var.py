@@ -28,7 +28,7 @@ def bars(vals,v,col,track,fg):
     for name,vs,ls in (g1,g2):
         avg=sum(vs)/len(vs)
         out+=f'<div style="display:flex;justify-content:space-between;align-items:baseline;margin:{0 if name=="THE BIO" else 18}px 0 6px"><span style="font-size:18px;font-weight:700;color:{fg};opacity:.7">{name.title()}</span>{N(v,f"{avg:.1f}",40,col)}</div>'
-        out+=''.join(f'<div style="display:grid;grid-template-columns:150px 1fr 46px;gap:12px;align-items:center;margin:7px 0;font-size:19px;color:{fg}"><span>{l}</span><div style="height:9px;border-radius:5px;background:{track}"><div style="width:{x*10}%;height:9px;border-radius:5px;background:{col}"></div></div><span style="font-weight:700;text-align:right">{x:g}</span></div>' for l,x in zip(ls,vs))
+        out+=''.join(f'<div style="display:grid;grid-template-columns:150px 1fr 46px;gap:12px;align-items:center;margin:4px 0;font-size:18px;color:{fg}"><span>{l}</span><div style="height:9px;border-radius:5px;background:{track}"><div style="width:{x*10}%;height:9px;border-radius:5px;background:{col}"></div></div><span style="font-weight:700;text-align:right">{x:g}</span></div>' for l,x in zip(ls,vs))
     return f'<div style="flex:1">{out}</div>'
 def page(b): return P6.page(b,NAVY).replace('</head>',EXTRA+'</head>',1)
 def head_img(p): return T.b64(T.CAP+p['h']+'_head.png')
