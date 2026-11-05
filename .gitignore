@@ -1,3 +1,4 @@
 __pycache__/
 tools/packs/out/*.html
 tools/packs/out2/*.html
+tools/packs/out3/*.html
