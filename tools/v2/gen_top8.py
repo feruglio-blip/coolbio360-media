@@ -15,7 +15,7 @@ def page(b,acc):
     i=h.rfind('</div></body>'); return h[:i]+frame+h[i:]
 CARD=lambda: 'background:#fff;border-radius:30px;padding:14px;box-shadow:0 0 0 8px rgba(255,255,255,.18),0 30px 60px rgba(0,0,0,.45)'
 GLASS='background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.22);border-radius:30px;backdrop-filter:blur(14px)'
-XC={'x':'#3DE0D2'}
+XC={'x':'#FFD23F'}
 def under(word,col):
     return f'<span style="position:relative;display:inline-block">{word}<svg viewBox="0 0 300 40" preserveAspectRatio="none" style="position:absolute;left:-2%;bottom:-0.06em;width:104%;height:0.24em;overflow:visible"><path d="M6 24 C 50 14, 110 20, 160 17 S 250 12, 294 19" fill="none" stroke="{col}" stroke-width="16" stroke-linecap="round"/><path d="M22 30 C 90 22, 170 27, 284 23" fill="none" stroke="{col}" stroke-width="8" stroke-linecap="round" opacity=".9"/></svg></span>'
 def cover(d):
@@ -109,7 +109,7 @@ async def main(path):
     d=json.load(open(path)); os.makedirs(OUT,exist_ok=True); P={p['rank']:p for p in d['people']}
     A=d['accent']; d['A2']=T.mix(A,'#5A1E10',.5)
     import colorsys; r,g,b_=[int(A[k:k+2],16)/255 for k in (1,3,5)]; hh,ll,ss=colorsys.rgb_to_hls(r,g,b_); rr,gg,bb=colorsys.hls_to_rgb(hh,.6,1.0); d['strong']='#%02x%02x%02x'%(int(rr*255),int(gg*255),int(bb*255))
-    d['hues']=[A,'#FF4D6D','#FFB45E','#9B2C6E']; d['x']=d.get('x2','#3DE0D2'); XC['x']=d['x']     # analoghi caldi: accento, corallo, ambra, prugna
+    d['hues']=[A,'#FF4D6D','#FFB45E','#9B2C6E']; d['x']=d.get('x2','#FFD23F'); XC['x']=d['x']     # analoghi caldi: accento, corallo, ambra, prugna
     tones=['d']*7
     from playwright.async_api import async_playwright
     async with async_playwright() as pw:
