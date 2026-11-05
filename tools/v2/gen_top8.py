@@ -33,19 +33,19 @@ def statcol(name,vs,ls,S):
     return f'''<div><div style="display:flex;justify-content:space-between;align-items:baseline;height:52px;border-bottom:1px solid rgba(243,238,228,.2);margin-bottom:8px"><span style="font-size:22px;font-weight:800;color:{CREAM}">{name}</span>{N(f"{sum(vs)/len(vs):.1f}",40,S)}</div>{rows}</div>'''
 def profile(d,p,i):
     A,S=d['accent'],d['strong']; vals=p['bio']+p['feed']; win=p['rank']==1
-    tiles=''.join(f'<div style="flex:1;aspect-ratio:3/4;background:url({T.b64(T.CAP+p["h"]+f"_{k}.jpg")}) center/cover"></div>' for k in (1,2,3))
+    tiles=''.join(f'<div style="flex:1;height:100%;background:url({T.b64(T.CAP+p["h"]+f"_{k}.jpg")}) center/cover"></div>' for k in (1,2,3))
     b=f'''<div style="position:absolute;left:0;right:0;top:0;height:470px;background:linear-gradient(180deg,{NAVY} 0%,{NAVY}f2 55%,{NAVY}00 100%);z-index:1"></div>
 {grain()}{header(i,7,CREAM)}
-<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:120px;bottom:40px;display:flex;flex-direction:column;justify-content:space-between">
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:120px;bottom:44px;display:flex;flex-direction:column;gap:38px">
 <div style="display:flex;align-items:center;gap:26px;color:{CREAM}">
 {N(p['rank'],190,S)}
 <div style="flex:1;min-width:0"><div style="font-size:22px;font-weight:800;color:{CREAM};opacity:.85">{'THE WINNER 🏆' if win else 'No.'+str(p['rank'])+' of 5'}</div>
 <div style="font-family:Anton;font-size:54px;line-height:1.04;margin-top:4px;word-break:break-all">@{E(p['h'])}</div>
 <div class="sub" style="font-size:23px;line-height:1.28;margin-top:8px;opacity:.92">{E(p['v'])}</div></div>
 <div style="flex:none;width:170px;text-align:center;border-left:1px solid rgba(243,238,228,.22);padding-left:18px">{N(p['score'],100,S)}<div style="font-size:16px;font-weight:800;letter-spacing:.5px;margin-top:10px;opacity:.85">Cool Score / 10</div></div></div>
-<div style="background:#fff;border-radius:28px;padding:14px;box-shadow:0 0 0 8px rgba(255,255,255,.16),0 30px 60px rgba(0,0,0,.45)">
-<img src="{T.b64(T.CAP+p['h']+'_head.png')}" style="width:100%;display:block">
-<div style="display:flex;gap:4px;margin-top:10px">{tiles}</div></div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;background:#fff;border-radius:28px;padding:14px;box-shadow:0 0 0 8px rgba(255,255,255,.16),0 30px 60px rgba(0,0,0,.45)">
+<img src="{T.b64(T.CAP+p['h']+'_head.png')}" style="width:100%;display:block;flex:none">
+<div style="flex:1;min-height:0;display:flex;gap:4px;margin-top:10px">{tiles}</div></div>
 <div style="display:flex;align-items:center;justify-content:center;gap:30px">{TV.radar(vals,S,'rgba(243,238,228,.3)','#E9E3D7',240)}<div style="display:flex;gap:30px;align-items:flex-start">{statcol('The Bio',p['bio'],TV.LAB[:4],S)}{statcol('The Feed',p['feed'],TV.LAB[4:],S)}</div></div></div>'''
     return page(b,d['strong'])
 def steal(d):
@@ -66,6 +66,39 @@ def steal(d):
 <div style="flex:1"><div style="font-weight:800;font-size:30px;color:#111">coolbio360</div><div style="font-size:23px;color:#555;margin-top:4px;line-height:1.3">The best bios on Instagram, ranked<br>Follow for tomorrow's list</div></div>
 <div style="background:#0095F6;color:#fff;font-weight:700;font-size:28px;padding:16px 38px;border-radius:14px">Follow</div></div></div>'''
     return page(b,S)
+BGMODE={'m':'radial'}
+def bg_ribbons():
+    p,i,n=P6.CTX['p'],P6.CTX['i'],P6.CTX['n']; S=p['strong']; c1,c2,c3=p['hues'][1],p['hues'][3],p['hues'][2]; L=n*W
+    paths=''
+    for k,(col,y,amp,w,op) in enumerate([(S,900,260,240,.85),(c1,520,300,170,.7),(c2,1150,200,300,.75),(c3,300,180,110,.55)]):
+        d=f"M -200 {y} " + " ".join(f"C {x+360} {y-amp*(1 if j%2 else -1)}, {x+720} {y+amp*(1 if j%2 else -1)}, {x+1080} {y}" for j,x in enumerate(range(-200,L,1080)))
+        paths+=f'<path d="{d}" fill="none" stroke="{col}" stroke-width="{w}" stroke-linecap="round" opacity="{op}"/>'
+    return f'''<div style="position:absolute;top:0;left:{-(i-1)*W}px;width:{L}px;height:{H}px;z-index:0;background:linear-gradient(100deg,{NAVY} 0%,#1A1240 35%,{NAVY} 60%,#24123A 100%)">
+<svg width="{L}" height="{H}" style="position:absolute;inset:0;filter:blur(48px)">{paths}</svg></div>'''
+def bg_beams():
+    p,i,n=P6.CTX['p'],P6.CTX['i'],P6.CTX['n']; S=p['strong']; c1,c2=p['hues'][1],p['hues'][3]; L=n*W
+    layers=[]
+    for k in range(n+1):
+        x=k*W-200; col=[S,c1,c2][k%3]
+        layers.append(f"linear-gradient(115deg,transparent {x}px,{col} {x+160}px,{col}00 {x+460}px)")
+    lin=f"linear-gradient(90deg,{NAVY} 0px,#1B1035 {L*0.3:.0f}px,{NAVY} {L*0.55:.0f}px,#2A0F2E {L*0.8:.0f}px,{NAVY} {L}px)"
+    return f'''<div style="position:absolute;top:0;left:{-(i-1)*W}px;width:{L}px;height:{H}px;z-index:0;background:{lin}">
+<div style="position:absolute;inset:0;background:{",".join(layers)};filter:blur(8px);opacity:.9"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,{NAVY}cc 100%)"></div></div>'''
+def bg_conic():
+    p,i,n=P6.CTX['p'],P6.CTX['i'],P6.CTX['n']; S=p['strong']; c1,c2,c3=p['hues'][1],p['hues'][3],p['hues'][2]; L=n*W
+    layers=[]
+    for k in range(n+1):
+        x=k*W; y=[1050,350,1150,250,980,420,1100,300][k%8]; col=[S,c1,c2,c3][k%4]
+        layers.append(f"conic-gradient(from {k*47}deg at {x}px {y}px,{col}00 0deg,{col}dd 35deg,{col}00 80deg,{col}00 360deg)")
+    return f'''<div style="position:absolute;top:0;left:{-(i-1)*W}px;width:{L}px;height:{H}px;z-index:0;background:{NAVY}">
+<div style="position:absolute;inset:-100px;background:{",".join(layers)};filter:blur(40px);opacity:.8"></div>
+<svg style="position:absolute;inset:0;width:100%;height:100%;opacity:.07"><defs><pattern id="gr" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#fff" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#gr)"/></svg></div>'''
+_orig_pan=P6.panorama
+def pan_switch():
+    m=BGMODE['m']
+    return {'ribbons':bg_ribbons,'beams':bg_beams,'conic':bg_conic}.get(m,_orig_pan)()
+P6.panorama=pan_switch
 async def main(path):
     d=json.load(open(path)); os.makedirs(OUT,exist_ok=True); P={p['rank']:p for p in d['people']}
     A=d['accent']; d['A2']=T.mix(A,'#5A1E10',.5)
@@ -82,4 +115,6 @@ async def main(path):
             await pg.goto('file://'+f); await pg.wait_for_load_state('networkidle'); await pg.wait_for_timeout(700)
             await pg.screenshot(path=OUT+f"coolbio360_{d['slug']}_{i:02d}.jpg",type='jpeg',quality=92)
         await b.close()
-if __name__=='__main__': asyncio.run(main(sys.argv[1]))
+if __name__=='__main__':
+    if len(sys.argv)>2: BGMODE['m']=sys.argv[2]; OUT=OUT.rstrip('/')+'_'+sys.argv[2]+'/'
+    asyncio.run(main(sys.argv[1]))
