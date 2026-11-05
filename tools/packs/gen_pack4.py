@@ -1,0 +1,139 @@
+# coolbio360 pacchetti v4. Sistema: caption come testo con sfondo delle storie IG, numeri pieni Bricolage con gradiente,
+# blu notte + crema + 2 toni per post, grana, sfera di luce a cavallo tra le slide, griglia fissa (margini 72, header, barra avanzamento).
+# Uso: python3 gen_pack4.py packs.json [slug...]   output in out4/
+import json,sys,os,asyncio,html,base64
+B=os.path.dirname(os.path.abspath(__file__)); OUT=B+'/out4/'; BGD=B+'/bg/'
+LOGO='file://'+os.path.abspath(B+'/../assets/logo-coolbio360-gradiente.svg')
+FONTS='<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&amp;family=Inter:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:ital,wght@1,400;1,500&amp;display=swap" rel="stylesheet">'
+E=html.escape
+NAVY='#0B1631'; INK='#16255A'; CREAM='#F3EEE4'
+M=72; W=1080; H=1350
+OY=[0,360,1010,300,980,420,900,380]   # altezza della sfera sul confine tra slide i e i+1
+def uri(f): return 'data:image/jpeg;base64,'+base64.b64encode(open(BGD+f,'rb').read()).decode()
+CSS=f'''body{{margin:0}}*{{box-sizing:border-box}}
+.s{{width:{W}px;height:{H}px;position:relative;overflow:hidden;font-family:Inter,'Noto Color Emoji',sans-serif}}
+.d{{font-family:'Bricolage Grotesque',sans-serif;font-variation-settings:'wdth' 100;font-weight:800}}
+.st{{display:inline;box-decoration-break:clone;-webkit-box-decoration-break:clone;padding:.1em .38em;border-radius:.28em;line-height:1.5;font-weight:600}}
+.sub{{font-family:'Hanken Grotesk';font-style:italic}}
+.z{{position:relative;z-index:2}}'''
+def grain(op=.09):
+    return f'<svg style="position:absolute;inset:0;width:100%;height:100%;z-index:1;mix-blend-mode:overlay;opacity:{op};pointer-events:none"><filter id="g"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(#g)"/></svg>'
+def orb(x,y,p,op=.75,r=430):
+    return f'<div style="position:absolute;left:{x-r}px;top:{y-r}px;width:{2*r}px;height:{2*r}px;border-radius:50%;background:radial-gradient(circle,{p["accent"]} 0%,{p["A2"]} 28%,{p["A2"]}88 46%,transparent 70%);opacity:{op};z-index:0"></div>'
+def orbs(p,i,n,op=.75):
+    o=''
+    if i>1: o+=orb(0,OY[(i-1)%len(OY)],p,op)
+    if i<n: o+=orb(W,OY[i%len(OY)],p,op)
+    return o
+def page(body,bg):
+    return f'<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>{CSS}</style></head><body><div class="s" style="background:{bg}">{body}</div></body></html>'
+def header(i,n,fg):
+    return f'''<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:54px;display:flex;justify-content:space-between;align-items:center;color:{fg}">
+<div style="display:flex;align-items:center;gap:12px"><img src="{LOGO}" style="width:42px;height:42px"><span style="font-weight:800;font-size:26px;letter-spacing:-1px">coolbio·360</span></div>
+<span class="d" style="font-size:28px;opacity:.8">{i}<span style="opacity:.45">/{n}</span></span></div>'''
+def progress(i,n,on,off):
+    seg=''.join(f'<div style="flex:1;height:6px;border-radius:3px;background:{on if k<i else off}"></div>' for k in range(n))
+    return f'<div class="z" style="position:absolute;left:{M}px;right:{M}px;bottom:58px;display:flex;gap:10px">{seg}</div>'
+def num(k,size,grad):
+    return f'<span class="d" style="font-size:{size}px;line-height:.82;letter-spacing:-.04em;background:{grad};-webkit-background-clip:text;background-clip:text;color:transparent;display:inline-block;padding-right:.04em">{k}</span>'
+def title(t,fg,size=96): return f'<h2 class="d" style="margin:0;font-size:{size}px;line-height:.92;letter-spacing:-3px;color:{fg}">{E(t)}</h2>'
+def sticker(t,bg,fg,fs,extra=''): return f'<span class="st" style="background:{bg};color:{fg};font-size:{fs}px;{extra}">{E(t)}</span>'
+# A. blu con luce: numeri a gradiente + caption crema
+def stack(p,s,i,n,img):
+    A,A2=p['accent'],p['A2']; fs=min(s.get('fs',42),64)
+    rows=''.join(f'''<div style="display:grid;grid-template-columns:150px 1fr;align-items:center;min-height:150px">
+{num(k+1,150,f"linear-gradient(180deg,{A} 10%,{A2} 95%)")}<div>{sticker(b,CREAM,NAVY,fs)}</div></div>''' for k,b in enumerate(s['bios']))
+    b=f'''{orbs(p,i,n)}{grain()}{header(i,n,CREAM)}
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:150px">{title(s['h'],CREAM)}<div class="sub" style="margin-top:14px;font-size:30px;color:{A}">Screenshot the one that sounds like you</div></div>
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:395px">{rows}</div>{progress(i,n,A,'rgba(243,238,228,.18)')}'''
+    return page(b,f'radial-gradient(120% 80% at 0% 0%,{INK} 0%,{NAVY} 60%)')
+# B. crema: la preferita gigante + le altre in griglia
+def feature(p,s,i,n,img):
+    A,A2=p['accent'],p['A2']; fs=min(s.get('fs',42),64); first,rest=s['bios'][0],s['bios'][1:]
+    grid=''.join(f'''<div style="display:flex;gap:16px;align-items:flex-start">{num(k+2,120,f"linear-gradient(180deg,{A2},{NAVY})")}<div style="padding-top:8px">{sticker(b,'#fff',NAVY,max(min(fs-4,44),38),'box-shadow:0 6px 18px rgba(11,22,49,.10)')}</div></div>''' for k,b in enumerate(rest))
+    b=f'''{orbs(p,i,n,.55)}{grain(.06)}{header(i,n,NAVY)}
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:150px">{title(s['h'],NAVY)}</div>
+<div class="z" style="position:absolute;left:{M-10}px;top:300px">{num(1,430,f"linear-gradient(170deg,{A} 0%,{A2} 70%)")}</div>
+<div class="z" style="position:absolute;left:330px;right:{M}px;top:400px"><div class="sub" style="font-size:30px;color:{A2};margin-bottom:14px">Our favourite</div>{sticker(first,NAVY,CREAM,fs+12)}</div>
+{('<div class="z" style="position:absolute;left:'+str(M)+'px;right:'+str(M)+'px;top:700px;display:flex;flex-direction:column;gap:26px">'+grid+'</div>') if max(map(len,rest))>26 else ('<div class="z" style="position:absolute;left:'+str(M)+'px;right:'+str(M)+'px;top:800px;display:grid;grid-template-columns:1fr 1fr;gap:64px 36px">'+grid+'</div>')}
+{progress(i,n,NAVY,'rgba(11,22,49,.12)')}'''
+    return page(b,f'linear-gradient(165deg,{CREAM} 0%,{CREAM} 45%,{A}66 100%)')
+# C. colore pieno a gradiente: caption bianche, numeri blu pieni, allineamento a scala
+def ladder(p,s,i,n,img):
+    A,A2=p['accent'],p['A2']; fs=min(s.get('fs',42),64)
+    rows=''.join(f'''<div style="display:flex;align-items:center;gap:22px;margin-left:{[0,70,140,70,0][k]}px;min-height:140px">
+{num(k+1,124,f"linear-gradient(180deg,{NAVY},{INK})")}<div style="max-width:{760-[0,70,140,70,0][k]}px">{sticker(b,'#fff',NAVY,fs,'box-shadow:0 10px 24px rgba(11,22,49,.18)')}</div></div>''' for k,b in enumerate(s['bios']))
+    b=f'''{orbs(p,i,n,.6)}{grain(.1)}{header(i,n,NAVY)}
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:150px">{title(s['h'],NAVY)}</div>
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:345px">{rows}</div>{progress(i,n,NAVY,'rgba(11,22,49,.18)')}'''
+    return page(b,f'linear-gradient(155deg,{A} 0%,{A2} 100%)')
+# D. foto come una storia: caption sparse sulla foto
+def story(p,s,i,n,img):
+    A,A2=p['accent'],p['A2']; fs=min(s.get('fs',42),60)
+    pos=[(0,0),(120,0),(30,0),(150,0),(60,0)]
+    rows=''.join(f'''<div style="display:flex;align-items:center;gap:18px;margin-left:{pos[k][0]}px;transform:rotate({[-2,1.5,-1,2,-1.5][k]}deg)">
+<span class="d" style="font-size:110px;line-height:.82;color:{A};filter:drop-shadow(0 6px 14px rgba(0,0,0,.45))">{k+1}</span><div style="max-width:{720-pos[k][0]}px">{sticker(b,'#fff',NAVY,fs,'box-shadow:0 10px 30px rgba(0,0,0,.25)')}</div></div>''' for k,b in enumerate(s['bios']))
+    b=f'''<div style="position:absolute;inset:0;background:url({img}) center/cover;z-index:0"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,{NAVY}e0 0%,{NAVY}88 30%,{NAVY}99 60%,{NAVY}ee 100%);z-index:0"></div>
+{orbs(p,i,n,.5)}{grain(.08)}{header(i,n,CREAM)}
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:150px">{title(s['h'],CREAM)}</div>
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:360px;display:flex;flex-direction:column;gap:40px">{rows}</div>{progress(i,n,A,'rgba(243,238,228,.25)')}'''
+    return page(b,NAVY)
+def meme(p,s,i,n,img):
+    A,A2=p['accent'],p['A2']; light=(i%2==0); fg=NAVY if light else CREAM
+    rows=''.join(f'''<div style="display:flex;flex-direction:column;gap:12px">
+<div>{sticker('“'+a+'”','#fff' if light else CREAM,NAVY,46,'box-shadow:0 6px 18px rgba(11,22,49,.10)')}</div>
+<div style="margin-left:150px"><span class="st sub" style="font-size:40px;font-weight:500;background:linear-gradient(90deg,{A},{A2});color:{NAVY}">{E(b)}</span></div></div>''' for a,b in s['rows'])
+    b=f'''{orbs(p,i,n,.55 if light else .75)}{grain(.07)}{header(i,n,fg)}
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:150px">{title(s['h'],fg)}<div class="sub" style="margin-top:14px;font-size:30px;color:{A2 if light else A}">What the bio says, and what it really means</div></div>
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:400px;display:flex;flex-direction:column;gap:58px">{rows}</div>{progress(i,n,NAVY if light else A,'rgba(11,22,49,.12)' if light else 'rgba(243,238,228,.18)')}'''
+    return page(b,f'linear-gradient(165deg,{CREAM} 0%,{CREAM} 50%,{A}55 100%)' if light else f'radial-gradient(120% 80% at 0% 0%,{INK} 0%,{NAVY} 60%)')
+def cover(p,n,img):
+    A,A2=p['accent'],p['A2']; l1,l2=p['t3'].split('|')
+    s0=p['slides'][0]; ex=s0['bios'][0] if 'bios' in s0 else s0['rows'][0][0]
+    b=f'''<div style="position:absolute;inset:0;background:url({img}) center/cover"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,{NAVY}b0 0%,{NAVY}00 22%,{NAVY}10 45%,{NAVY}f0 74%,{NAVY} 100%)"></div>
+{orbs(p,1,n,.6)}{grain(.09)}
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:54px;display:flex;justify-content:space-between;align-items:center;color:{CREAM}">
+<div style="display:flex;align-items:center;gap:12px"><img src="{LOGO}" style="width:42px;height:42px"><span style="font-weight:800;font-size:26px;letter-spacing:-1px">coolbio·360</span></div>
+<span class="sub" style="font-size:28px">The copy-paste issue, vol. {p['vol']}</span></div>
+<div class="z" style="position:absolute;left:{M+40}px;top:300px;transform:rotate(-4deg);max-width:640px">{sticker(ex,'#fff',NAVY,min(s0.get('fs',40),64) if 'bios' in s0 else 40,'box-shadow:0 14px 34px rgba(0,0,0,.3)')}</div>
+<div class="z" style="position:absolute;right:{M}px;top:560px;width:230px;height:230px;border-radius:50%;background:linear-gradient(150deg,{A},{A2});display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(10deg);box-shadow:0 18px 40px rgba(0,0,0,.35);color:{NAVY}">
+<span class="d" style="font-size:96px;line-height:.85">{p['badge'].split()[0]}</span><span style="font-weight:700;font-size:26px">{E(' '.join(p['badge'].split()[1:]))}</span></div>
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:{1350-470}px">
+<h1 class="d" style="margin:0;font-size:118px;line-height:.9;letter-spacing:-4px;color:{CREAM}">{E(l1)}<br><span style="background:linear-gradient(90deg,{A},{A2});-webkit-background-clip:text;background-clip:text;color:transparent">{E(l2)}</span></h1>
+<div class="sub" style="margin-top:22px;font-size:34px;color:{CREAM};opacity:.9">{E(p['sub'])}</div></div>
+{progress(1,n,A,'rgba(243,238,228,.25)')}'''
+    return page(b,NAVY)
+def end(p,n,img):
+    A,A2=p['accent'],p['A2']
+    acts=[('Save it','for your next post'),('Send it','to the friend who needs it'),('Comment','which one is yours' if p['slug'].startswith('meme') else 'the number you picked')]
+    rows=''.join(f'''<div style="display:flex;align-items:center;gap:26px">{num(k+1,150,f"linear-gradient(180deg,{A},{A2})")}<div><div class="d" style="font-size:62px;color:{CREAM};line-height:1">{a}</div><div class="sub" style="font-size:30px;color:{A};margin-top:4px">{b}</div></div></div>''' for k,(a,b) in enumerate(acts))
+    b=f'''{orbs(p,n,n)}{grain()}{header(n,n,CREAM)}
+<div class="z" style="position:absolute;right:-40px;top:170px;width:360px;height:450px;background:url({img}) center/cover;border-radius:28px;transform:rotate(7deg);box-shadow:0 30px 60px rgba(0,0,0,.45)"></div>
+<div class="z" style="position:absolute;left:{M}px;width:600px;top:170px">{title(p.get('cta_h','Found your favourite?'),CREAM,104)}</div>
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:600px;display:flex;flex-direction:column;gap:54px">{rows}</div>
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;bottom:120px;display:flex;justify-content:space-between;align-items:center">
+<span class="sub" style="font-size:32px;color:{CREAM}">A new pack every day</span>
+<span style="background:linear-gradient(90deg,{A},{A2});color:{NAVY};font-weight:800;font-size:28px;padding:20px 34px;border-radius:999px">Follow @coolbio360</span></div>
+{progress(n,n,A,'rgba(243,238,228,.18)')}'''
+    return page(b,f'radial-gradient(120% 80% at 0% 0%,{INK} 0%,{NAVY} 60%)')
+def build(p):
+    img=uri(p['bg']); sl=p['slides']; n=len(sl)+2; pages=[cover(p,n,img)]
+    seq={2:[meme,meme],3:[stack,feature,ladder],4:[stack,feature,story,ladder]}[len(sl)]
+    for k,s in enumerate(sl): pages.append(seq[k](p,s,k+2,n,img))
+    pages.append(end(p,n,img)); return pages
+async def main(path,slugs):
+    P=json.load(open(path)); os.makedirs(OUT,exist_ok=True)
+    from playwright.async_api import async_playwright
+    async with async_playwright() as pw:
+        b=await pw.chromium.launch(); pg=await b.new_page(viewport={'width':W,'height':H})
+        for p in P:
+            if slugs and p['slug'] not in slugs: continue
+            for k,h in enumerate(build(p)):
+                f=OUT+f"{p['slug']}_{k+1:02d}.html"; open(f,'w').write(h)
+                await pg.goto('file://'+f); await pg.wait_for_load_state('networkidle'); await pg.wait_for_timeout(500)
+                await pg.screenshot(path=OUT+f"coolbio360_{p['slug']}_{k+1:02d}.jpg",type='jpeg',quality=92)
+            print(p['slug'])
+        await b.close()
+if __name__=='__main__': asyncio.run(main(sys.argv[1],sys.argv[2:]))

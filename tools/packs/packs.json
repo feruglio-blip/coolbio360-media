@@ -2,7 +2,7 @@
  {
   "slug": "winter01",
   "bg": "winter.jpg",
-  "accent": "#9CC3E6",
+  "accent": "#A9CFF2",
   "kicker": "Copy · Paste · Post",
   "title": "Winter captions<br>you can copy",
   "sub": "15 cozy lines for snow, hot chocolate and fairy lights.",
@@ -49,12 +49,15 @@
   "t2": "Winter captions|you can copy",
   "uw": "Winter",
   "tag": "WINTER",
-  "vol": "01"
+  "vol": "01",
+  "A2": "#4C6FD6",
+  "t3": "Winter captions|you can copy",
+  "badge": "15 captions"
  },
  {
   "slug": "user01",
   "bg": "pastel.jpg",
-  "accent": "#C3A6EA",
+  "accent": "#CDB4F5",
   "kicker": "Copy · Paste · Rename",
   "title": "Aesthetic<br>username ideas",
   "sub": "20 names for a fresh start. Add your initials and make it yours.",
@@ -115,12 +118,15 @@
   "t2": "Aesthetic|username ideas",
   "uw": "username",
   "tag": "USERNAMES",
-  "vol": "02"
+  "vol": "02",
+  "A2": "#7B55D9",
+  "t3": "Aesthetic|username ideas",
+  "badge": "20 names"
  },
  {
   "slug": "emoji01",
   "bg": "sunset.jpg",
-  "accent": "#F2A7BE",
+  "accent": "#F7B3C8",
   "kicker": "Copy · Paste · Glow",
   "title": "Emoji combos<br>for your bio",
   "sub": "20 combos that say it all without a single word.",
@@ -181,12 +187,15 @@
   "t2": "Emoji combos|for your bio",
   "uw": "Emoji",
   "tag": "EMOJI",
-  "vol": "03"
+  "vol": "03",
+  "A2": "#E05683",
+  "t3": "Emoji combos|for your bio",
+  "badge": "20 combos"
  },
  {
   "slug": "bday01",
   "bg": "birthday.jpg",
-  "accent": "#F2C35E",
+  "accent": "#FFD27A",
   "kicker": "Copy · Paste · Celebrate",
   "title": "Birthday captions<br>you can copy",
   "sub": "For your birthday, your best friend’s, and the cake pic.",
@@ -233,12 +242,15 @@
   "t2": "Birthday captions|you can copy",
   "uw": "Birthday",
   "tag": "BIRTHDAY",
-  "vol": "04"
+  "vol": "04",
+  "A2": "#F07A3C",
+  "t3": "Birthday captions|you can copy",
+  "badge": "15 captions"
  },
  {
   "slug": "meme01",
   "bg": "bed.jpg",
-  "accent": "#F2C35E",
+  "accent": "#9EE6C4",
   "kicker": "Bio translator",
   "title": "What the bio says<br>vs what it means",
   "sub": "We decoded the most common Instagram bios. Be honest: which one is yours?",
@@ -299,6 +311,9 @@
   "t2": "What the bio says|vs what it means",
   "uw": "says",
   "tag": "BIO TRANSLATOR",
-  "vol": "05"
+  "vol": "05",
+  "A2": "#23A07E",
+  "t3": "What the bio says|vs what it means",
+  "badge": "8 bios decoded"
  }
 ]
