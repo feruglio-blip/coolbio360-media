@@ -13,8 +13,13 @@ def b64(path,fmt='PNG',im=None):
     if im is None: return f'data:image/{"png" if path.endswith("png") else "jpeg"};base64,'+base64.b64encode(open(path,'rb').read()).decode()
     bio=io.BytesIO(); im.save(bio,fmt,quality=90); return f'data:image/{fmt.lower()};base64,'+base64.b64encode(bio.getvalue()).decode()
 def avatar(h,blur=0):
-    im=Image.open(CAP+h+'_head.png').convert('RGB'); w,hh=im.size; s=int(hh*.78); x=int(hh*.08); y=int(hh*.08)
-    a=im.crop((x,y,x+s,y+s)).resize((300,300))
+    import numpy as np
+    im=Image.open(CAP+h+'_head.png').convert('RGB'); w,hh=im.size
+    arr=np.asarray(im).astype(int)[:, :int(hh*.84)]
+    ys,xs=np.where(np.abs(arr-255).sum(axis=2)>60)
+    x0,x1,y0,y1=xs.min(),xs.max(),ys.min(),ys.max(); d=min(x1-x0,y1-y0); cx,cy=(x0+x1)/2,(y0+y1)/2
+    r=d/2*0.8                                     # dentro il cerchio: niente bordo bianco
+    a=im.crop((int(cx-r),int(cy-r),int(cx+r),int(cy+r))).resize((320,320))
     if blur: a=a.filter(ImageFilter.GaussianBlur(blur))
     return b64('',fmt='JPEG',im=a)
 LAB=['Personality','Clarity','Call to action','Details','Photos','Style','Activity']
