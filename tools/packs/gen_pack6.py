@@ -25,7 +25,7 @@ def panorama():
     return f'<div style="position:absolute;top:0;left:{-(i-1)*W}px;width:{n*W}px;height:{H}px;background:{base};z-index:0">{blobs}</div>'
 def page(body,bg):
     pan=panorama() if CTX else ''
-    return f'<!doctype html><html><head><meta charset="utf-8">{V.FONTS}<style>{V.CSS}</style></head><body><div class="s" style="background:{NAVY}">{pan}{body}</div></body></html>'
+    return f'<!doctype html><html><head><meta charset="utf-8">{V.FONTS}<style>{V.CSS}</style></head><body><div class="s" style="background:{NAVY};--sh:{CTX["p"]["A2"] if CTX else NAVY}">{pan}{body}</div></body></html>'
 for M_ in (V,L5):
     M_.page=page; M_.orbs=lambda *a,**k:''; M_.progress=lambda *a,**k:''
 PLAN={'winter01':('photo',['chat','stack','spectrum']),'user01':('arch',['bento','split','story','ladder']),

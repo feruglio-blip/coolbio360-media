@@ -66,7 +66,7 @@ def comments(p,s,i,n,img):
     A,A2=p['accent'],p['A2']; fs=min(s.get('fs',40),56); fs=36 if fs<50 else fs
     likes=['12.4k','8.1k','6.9k','5.2k','3.7k']; names=['your_bestie','not_ur_ex','the.groupchat','mum_online','plot.twist']
     rows=''.join(f'''<div style="display:flex;gap:22px;align-items:flex-start">
-<div style="flex:none;width:80px;text-align:center"><span class="n" style="font-size:143px;color:{A2};line-height:.8">{k+1}</span></div>
+<div style="flex:none;width:80px;text-align:center"><span class="n" style="font-size:143px;color:{NAVY};line-height:.8">{k+1}</span></div>
 <div style="flex:1"><div style="font-size:24px;font-weight:700;color:#6b7280">{names[k]} <span style="font-weight:500">· {k+2}h</span></div>
 <div style="font-size:{fs}px;font-weight:500;color:{NAVY};line-height:1.25;margin-top:4px">{E(b)}</div>
 <div style="font-size:22px;font-weight:600;color:#9ca3af;margin-top:8px">Reply</div></div>

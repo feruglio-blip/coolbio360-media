@@ -4,7 +4,7 @@
 import json,sys,os,asyncio,html,base64
 B=os.path.dirname(os.path.abspath(__file__)); OUT=B+'/out4/'; BGD=B+'/bg/'
 LOGO='file://'+os.path.abspath(B+'/../assets/logo-coolbio360-gradiente.svg')
-FONTS='<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Archivo:wdth,wght@62..125,100..900&amp;family=Inter:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:ital,wght@1,400;1,500&amp;display=swap" rel="stylesheet">'
+FONTS='<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@700..900&amp;family=Instrument+Serif:ital@0;1&amp;family=Archivo:wdth,wght@62..125,100..900&amp;family=Inter:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:ital,wght@1,400;1,500&amp;display=swap" rel="stylesheet">'
 E=html.escape
 NAVY='#0B1631'; INK='#16255A'; CREAM='#F3EEE4'
 M=72; W=1080; H=1350
@@ -13,7 +13,7 @@ def uri(f): return 'data:image/jpeg;base64,'+base64.b64encode(open(BGD+f,'rb').r
 CSS=f'''body{{margin:0}}*{{box-sizing:border-box}}
 .s{{width:{W}px;height:{H}px;position:relative;overflow:hidden;font-family:Inter,'Noto Color Emoji',sans-serif}}
 .d{{font-family:Archivo,sans-serif;font-stretch:112%;font-weight:800}}
-.n{{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;letter-spacing:-.03em}}
+.n{{font-family:'Big Shoulders Inline Display',sans-serif;font-weight:900;font-style:normal;letter-spacing:-.01em;text-shadow:1px 1px 0 var(--sh),2px 2px 0 var(--sh),3px 3px 0 var(--sh),4px 4px 0 var(--sh),5px 5px 0 var(--sh),6px 6px 0 var(--sh),7px 7px 0 var(--sh)}}
 .st{{display:inline;box-decoration-break:clone;-webkit-box-decoration-break:clone;padding:.1em .38em;border-radius:.28em;line-height:1.5;font-weight:600}}
 .sub{{font-family:'Hanken Grotesk';font-style:italic}}
 .z{{position:relative;z-index:2}}'''
@@ -36,8 +36,12 @@ def progress(i,n,on,off):
     seg=''.join(f'<div style="flex:1;height:6px;border-radius:3px;background:{on if k<i else off}"></div>' for k in range(n))
     return f'<div class="z" style="position:absolute;left:{M}px;right:{M}px;bottom:58px;display:flex;gap:10px">{seg}</div>'
 def num(k,size,grad):
-    size=int(size*1.3)
-    return f'<span class="n" style="font-size:{size}px;line-height:.82;letter-spacing:-.04em;background:{grad};-webkit-background-clip:text;background-clip:text;color:transparent;display:inline-block;padding-right:.04em">{k}</span>'
+    import re as _r
+    size=int(size*1.15); cols=_r.findall('#[0-9A-Fa-f]{6}',grad); fill=cols[0] if cols else '#ffffff'; shc=cols[-1] if len(cols)>1 else '#0B1631'
+    if fill.lower()==NAVY.lower(): shc='#ffffff99'
+    if fill.lower()=='#ffffff' or fill.lower()=='#fff': shc=cols[-1] if len(cols)>1 else NAVY
+    d=max(4,size//24); shadow=','.join(f'{j}px {j}px 0 {shc}' for j in range(1,d+1))
+    return f'<span class="n" style="font-size:{size}px;line-height:.82;color:{fill};text-shadow:{shadow};display:inline-block;padding-right:.06em">{k}</span>'
 def title(t,fg,size=80): return f'<h2 class="d" style="margin:0;font-size:{size}px;line-height:.92;letter-spacing:-2px;color:{fg}">{E(t)}</h2>'
 def sticker(t,bg,fg,fs,extra=''): return f'<span class="st" style="background:{bg};color:{fg};font-size:{fs}px;{extra}">{E(t)}</span>'
 # A. blu con luce: numeri a gradiente + caption crema
