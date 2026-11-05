@@ -128,13 +128,22 @@ def end_color(p,n,img):
 <div class="z" style="position:absolute;right:-30px;top:560px;width:420px;height:520px;background:#fff;padding:18px 18px 70px;transform:rotate(-6deg);box-shadow:0 30px 60px rgba(11,22,49,.35)"><div style="width:100%;height:100%;background:url({img}) center/cover"></div></div>
 <div class="z" style="position:absolute;left:{M}px;right:{M}px;top:160px">{title(p.get('cta_h','Found your favourite?'),NAVY,90)}</div>
 <div class="z" style="position:absolute;left:{M}px;top:470px;display:flex;flex-direction:column;gap:40px">{rows}</div>
-<div class="z" style="position:absolute;left:{M}px;right:{M}px;bottom:120px;display:flex;justify-content:space-between;align-items:center">
-<span class="sub" style="font-size:32px;color:{NAVY}">A new pack every day</span>
-<span style="background:{NAVY};color:{CREAM};font-weight:800;font-size:28px;padding:20px 34px;border-radius:999px">Follow @coolbio360</span></div>
+{V.igcard()}
 {progress(n,n,NAVY,'rgba(11,22,49,.18)')}'''
     return page(b,f'linear-gradient(160deg,{A} 0%,{A2} 100%)')
+def notes(p,s,i,n,img):
+    A,A2=p['accent'],p['A2']; fs=min(s.get('fs',42),64); fs=40 if fs<50 else fs
+    rows=''.join(f'''<div style="height:150px;display:flex;align-items:center;gap:24px;border-bottom:2px solid #ECE6D6">
+{num(k+1,96,f"linear-gradient(180deg,{A2},{NAVY})")}<span style="font-family:Inter,'Noto Color Emoji';font-size:{fs}px;font-weight:500;color:#1c1c1e;line-height:1.2">{E(b)}</span></div>''' for k,b in enumerate(s['bios']))
+    b=f'''{grain()}{header(i,n,CREAM)}
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:140px;bottom:96px;background:#FFFDF6;border-radius:40px;padding:30px 44px;box-shadow:0 30px 70px rgba(0,0,0,.35);font-family:Inter">
+<div style="display:flex;justify-content:space-between;font-size:30px;color:#E0A800;font-weight:500"><span>‹ Notes</span><span style="font-weight:700">Done</span></div>
+<div style="text-align:center;font-size:22px;color:#9a948a;margin-top:18px">Today at 21:03</div>
+<div class="d" style="font-family:Archivo,'Noto Color Emoji';font-size:58px;color:#1c1c1e;margin-top:14px;letter-spacing:-1.5px">{E(s['h'])}</div>
+<div style="margin-top:14px;border-top:2px solid #ECE6D6">{rows}</div></div>'''
+    return page(b,NAVY)
 COVERS={'photo':V.cover,'arch':cover_arch,'type':cover_type}
-L={'stack':V.stack,'feature':V.feature,'ladder':V.ladder,'story':V.story,'meme':V.meme,'chat':chat,'spectrum':spectrum,'bento':bento,'split':split,'comments':comments,'memechat':memechat}
+L={'stack':V.stack,'feature':V.feature,'ladder':V.ladder,'story':V.story,'meme':V.meme,'chat':chat,'spectrum':spectrum,'bento':bento,'split':split,'notes':notes,'comments':comments,'memechat':memechat}
 PLAN={'winter01':('photo',['chat','stack','spectrum']),'user01':('arch',['bento','split','story','ladder']),
       'emoji01':('type',['spectrum','bento','chat','feature']),'bday01':('arch',['comments','feature','split']),'meme01':('type',['meme','memechat'])}
 def build(p):

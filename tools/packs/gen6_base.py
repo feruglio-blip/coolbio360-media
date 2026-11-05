@@ -42,6 +42,11 @@ def num(k,size,grad):
     if fill.lower()=='#ffffff' or fill.lower()=='#fff': shc=cols[-1] if len(cols)>1 else NAVY
     d=max(4,size//24); shadow=','.join(f'{j}px {j}px 0 {shc}' for j in range(1,d+1))
     return f'<span class="n" style="font-size:{size}px;line-height:.82;color:{fill};text-shadow:{shadow};display:inline-block;padding-right:.06em">{k}</span>'
+def igcard(dark=True):
+    return f'''<div class="z" style="position:absolute;left:{M}px;right:{M}px;bottom:96px;background:#fff;border-radius:32px;padding:24px 28px;display:flex;align-items:center;gap:22px;box-shadow:0 20px 50px rgba(0,0,0,.28);font-family:Inter">
+<img src="{LOGO}" style="width:96px;height:96px;border-radius:50%;background:{NAVY}">
+<div style="flex:1"><div style="font-weight:800;font-size:30px;color:#111">coolbio360</div><div style="font-size:24px;color:#555;margin-top:4px;line-height:1.3">Copy-paste bios &amp; captions<br>A new pack every day</div></div>
+<div style="background:#0095F6;color:#fff;font-weight:700;font-size:28px;padding:16px 40px;border-radius:14px">Follow</div></div>'''
 def title(t,fg,size=80): return f'<h2 class="d" style="margin:0;font-size:{size}px;line-height:.92;letter-spacing:-2px;color:{fg}">{E(t)}</h2>'
 def sticker(t,bg,fg,fs,extra=''): return f'<span class="st" style="background:{bg};color:{fg};font-size:{fs}px;{extra}">{E(t)}</span>'
 # A. blu con luce: numeri a gradiente + caption crema
@@ -55,13 +60,15 @@ def stack(p,s,i,n,img):
     return page(b,f'radial-gradient(120% 80% at 0% 0%,{INK} 0%,{NAVY} 60%)')
 # B. crema: la preferita gigante + le altre in griglia
 def feature(p,s,i,n,img):
-    A,A2=p['accent'],p['A2']; fs=min(s.get('fs',42),64); first,rest=s['bios'][0],s['bios'][1:]
-    grid=''.join(f'''<div style="display:flex;gap:16px;align-items:flex-start">{num(k+2,120,f"linear-gradient(180deg,{A2},{NAVY})")}<div style="padding-top:8px">{sticker(b,'#fff',NAVY,max(min(fs-4,44),38),'box-shadow:0 6px 18px rgba(11,22,49,.10)')}</div></div>''' for k,b in enumerate(rest))
+    A,A2=p['accent'],p['A2']; fs=s.get('fs',42); first,rest=s['bios'][0],s['bios'][1:]
+    emo=fs>=60; big=72 if emo else (64 if len(first)<34 else 56); small=60 if emo else (38 if max(map(len,rest))<34 else 34)
+    cards=''.join(f'''<div style="background:rgba(255,255,255,.72);border-radius:30px;padding:28px 30px;min-height:268px;display:flex;flex-direction:column;justify-content:space-between;gap:14px;box-shadow:0 12px 30px rgba(11,22,49,.10)">
+{num(k+2,84,f"linear-gradient(180deg,{A2},{NAVY})")}<div style="font-family:Inter,'Noto Color Emoji';font-size:{small}px;font-weight:600;color:{NAVY};line-height:1.22">{E(b)}</div></div>''' for k,b in enumerate(rest))
     b=f'''{orbs(p,i,n,.55)}{grain(.06)}{header(i,n,NAVY)}
-<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:150px">{title(s['h'],NAVY)}</div>
-<div class="z" style="position:absolute;left:{M-10}px;top:300px">{num(1,430,f"linear-gradient(170deg,{A} 0%,{A2} 70%)")}</div>
-<div class="z" style="position:absolute;left:330px;right:{M}px;top:400px"><div class="sub" style="font-size:30px;color:{A2};margin-bottom:14px">Our favourite</div>{sticker(first,NAVY,CREAM,fs+12)}</div>
-{('<div class="z" style="position:absolute;left:'+str(M)+'px;right:'+str(M)+'px;top:700px;display:flex;flex-direction:column;gap:26px">'+grid+'</div>') if max(map(len,rest))>26 else ('<div class="z" style="position:absolute;left:'+str(M)+'px;right:'+str(M)+'px;top:800px;display:grid;grid-template-columns:1fr 1fr;gap:64px 36px">'+grid+'</div>')}
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:150px;display:flex;align-items:baseline;gap:18px"><span class="d" style="font-size:44px;color:{NAVY}">{E(s['h'])}</span><span class="sub" style="font-size:30px;color:{A2}">our favourite</span></div>
+<div class="z" style="position:absolute;left:{M-6}px;top:230px">{num(1,250,f"linear-gradient(180deg,{A},{A2})")}</div>
+<div class="z" style="position:absolute;left:260px;right:{M}px;top:230px;height:340px;display:flex;align-items:center"><div class="d" style="font-family:Archivo,'Noto Color Emoji';font-size:{big}px;line-height:1.05;letter-spacing:-1.5px;color:{NAVY}">“{E(first)}”</div></div>
+<div class="z" style="position:absolute;left:{M}px;right:{M}px;top:610px;display:grid;grid-template-columns:1fr 1fr;gap:24px">{cards}</div>
 {progress(i,n,NAVY,'rgba(11,22,49,.12)')}'''
     return page(b,f'linear-gradient(165deg,{CREAM} 0%,{CREAM} 45%,{A}66 100%)')
 # C. colore pieno a gradiente: caption bianche, numeri blu pieni, allineamento a scala
@@ -119,9 +126,7 @@ def end(p,n,img):
 <div class="z" style="position:absolute;right:-40px;top:170px;width:360px;height:450px;background:url({img}) center/cover;border-radius:28px;transform:rotate(7deg);box-shadow:0 30px 60px rgba(0,0,0,.45)"></div>
 <div class="z" style="position:absolute;left:{M}px;width:600px;top:170px">{title(p.get('cta_h','Found your favourite?'),CREAM,84)}</div>
 <div class="z" style="position:absolute;left:{M}px;right:{M}px;top:500px;display:flex;flex-direction:column;gap:40px">{rows}</div>
-<div class="z" style="position:absolute;left:{M}px;right:{M}px;bottom:120px;display:flex;justify-content:space-between;align-items:center">
-<span class="sub" style="font-size:32px;color:{CREAM}">A new pack every day</span>
-<span style="background:linear-gradient(90deg,{A},{A2});color:{NAVY};font-weight:800;font-size:28px;padding:20px 34px;border-radius:999px">Follow @coolbio360</span></div>
+{igcard()}
 {progress(n,n,A,'rgba(243,238,228,.18)')}'''
     return page(b,f'radial-gradient(120% 80% at 0% 0%,{INK} 0%,{NAVY} 60%)')
 def build(p):

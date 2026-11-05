@@ -6,7 +6,7 @@ import gen6_base as V, gen6_layouts as L5
 B=os.path.dirname(os.path.abspath(__file__)); OUT=B+'/out6/'
 W,H,NAVY,CREAM=V.W,V.H,V.NAVY,V.CREAM
 CTX={}
-TONE={'stack':'d','chat':'d','split':'d','memechat':'d','story':'d','comments':'d','end':'d','arch':'d','photo':'d',
+TONE={'stack':'d','chat':'d','split':'d','notes':'d','memechat':'d','story':'d','comments':'d','end':'d','arch':'d','photo':'d',
       'feature':'l','bento':'l','spectrum':'l','meme':'l','ladder':'a','type':'a','end_color':'a'}
 def panorama():
     p,i,n,tones=CTX['p'],CTX['i'],CTX['n'],CTX['tones']; A,A2=p['accent'],p['A2']; hues=p['hues']
@@ -28,8 +28,8 @@ def page(body,bg):
     return f'<!doctype html><html><head><meta charset="utf-8">{V.FONTS}<style>{V.CSS}</style></head><body><div class="s" style="background:{NAVY};--sh:{CTX["p"]["A2"] if CTX else NAVY}">{pan}{body}</div></body></html>'
 for M_ in (V,L5):
     M_.page=page; M_.orbs=lambda *a,**k:''; M_.progress=lambda *a,**k:''
-PLAN={'winter01':('photo',['chat','stack','spectrum']),'user01':('arch',['bento','split','story','ladder']),
-      'emoji01':('type',['spectrum','bento','chat','feature']),'bday01':('arch',['comments','feature','split']),'meme01':('type',['meme','memechat'])}
+PLAN={'winter01':('photo',['chat','stack','spectrum']),'user01':('arch',['bento','notes','story','ladder']),
+      'emoji01':('type',['spectrum','bento','chat','feature']),'bday01':('arch',['comments','feature','notes']),'meme01':('type',['meme','memechat'])}
 def build(p):
     img=V.uri(p['bg']); sl=p['slides']; n=len(sl)+2; cv,seq=PLAN[p['slug']]
     endk='end_color' if cv=='type' else 'end'
