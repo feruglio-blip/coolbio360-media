@@ -1,0 +1,135 @@
+{
+ "slug": "florist02",
+ "vol": "37",
+ "tag": "FLORISTS",
+ "accent": "#F2789F",
+ "emoji": "💐",
+ "word": "Florist",
+ "band": "under 1,000",
+ "sub": "Florists under 1,000 followers",
+ "steal": {
+  "h": "Your florist bio,<br>in four lines.",
+  "lines": [
+   [
+    "[what you make, in your words] 🌷",
+    "THE HOOK"
+   ],
+   [
+    "[weddings / gifts / everyday] · [your style]",
+    "THE OFFER"
+   ],
+   [
+    "📍 [town] · [delivery area]",
+    "THE TRUST"
+   ],
+   [
+    "💌 [DM to order / bookings open for 2027]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_florist_here",
+  "ex": [
+   "Wild, seasonal, never stiff 🌷",
+   "Weddings &amp; everyday bouquets",
+   "📍 Bath studio · local delivery",
+   "💌 Bookings open for 2027"
+  ]
+ },
+ "people": [
+  {
+   "rank": 1,
+   "h": "bettyandbloom",
+   "score": "9.1",
+   "cat": "Floral design studio, Manchester",
+   "v": "“Bookings open for 2026, 2027 & 2028.” Three years of diary in one line. That is confidence.",
+   "bio": [
+    8.5,
+    9.5,
+    8.5,
+    9.0
+   ],
+   "feed": [
+    10,
+    9.5,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "floralsbyhoor",
+   "score": "8.9",
+   "cat": "Florist, Dudley",
+   "v": "Bloom Bar, baskets, one week notice, nationwide. Everything you need before you DM.",
+   "bio": [
+    7.5,
+    9.5,
+    9.5,
+    9.0
+   ],
+   "feed": [
+    9,
+    9,
+    9.5
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "bloome.x",
+   "score": "8.7",
+   "cat": "Gifts and florals, UK",
+   "v": "“Thoughtfully made. Beautifully gifted.” Six words that sound like the bouquets look.",
+   "bio": [
+    9.5,
+    9.0,
+    9.0,
+    8.0
+   ],
+   "feed": [
+    8,
+    8,
+    8
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "aprilflowers239",
+   "score": "8.6",
+   "cat": "Wedding and event florist, Fort Myers",
+   "v": "Premier, booking until 2028, inside a nursery. You already know where to find her.",
+   "bio": [
+    8.0,
+    9.0,
+    8.5,
+    8.5
+   ],
+   "feed": [
+    8.5,
+    8,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 5,
+   "h": "house_of_flores_",
+   "score": "8.3",
+   "cat": "Florist, New South Wales",
+   "v": "“Romantic garden style floristry with a modern edge.” A whole style guide in one line.",
+   "bio": [
+    9.0,
+    8.5,
+    7.0,
+    8.5
+   ],
+   "feed": [
+    8,
+    7.5,
+    9.5
+   ],
+   "congrats": ""
+  }
+ ]
+}

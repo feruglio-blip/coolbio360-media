@@ -1,0 +1,135 @@
+{
+ "slug": "candle01",
+ "vol": "38",
+ "tag": "CANDLES",
+ "accent": "#F4A259",
+ "emoji": "🕯️",
+ "word": "Candle",
+ "band": "1,000 to 2,000",
+ "sub": "Candle makers with 1,000 to 2,000 followers",
+ "steal": {
+  "h": "Your candle bio,<br>in four lines.",
+  "lines": [
+   [
+    "[the feeling your candles give] 🕯️",
+    "THE HOOK"
+   ],
+   [
+    "[soy / coconut] · [hand-poured where]",
+    "THE OFFER"
+   ],
+   [
+    "🌱 [vegan · small batch · what makes you different]",
+    "THE TRUST"
+   ],
+   [
+    "👇 [shop the new scent / find us at markets]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_candles_here",
+  "ex": [
+   "Light one, switch off the world 🕯️",
+   "Soy wax · hand-poured in Leeds",
+   "🌱 Vegan · small batch · refillable jars",
+   "👇 Shop the winter scents"
+  ]
+ },
+ "people": [
+  {
+   "rank": 1,
+   "h": "wildnaturecandles",
+   "score": "8.8",
+   "cat": "Soy wax candles, Cotswolds",
+   "v": "Nature-inspired, Cotswolds, vegan, a tree planted per order. Clear, warm and on brand.",
+   "bio": [
+    8.5,
+    9.5,
+    7.5,
+    9.0
+   ],
+   "feed": [
+    9,
+    9,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "lostfond",
+   "score": "8.7",
+   "cat": "Soy candles, UK",
+   "v": "“Hand-poured in my garden shed.” The most honest line on this list, and the cosiest.",
+   "bio": [
+    9.5,
+    9.0,
+    7.5,
+    8.5
+   ],
+   "feed": [
+    8.5,
+    8.5,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "esccandles",
+   "score": "8.6",
+   "cat": "Artisan candles, UK",
+   "v": "“Hit Escape & log out of reality.” Pun in the name, promise in the first line.",
+   "bio": [
+    9.5,
+    8.5,
+    7.5,
+    8.5
+   ],
+   "feed": [
+    9.5,
+    9.5,
+    8
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "spe_candle",
+   "score": "8.3",
+   "cat": "Scottish candles, Speyside",
+   "v": "“Wild Luxury ~ Scent Rituals.” Speyside does the rest. Elegant, if a little long.",
+   "bio": [
+    8.5,
+    8.0,
+    7.0,
+    8.5
+   ],
+   "feed": [
+    9,
+    9.5,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 5,
+   "h": "misneachremedies",
+   "score": "8.2",
+   "cat": "Essential oil candles, Cotswolds",
+   "v": "Mood boosting, non toxic, award winning workshops. A list that sells, one line at a time.",
+   "bio": [
+    8.0,
+    8.5,
+    7.5,
+    8.5
+   ],
+   "feed": [
+    7.5,
+    8,
+    10
+   ],
+   "congrats": ""
+  }
+ ]
+}

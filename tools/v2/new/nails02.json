@@ -1,0 +1,135 @@
+{
+ "slug": "nails02",
+ "vol": "39",
+ "tag": "NAIL TECHS",
+ "accent": "#B98CF2",
+ "emoji": "💅",
+ "word": "Nail Tech",
+ "band": "2,000 to 5,000",
+ "sub": "Nail techs with 2,000 to 5,000 followers",
+ "steal": {
+  "h": "Your nail tech bio,<br>in four lines.",
+  "lines": [
+   [
+    "[your specialty, in plain words] 💅",
+    "THE HOOK"
+   ],
+   [
+    "[BIAB / gel / Russian mani] · [extras]",
+    "THE OFFER"
+   ],
+   [
+    "📍 [town or studio] · [products you use]",
+    "THE TRUST"
+   ],
+   [
+    "👇 [booking link / books open on the 1st]",
+    "THE ACTION"
+   ]
+  ],
+  "ex_h": "your_nails_here",
+  "ex": [
+   "Short nails, big personality 💅",
+   "BIAB · Russian manicure · nail art",
+   "📍 Leeds studio · HEMA free products",
+   "👇 Books open on the 1st"
+  ]
+ },
+ "people": [
+  {
+   "rank": 1,
+   "h": "geesbeautycheltenham",
+   "score": "8.9",
+   "cat": "Beauty salon, Cheltenham",
+   "v": "Nails, lashes, brows, HEMA free, educator. Everything a nervous first client wants to read.",
+   "bio": [
+    8.0,
+    9.5,
+    8.0,
+    9.5
+   ],
+   "feed": [
+    9,
+    9.5,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 2,
+   "h": "bymillicent_",
+   "score": "8.8",
+   "cat": "Manicurist, Shrewsbury",
+   "v": "Russian manicure, toenail reconstruction, a discount code. Niche, specific and useful.",
+   "bio": [
+    8.0,
+    9.0,
+    8.5,
+    9.5
+   ],
+   "feed": [
+    9,
+    9.5,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 3,
+   "h": "shonaelunedbeauty",
+   "score": "8.7",
+   "cat": "Nails and beauty, Abertillery",
+   "v": "Booked up and says so kindly, with the link right below. Honest and on brand.",
+   "bio": [
+    8.0,
+    9.0,
+    8.5,
+    8.5
+   ],
+   "feed": [
+    9.5,
+    9,
+    10
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 4,
+   "h": "homey.nailbeauty",
+   "score": "8.2",
+   "cat": "Nail tech and press-ons, UK",
+   "v": "Handmade press-ons, two languages, two flags. A bio that knows exactly who it talks to.",
+   "bio": [
+    7.5,
+    8.5,
+    8.0,
+    8.0
+   ],
+   "feed": [
+    9,
+    8.5,
+    9
+   ],
+   "congrats": ""
+  },
+  {
+   "rank": 5,
+   "h": "by_oliviamcdonald",
+   "score": "8.1",
+   "cat": "Nail and lash educator",
+   "v": "Co-owner, academy, “DM for appointments.” Strong offer, a bit of a list.",
+   "bio": [
+    7.0,
+    8.5,
+    8.5,
+    8.0
+   ],
+   "feed": [
+    8,
+    8,
+    9.5
+   ],
+   "congrats": ""
+  }
+ ]
+}
