@@ -20,15 +20,13 @@ def under(word,col=GOLD):
 def finish(h,p):
     h=h.replace('</head>',BRIC+f'<style>{CSS}</style></head>',1)
     # seconda riga del titolo: colore pieno + sottolineatura oro sulla prima parola
-    h=re.sub(r'<span style="background:linear-gradient\(90deg,[^"]*?background-clip:text;color:transparent">([^<]*)</span>',lambda m:f'<span style="color:{p["accent"]}">{m.group(1)}</span>',h)
     k=h.find('<h1'); 
     if k>0:
         e=h.find('</h1>',k); seg=h[k:e]; w=E(p['uw'])
         j=seg.find('>'+w) if seg.find('>'+w)>=0 else seg.find(' '+w)
         if j>=0: j+=1; seg=seg[:j]+under(w)+seg[j+len(w):]
         h=h[:k]+seg+h[e:]
-    i=h.rfind('</div></body>')
-    return h[:i]+f'<div style="position:absolute;inset:0;border:22px solid {p["A2"]};z-index:9;pointer-events:none"></div>'+h[i:]
+    return h
 def cover_emoji(p,n,img):
     A,A2=p['accent'],p['A2']; l1,l2=p['t3'].split('|'); s0=p['slides'][0]['bios']
     big=''.join(f'<div style="font-size:{[230,190,210][k]}px;line-height:1;transform:rotate({[-8,6,-3][k]}deg);filter:drop-shadow(0 20px 30px rgba(0,0,0,.45))">{E(s0[k])}</div>' for k in range(3))
@@ -41,7 +39,7 @@ def cover_emoji(p,n,img):
     return P6.page(b,NAVY)
 L5.COVERS['emoji']=cover_emoji
 PLAN={'winter01':('photo',['chat','stack','spectrum']),'user01':('arch',['bento','notes','story','ladder']),
-      'emoji01':('emoji',['spectrum','bento','chat','feature']),'bday01':('photo',['comments','feature','notes']),'meme01':('type',['meme','memechat'])}
+      'emoji01':('type',['spectrum','bento','chat','feature']),'bday01':('photo',['comments','feature','notes']),'meme01':('type',['meme','memechat'])}
 P6.PLAN.update(PLAN); P6.TONE['emoji']='d'
 def build(p):
     return [finish(h,p) for h in P6.build(p)]
