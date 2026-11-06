@@ -66,7 +66,7 @@ def feature(p,s,i,n,img):
 {num(k+2,84,f"linear-gradient(180deg,{A2},{NAVY})")}<div style="font-family:Inter,'Noto Color Emoji';font-size:{small}px;font-weight:600;color:{NAVY};line-height:1.22">{E(b)}</div></div>''' for k,b in enumerate(rest))
     b=f'''{orbs(p,i,n,.55)}{grain(.06)}{header(i,n,NAVY)}
 <div class="z" style="position:absolute;left:{M}px;right:{M}px;top:150px;display:flex;align-items:baseline;gap:18px"><span class="d" style="font-size:44px;color:{NAVY}">{E(s['h'])}</span><span class="sub" style="font-size:30px;color:{A2}">our favourite</span></div>
-<div class="z" style="position:absolute;left:{M-6}px;top:230px">{num(1,250,f"linear-gradient(180deg,{A},{A2})")}</div>
+<div class="z" style="position:absolute;left:{M-6}px;top:230px">{num(1,250,f"linear-gradient(170deg,{A},{A2})")}</div>
 <div class="z" style="position:absolute;left:260px;right:{M}px;top:230px;height:340px;display:flex;align-items:center"><div class="d" style="font-family:Archivo,'Noto Color Emoji';font-size:{big}px;line-height:1.05;letter-spacing:-1.5px;color:{NAVY}">{E(first) if emo else "“"+E(first)+"”"}</div></div>
 <div class="z" style="position:absolute;left:{M}px;right:{M}px;top:610px;display:grid;grid-template-columns:1fr 1fr;gap:24px">{cards}</div>
 {progress(i,n,NAVY,'rgba(11,22,49,.12)')}'''
