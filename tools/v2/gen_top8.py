@@ -1,5 +1,5 @@
 # Classifiche Top 5, versione A rifinita: blu notte con gradiente panoramico più deciso (toni analoghi dell'accento),
-# cornice accento attorno, avatar visibili, Anton per numeri e titoli, card con cornice chiara, ragnatela + barre in vetro.
+# cornice accento attorno, avatar visibili, Bricolage Grotesque per numeri e titoli, card con cornice chiara, ragnatela + barre in vetro.
 # Uso: python3 gen_top8.py new/<slug>.json   output in out8/
 import json,sys,os,asyncio
 B=os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0,B+'/../packs')
@@ -7,8 +7,8 @@ import gen_pack6 as P6, gen6_base as V
 from gen6_base import E,NAVY,INK,CREAM,M,W,H,grain,header
 import gen_top6 as T, gen_top_var as TV
 OUT=B+'/out8/'
-EXTRA='<link href="https://fonts.googleapis.com/css2?family=Anton&amp;display=swap" rel="stylesheet">'
-def N(k,size,col,extra=''): return f'<span style="font-family:Anton;font-size:{size}px;line-height:.86;color:{col};{extra}">{k}</span>'
+EXTRA='<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&amp;display=swap" rel="stylesheet">'
+def N(k,size,col,extra=''): return f'<span style="font-family:Bricolage Grotesque,sans-serif;font-weight:800;letter-spacing:-.02em;font-size:{size}px;line-height:.86;color:{col};{extra}">{k}</span>'
 def page(b,acc):
     h=P6.page(b,NAVY).replace('</head>',EXTRA+'</head>',1)
     frame=f'<div style="position:absolute;inset:0;border:22px solid {acc};z-index:9;pointer-events:none"></div>'
@@ -22,16 +22,16 @@ def cover(d):
     A,A2=d['accent'],d['A2']; P={p['rank']:p for p in d['people']}
     def pod(r,x,y,sz):
         return f'''<div class="z" style="position:absolute;left:{x}px;top:{y}px;width:{sz}px;text-align:center">
-<div style="width:{sz}px;height:{sz}px;border-radius:50%;background:url({T.avatar(P[r]['h'])}) center/cover;box-shadow:0 0 0 7px {d['x'] if r==1 else 'rgba(243,238,228,.35)'},0 30px 60px rgba(0,0,0,.5)"></div>{('<div style="position:absolute;left:50%;top:-30px;transform:translateX(-50%) rotate(-4deg);background:'+d['x']+';color:#0B1631;font-family:Anton;font-size:30px;padding:6px 18px;border-radius:10px;white-space:nowrap">THE WINNER</div>') if r==1 else ''}
-<div style="margin-top:22px;display:flex;justify-content:center;align-items:baseline;gap:14px">{N(r,int(sz*.5),d['x'] if r==1 else CREAM)}<span style="font-family:Anton;font-size:{int(sz*.2)}px;color:{CREAM};opacity:.85">{P[r]['score']}</span></div></div>'''
+<div style="width:{sz}px;height:{sz}px;border-radius:50%;background:url({T.avatar(P[r]['h'])}) center/cover;box-shadow:0 0 0 7px {d['x'] if r==1 else 'rgba(243,238,228,.35)'},0 30px 60px rgba(0,0,0,.5)"></div>{('<div style="position:absolute;left:50%;top:-30px;transform:translateX(-50%) rotate(-4deg);background:'+d['x']+';color:#0B1631;font-family:Bricolage Grotesque,sans-serif;font-weight:800;letter-spacing:-.02em;font-size:24px;padding:6px 18px;border-radius:10px;white-space:nowrap">THE WINNER</div>') if r==1 else ''}
+<div style="margin-top:22px;display:flex;justify-content:center;align-items:baseline;gap:14px">{N(r,int(sz*.5),d['x'] if r==1 else CREAM)}<span style="font-family:Bricolage Grotesque,sans-serif;font-weight:800;letter-spacing:-.02em;font-size:{int(sz*.2)}px;color:{CREAM};opacity:.85">{P[r]['score']}</span></div></div>'''
     b=f'''{grain()}{header(1,7,CREAM)}
 <div class="z" style="position:absolute;left:{M}px;right:{M}px;top:150px;color:{CREAM}">
 <div class="sub" style="font-size:30px;color:{CREAM}">The bio issue, vol. {d['vol']}</div>
-<div style="font-family:Anton;font-size:156px;line-height:.9;text-transform:uppercase;margin-top:10px">The 5 best<br><span style="color:{d['strong']}">{under(E(d['word']),d['x'])} bios</span></div>
+<div style="font-family:Bricolage Grotesque,sans-serif;font-weight:800;letter-spacing:-.02em;font-size:120px;line-height:.92;text-transform:uppercase;margin-top:10px">The 5 best<br><span style="color:{d['strong']}">{under(E(d['word']),d['x'])} bios</span></div>
 <div class="sub" style="font-size:32px;margin-top:18px;opacity:.9">{E(d['sub'])}</div></div>
 {pod(2,M+10,720,250)}{pod(3,W-M-260,760,250)}{pod(1,(W-320)//2,650,320)}
 <div class="z" style="position:absolute;left:50%;bottom:64px;transform:translateX(-50%);display:flex;align-items:center;gap:16px;background:{d['x']};color:{NAVY};border-radius:999px;padding:16px 22px 16px 34px;box-shadow:0 16px 40px rgba(0,0,0,.4);white-space:nowrap">
-<span style="font-family:Anton;font-size:34px;letter-spacing:.5px">SWIPE TO SEE WHO WON</span>
+<span style="font-family:Bricolage Grotesque,sans-serif;font-weight:800;letter-spacing:-.02em;font-size:28px">SWIPE TO SEE WHO WON</span>
 <span style="width:52px;height:52px;border-radius:50%;background:{NAVY};display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="{d['x']}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>'''
     return page(b,d['strong'])
 def statcol(name,vs,ls,S):
@@ -46,7 +46,7 @@ def profile(d,p,i):
 <div style="display:flex;align-items:center;gap:26px;color:{CREAM}">
 {N(p['rank'],190,d['x'] if win else S)}
 <div style="flex:1;min-width:0"><div style="display:inline-block;font-size:21px;font-weight:800;color:{NAVY};background:{d['x']};padding:5px 14px;border-radius:8px">{'THE WINNER 🏆' if win else 'No.'+str(p['rank'])+' of 5'}</div>
-<div style="font-family:Anton;font-size:54px;line-height:1.04;margin-top:4px;word-break:break-all">@{E(p['h'])}</div>
+<div style="font-family:Bricolage Grotesque,sans-serif;font-weight:800;letter-spacing:-.02em;font-size:46px;line-height:1.08;margin-top:6px;word-break:break-all">@{E(p['h'])}</div>
 <div class="sub" style="font-size:23px;line-height:1.28;margin-top:8px;opacity:.92">{E(p['v'])}</div></div>
 <div style="flex:none;width:170px;text-align:center;border-left:3px solid {d['x']};padding-left:18px">{N(p['score'],100,S)}<div style="font-size:16px;font-weight:800;letter-spacing:.5px;margin-top:10px;opacity:.85">Cool Score / 10</div></div></div>
 <div style="flex:1;min-height:0;display:flex;flex-direction:column;background:#fff;border-radius:28px;padding:14px;box-shadow:0 0 0 8px rgba(255,255,255,.16),0 30px 60px rgba(0,0,0,.45)">
@@ -62,7 +62,7 @@ def steal(d):
 <div class="z" style="position:absolute;left:{M}px;right:{M}px;top:130px;bottom:40px;display:flex;flex-direction:column;justify-content:space-between">
 <div style="background:#FFFDF6;border-radius:40px;padding:34px 44px 40px;box-shadow:0 30px 70px rgba(0,0,0,.3);font-family:Inter">
 <div style="display:flex;justify-content:space-between;font-size:28px;color:#E0A800;font-weight:500"><span>‹ Notes</span><span style="font-weight:700">Done</span></div>
-<div style="font-family:Anton;font-size:64px;color:#1c1c1e;margin-top:12px;line-height:1">{under('STEAL',d['x'])} THIS BIO</div>
+<div style="font-family:Bricolage Grotesque,sans-serif;font-weight:800;letter-spacing:-.02em;font-size:56px;color:#1c1c1e;margin-top:12px;line-height:1">{under('STEAL',d['x'])} THIS BIO</div>
 <div class="sub" style="font-size:26px;color:#6b6458;margin-top:8px">Built from what our top 5 have in common</div>
 <div style="margin-top:6px">{rows}</div>
 <div style="margin-top:20px;background:#fff;border:2px solid #ECE6D6;border-radius:24px;padding:18px 24px">
