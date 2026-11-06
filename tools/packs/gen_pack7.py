@@ -15,8 +15,8 @@ def num(k,size,grad):
     if '170deg' in grad and len(cols)>1: col=cols[-1]
     return f'<span class="n" style="font-size:{int(size*.95)}px;line-height:.82;color:{col};display:inline-block">{k}</span>'
 V.num=num; L5.num=num
-def under(word,col=GOLD):
-    return f'<span style="position:relative;display:inline-block">{word}<svg viewBox="0 0 300 40" preserveAspectRatio="none" style="position:absolute;left:-2%;bottom:-0.08em;width:104%;height:0.24em;overflow:visible"><path d="M6 24 C 50 14, 110 20, 160 17 S 250 12, 294 19" fill="none" stroke="{col}" stroke-width="16" stroke-linecap="round"/><path d="M22 30 C 90 22, 170 27, 284 23" fill="none" stroke="{col}" stroke-width="8" stroke-linecap="round" opacity=".9"/></svg></span>'
+def under(word,col=GOLD,ws=''):
+    return f'<span style="position:relative;display:inline-block"><span style="{ws}">{word}</span><svg viewBox="0 0 300 40" preserveAspectRatio="none" style="position:absolute;left:-2%;bottom:-0.08em;width:104%;height:0.24em;overflow:visible"><path d="M6 24 C 50 14, 110 20, 160 17 S 250 12, 294 19" fill="none" stroke="{col}" stroke-width="16" stroke-linecap="round"/><path d="M22 30 C 90 22, 170 27, 284 23" fill="none" stroke="{col}" stroke-width="8" stroke-linecap="round" opacity=".9"/></svg></span>'
 def finish(h,p):
     h=h.replace('</head>',BRIC+f'<style>{CSS}</style></head>',1)
     # seconda riga del titolo: colore pieno + sottolineatura oro sulla prima parola
@@ -24,7 +24,10 @@ def finish(h,p):
     if k>0:
         e=h.find('</h1>',k); seg=h[k:e]; w=E(p['uw'])
         j=seg.find('>'+w) if seg.find('>'+w)>=0 else seg.find(' '+w)
-        if j>=0: j+=1; seg=seg[:j]+under(w)+seg[j+len(w):]
+        if j>=0:
+            j+=1; pre=seg[:j]; ws=''
+            if pre.rfind('background-clip:text')>pre.rfind('</span>'): ws=f'background:linear-gradient(90deg,{p["accent"]},{p["A2"]});-webkit-background-clip:text;background-clip:text;color:transparent'
+            seg=pre+under(w,GOLD,ws)+seg[j+len(w):]
         h=h[:k]+seg+h[e:]
     return h
 def cover_emoji(p,n,img):
