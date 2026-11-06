@@ -30,9 +30,7 @@ def cover(d):
 <div style="font-family:Bricolage Grotesque,sans-serif;font-weight:800;letter-spacing:-.02em;font-size:120px;line-height:.92;text-transform:uppercase;margin-top:10px">The 5 best<br><span style="color:{d['strong']}">{under(E(d['word']),d['x'])} bios</span></div>
 <div class="sub" style="font-size:32px;margin-top:18px;opacity:.9">{E(d['sub'])}</div></div>
 {pod(2,M+10,720,250)}{pod(3,W-M-260,760,250)}{pod(1,(W-320)//2,650,320)}
-<div class="z" style="position:absolute;left:50%;bottom:64px;transform:translateX(-50%);display:flex;align-items:center;gap:16px;background:{d['x']};color:{NAVY};border-radius:999px;padding:16px 22px 16px 34px;box-shadow:0 16px 40px rgba(0,0,0,.4);white-space:nowrap">
-<span style="font-family:Bricolage Grotesque,sans-serif;font-weight:800;letter-spacing:-.02em;font-size:28px">SWIPE TO SEE WHO WON</span>
-<span style="width:52px;height:52px;border-radius:50%;background:{NAVY};display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="{d['x']}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>'''
+<div class="z" style="position:absolute;right:{M}px;bottom:62px;font-family:Bricolage Grotesque,sans-serif;font-weight:800;font-size:30px;color:{d['x']};letter-spacing:-.01em">Swipe to see who won →</div>'''
     return page(b,d['strong'])
 def statcol(name,vs,ls,S):
     rows=''.join(f'''<div style="display:grid;grid-template-columns:128px 150px 34px;gap:12px;align-items:center;height:30px;font-size:18px;color:{CREAM}"><span>{l}</span><div style="height:8px;border-radius:4px;background:rgba(243,238,228,.18)"><div style="width:{x*10}%;height:8px;border-radius:4px;background:{S}"></div></div><span style="font-weight:700;text-align:right">{x:g}</span></div>''' for l,x in zip(ls,vs))
